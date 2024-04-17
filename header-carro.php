@@ -1,13 +1,22 @@
 <!doctype html>
-<html lang="en-us" class="no-js">
+<html lang="es" class="no-js">
 <head>
-	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117856180-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117856180-2');
+  gtag('config', 'AW-802333734');
+</script>
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>A1</title>
+	<title>Carrito | Concurvas</title>
 	<!-------------------ICONS---------------->
-	<link href="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/a1security.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/concurvas.ico" rel="shortcut icon" type="image/x-icon">
 	<!-------------------ICONS---------------->
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" async>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/csscool/main_carrito.css"> <!-- CSS reset -->

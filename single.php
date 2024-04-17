@@ -1,6 +1,6 @@
 <?php
 /**
- * Este es un tema personalizado creado por Diego
+ * Este es un tema personalizado creado por Mainteam
  */
 get_header('page'); ?>
 		<section id="contenido" class="pc-centrad-supergrande tb-centrado-grande mv-centrado-super-grande">

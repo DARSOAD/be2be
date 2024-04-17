@@ -306,13 +306,13 @@
 /*******************.leTRa3pt-mv*****************************/
 .centrado{text-align:center !important;}
 .izquierda{text-align:left !important;}
-.tipografiaPuno{font-family: 'Lato',sans-serif;line-height: 1.2em;}
-.tipografiaPdos{font-family: 'Lato',sans-serif;}
+.tipografiaPuno{font-family: 'Lato',sans-serif;color:#655e5e !important;line-height: 1.2em;}
+.tipografiaPdos{font-family: 'Lato',sans-serif;color:#777171 !important;}
 @media only screen and (max-width:767px) {.tipografiaPuno, .tipografiaPdos{color:#fff !important;}
 }
-.tipografiaPtres{font-family: 'Lato',sans-serif;}
-.tipografiaHuno{font-family: 'Lato',sans-serif;}
-.tipografiaHdos{font-family: 'Lato',sans-serif;line-height: 1 !important;font-weight: 700;
+.tipografiaPtres{font-family: 'Lato',sans-serif;color:#b2b2b2 !important;}
+.tipografiaHuno{font-family: 'Lato',sans-serif;color:#ffffff !important;}
+.tipografiaHdos{font-family: 'Lato',sans-serif;color:#7f7e7e !important;line-height: 1 !important;font-weight: 700;
 }
 .tipografiaHtres{font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;margin-left: 0px!important;}
 .tregular{ font-family: 'Lato',sans-serif; font-weight:300;}
@@ -323,18 +323,3 @@
 .negrillaTres{font-weight: 900 !important;}
 .colorBlanco{color: white;}
 .italica{font-style: italic;}
-.botones_tres {
-    font-family: inherit !important;
-    font-weight: 500!important;
-    color: #062132 !important;
-    border: solid 1px rgb(255, 219, 88) !important;
-    margin: 2% 0;
-}
-
-.botones_tres:hover {
-    font-family: inherit !important;
-    font-weight: 500!important;
-    color: rgb(255, 219, 88)  !important;
-    border: solid 1px #062132 !important;
-    margin: 2% 0;
-}

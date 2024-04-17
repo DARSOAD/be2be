@@ -30,67 +30,100 @@
 <div id="bloque5">
 				<footer>
 					<div id="footerproductos">
-						<h3 class="footerh3"> SERVICES </h3>
+						<h3 class="footerh3"> PRODUCTOS </h3>
 						<ul class="footerul">
+<?php
 
-							<?php
-									query_posts('post_type=post');
-									while ( have_posts() ) : the_post(); ?>
-									<li>
-										<a href="<?php the_permalink(); ?>"> <?php the_title(); ?> </a>
-									</li>
-									
-							<?php endwhile; ?>
+	$cats = get_categories( array(
+	'hide_empty' => 0,
+    'orderby' => 'name',
+    'taxonomy'   => 'product_cat'
+)  );
+  
+if ( ! empty( $cats ) ) {
+    // print_r($cats);
+     foreach ( $cats as $term ) {
+     // If parent cat ID = 116 echo subcat name...
+     	if( (!$term->parent && $term->slug != 'sin-categorizar') || $term->parent == 16) { 
+     		?> <li><a href="<?php echo get_site_url(); ?>/catalogo/?vara=<?php echo $term->category_nicename;?>/"> <?php echo $term->name; ?> </a></li> <?php
+    	}		
+	 }
+}
+?>
+
 							
 						</ul>	
 					</div>
+					<div id="footerproductosalpormayor">
+						<h3 class="footerh3"> PRODUCTOS AL POR MAYOR </h3>
+						<ul class="footerul" id="ul1">
+							<?php
+
+	$cats = get_categories( array(
+	'hide_empty' => 0,
+    'orderby' => 'name',
+    'taxonomy'   => 'product_cat'
+)  );
+  
+if ( ! empty( $cats ) ) {
+     //print_r($cats);
+     foreach ( $cats as $term ) {
+     // If parent cat ID = 116 echo subcat name...
+     	if( (!$term->parent && $term->slug != 'sin-categorizar') || $term->parent == 16) { 
+     		?> <li><a href="<?php echo get_site_url(); ?>/catalogo/?vara=<?php echo $term->category_nicename;?>/"> <?php echo $term->name; ?> al por mayor </a></li> <?php
+    	}		
+	 }
+}
+?>
+						</ul>
+						<h4 class="footerh3" id="pstion1"> HORARIOS DE ATENCIÓN</h4>
+						<ul class="footerul" id="pstion2">
+							<li> <p>Lunes a Sábado  9:00 a.m - 7:00 p.m</p> </li>							
+							<li> <p>Domingo         10:00 a.m - 4:00 p.m</p> </li>
+						</ul>
+					</div>
 					<div id="googlemaps">
-						<a href="<?php echo get_site_url(); ?>/" class=" ">
-							<figure class="logo_footer">
-								<img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/LOGO.png" alt="Logo A1 security">
-							</figure>
-						</a>
-							<!-- <div id="map"> </div>
-							<h3 class="footerh3tienda"> ENCUENTRA EL ALMACEN <span> &#10140; </span> </h3> -->
+						<div id="map"> </div>
+						<h3 class="footerh3tienda"> ENCUENTRA EL ALMACEN <span> &#10140; </span> </h3>
 					</div>
 					<div id="footercontacto">
-						<h3 class="footerh3"> CONTACT US </h3>
+						<h3 class="footerh3"> CONTÁCTENOS </h3>
 						<ul class="footerul footerul2">
-							<li><a href=""> a1securenyc@gmail.com </a></li>
-							<!-- <li class="celular"> Cll 10 No 20-35, San Andresito San José </li>
-							<li class="celular"> Local 110 Bogotá Colombia </li> -->
-							<li class="pc tablet"><a href="tel:+19178283434" target="_blank"> (917) 828-3434 </a></li>							
+							<li><a href=""> concurvas.almacen@gmail.com </a></li>
+							<li class="celular"> Cll 10 No 20-35, San Andresito San José </li>
+							<li class="celular"> Local 110 Bogotá Colombia </li>
+							<li class="pc tablet"><a href="https://api.whatsapp.com/send?phone=573053449733" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/whatsapp-logo.png" alt="WhatsApp" style="width: 2.2% !important; height: auto !important;"> 3053449733 </a></li>							
 						</ul>
 					</div>
 					<div id="footerdatoscontacto">
 						<ul class="footerul footerul2">							
-							<!-- <li class="pc"> a1securenyc@gmail.com </li>		 -->
-
-							<!-- <li class="tablet"> a1securenyc@gmail.com  </li> -->
-							
-							<li class="celular"><a href="tel:+19178283434" target="_blank"> (917) 828-3434 </a></li>		
+							<li class="pc"> Cll 10 No 20-35, San Andresito San José </li>		
+							<li class="pc"> Local 110 Bogotá Colombia </li>
+							<li class="tablet"> Cll 10 No 20-35, San Andresito San José  </li>
+							<li class="tablet"> Local 110 Bogotá Colombia </li>
+							<li class="celular"><a href="https://api.whatsapp.com/send?phone=573053449733" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/whatsapp-logo.png" alt="WhatsApp" style="width: 4% !important; height: auto !important;"> 3053449733 </a></li>		
 						</ul>
 					</div>	
-					<!-- <div id="movilredes">
+					<div id="movilredes">
 						<figure class="celular redesmovil">
-							<a href="https://www.facebook.com/.co/"><img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/facebook.png" alt="facebook"></a>							
+							<a href="https://www.facebook.com/concurvas.co/"><img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/facebook.png" alt="facebook"></a>							
 						</figure>
 						<figure class="celular redesmovil">
-							<a href="https://www.instagram.com/.co/"><img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/instagram.png" alt="instagram"></a>				
+							<a href="https://www.instagram.com/concurvas.co/"><img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/instagram.png" alt="instagram"></a>				
 						</figure>
 					</div>						
 					<div id="redessociales">
 						<figure class="pc">
-							<a href="https://www.facebook.com/.co/"><img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/facebook.png" alt="facebook"></a>							
+							<a href="https://www.facebook.com/concurvas.co/"><img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/facebook.png" alt="facebook"></a>							
 						</figure>
 						<figure class="pc">
-							<a href="https://www.instagram.com/.co/"><img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/instagram.png" alt="instagram"></a>				
+							<a href="https://www.instagram.com/concurvas.co/"><img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/instagram.png" alt="instagram"></a>				
 						</figure>					
-					</div> -->
+					</div>
 					<div id="sombra" ></div>
 					<div id="terminosycondiciones">
-						<h4> Copyright &#169; A1 Security Professionals</h4>
-						<a href="https://a1securitynyc.com/?page_id=73"><h5> Honoring Carlos Stio: Continuing a Legacy of Security Excellence </h5></a> 
+						<h4> Copyright &#169; Concurvas &reg; Desarrollado por Mainteam Agencia. </h4>
+						<a href="http://www.concurvas.com/terminos-y-condiciones/"><h5> Términos y condiciones </h5></a> 
 					</div>
 					
 					
@@ -118,49 +151,8 @@
 		<script src="<?php echo get_template_directory_uri(); ?>/js/menu_pc.js"></script>
 		<!-------------------MENU PC js---------------->		
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" async></script>
-
 <script>
 	$(document).ready(function() {
-		//reviews
-		
-		//servicios
-		$(".toggle-btn").click(function() {
-		var service = $(this).closest(".service");
-		var serviceHeader = service.find(".service-header");
-		var serviceDetails = service.find(".service-details");
-		var openService = $(".service-details.active");
-		var openServiceheader = $(".service-header.activer");
-
-		if (serviceDetails.hasClass("active")) {
-		serviceDetails.animate({ height: '0px' }, 500, function() {
-			serviceHeader.removeClass("activer");
-			serviceDetails.removeClass("active").css('display', 'none');
-		});
-		$(this).removeClass("cerrar");
-		} else {
-		if (openService.length > 0) {
-			openService.animate({ height: '0px' }, 500, function() {
-			openService.removeClass("active").css('display', 'none');
-			openService.prev().find(".toggle-btn").removeClass("cerrar");
-			openServiceheader.removeClass("activer");
-			});
-		}
-			serviceHeader.addClass("activer");
-		serviceDetails.css('display', 'block').addClass("active")
-			.animate({ height: serviceDetails.get(0).scrollHeight }, 500);
-		$(this).addClass("cerrar");
-		}
-	});
-
-  $(".close-btn").click(function() {
-    var serviceDetails = $(this).closest(".service-details");
-    serviceDetails.animate({ height: '0px' }, 500, function() {
-        serviceHeader.removeClass("activer");
-      serviceDetails.removeClass("active").css('display', 'none');
-      serviceDetails.prev().find(".toggle-btn").removeClass("cerrar");
-    });
-  });
-	
 		//custom function to add and remove active class
 		$(function () {			
 			$(".collapse.in").parents(".panel").addClass("active");
@@ -282,7 +274,7 @@
 <!-------------------FORMULARIO PASOS---------------->	
 
 <?php } ?>
-<?php if(is_page()){ ?>
+<?php if(is_shop() || is_page()){ ?>
 <!-------------------CARRUSEL---------------->	
 		<script>
 			var owl = $('.owl-carousel');
@@ -338,7 +330,7 @@
 					  animation: google.maps.Animation.BOUNCE
 					});  	
 					var infowindow = new google.maps.InfoWindow({
-					  content: "A1 Security "
+					  content: "Concurvas Local 110"
 					});
 					infowindow.open(map,marker);
 					 google.maps.event.addListener(marker,'click',function(){
@@ -365,7 +357,52 @@
 	window.open(url);
 	};
 </script>
+<?php if(is_product()){ ?>
+<!---------CANTIDADES------>
+<script src="<?php echo get_template_directory_uri(); ?>/js/cantidad.js"></script>
+<script type="text/javascript">
+	
+$('#pa_color').change(function() {
+  	var color = $('#pa_color').val();
+	var talla = $('#pa_talla').val();
+	var id = $('#id').val();
+	if(talla){
+		var stock = cantidad(color,talla,id);
+		//alert(stock);
+		if($( "input[name='quantity']" ).val() > stock){$( "input[name='quantity']" ).val(stock);}
+		$( "input[name='quantity']" ).attr({"max" : stock});
+	}	
+});
+$('#pa_talla').change(function() {
+  	var color = $('#pa_color').val();
+	var talla = $('#pa_talla').val();
+	var id = $('#id').val();
+	if(color){
+		var stock = cantidad(color,talla,id);
+		//alert(stock);
+		if($( "input[name='quantity']" ).val() > stock){$( "input[name='quantity']" ).val(stock);}
+		$( "input[name='quantity']" ).attr({"max" : stock});
+	}	
+});
 
+</script>
+<!---------CANTIDADES------>
+<?php } ?>
+<?php if(is_cart()){ ?>
+<script src="<?php echo get_template_directory_uri(); ?>/js/cantidad.js"></script>
+<script type="text/javascript">
+$("input[title='Cantidad']").change(function(){
+	
+	var upd_cart_btn = $('button[name=update_cart]');
+	
+	upd_cart_btn.trigger("click");
+	//var cantidad = $(this).val();
+	//var name = $(this).attr('name');
+	//var precio = actualizar(cantidad,name);
+	
+});
+</script>
+<?php } ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" async></script>
 <script>
 $(function() {

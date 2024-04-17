@@ -1,12 +1,22 @@
 <!doctype html>
-<html lang="en-us" class="no-js">
+<html lang="es" class="no-js">
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117856180-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117856180-3');
+  gtag('config', 'AW-802333734');
+</script>
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>A1</title>
+	<title>Carrito | Concurvas</title>
 	<!-------------------ICONS---------------->
-	<link href="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/a1security.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/concurvas.ico" rel="shortcut icon" type="image/x-icon">
 	<!-------------------ICONS---------------->
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" async>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/csscool/main_page.css"> <!-- CSS reset -->
@@ -44,7 +54,17 @@
 			.mv-izquierda-grande{margin-left: 5% !important;width: 50% !important;}.mv-izquierda-mediano{margin-left: 5% !important;width: 40% !important;}.mv-centrado-grande{margin-left: 20% !important;width: 60% !important;}.mv-centrado-mediano{margin-left: 30% !important;width: 40% !important;}.mv-derecha-grande{margin-left: 45% !important;width: 50% !important;}.mv-derecha-mediano{margin-left: 55% !important;width: 40% !important;}.mv-centrado-super-grande{margin-left: 5% !important;width: 90% !important;}
 			}
 		/*----------------------PORTADA------------------------------*/
-		</style>
+		</style>	
+	<!---------------------------------------SMART LOOK------------------->
+<script type="text/javascript">
+    window.smartlook||(function(d) {
+    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+    c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+    })(document);
+    smartlook('init', 'dfa4ea7e12c38b1a47a4e319b711be9fb698671d');
+</script>
+		<!---------------------------------------SMART LOOK------------------->
 </head>
 <body>
 <?php get_template_part('menu_catalogo'); ?>

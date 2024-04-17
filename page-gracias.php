@@ -6,7 +6,8 @@ $tipo=$_POST['tipo'];
 		$correo=$_POST['correo'];
 		$nombre=$_POST['nombre'];
 		$comentarios=$_POST['comentarios'];
-        $sender = 'diego@a1securitynyc.com';
+		$ciudad=$_POST['ciudad'];
+        $sender = 'concurvas.almacen@gmail.com.tld';
         echo $correo;
         //$recipient = '$correo';
         $recipient = 'mainteamagency@gmail.com';
@@ -43,22 +44,21 @@ $tipo=$_POST['tipo'];
 		<h1> Datos del cliente: </h1>
 		</div>
 		<div id="cuerpo">
-		<p>Name: '.$nombre.'</p>
-		<p>Company: '.$empresa.'</p>
-		<p>Phone: '.$telefono.'</p>
-		<p>E-mail: '.$correo.'</p>
-		<p>Additional information: '.$comentarios.'</p>
+		<p>Nombre: '.$nombre.'</p>
+		<p>Empresa: '.$empresa.'</p>
+		<p>Telefono: '.$telefono.'</p>
+		<p>Correo: '.$correo.'</p>
+		<p>Ubicación: '.$ciudad.'</p>
+		<p>Comentarios: '.$comentarios.'</p>
 		</div>
 		</body>
 		</html>';
         $headers = "MIME-Version: 1.0\r\n";
 		$headers .= "Content-type: text/html; charset=utf-8\r\n";
-		$headers .= "From: A1 Security WEB <$sender>\r\n";
+		$headers .= "From: Concurvas <$sender>\r\n";
 		$headers .= "Reply-To: $sender\r\n";
 		$headers .= "Return-path: $sender\r\n";
-        mail('a1securenyc@gmail.com', $subject, $message, $headers);
-        mail('nick@a1securitynyc.com', $subject, $message, $headers);
-        mail('diego@a1securitynyc.com', $subject, $message, $headers);
+        mail('concurvas.almacen@gmail.com', $subject, $message, $headers);
         $message= '
 		<html>
 		<head>
@@ -87,12 +87,12 @@ $tipo=$_POST['tipo'];
 		</head>
 		<body>
 		<div id="encabezado">
-		<h1> '.$nombre.', THANK YOU FOR CONTACTING US </h1>
-		<p>Your message has been received. We´ll be in touch shortly to assist you. If you have any urgent questions, feel free to reach out at a1securenyc@gmail.com or (917) 828-3434. We appreciate your interest in A1 Security Professionals!</p>
+		<h1> Hola '.$nombre.', gracias por contactarnos. Pronto nos comunicaremos contigo.
+ </h1>
 		</div>
 		<div id="cuerpo">		
-		<p>Best regards,</p>
-		<p>A1 Security Professionals&reg;</p>
+		<p>Cordial saludo,</p>
+		<p>Concurvas&reg;</p>
 		</div>
 		</body>
 		</html>
@@ -104,35 +104,46 @@ $tipo=$_POST['tipo'];
 <!doctype html>
 <html>
 <head>
-	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117856180-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117856180-3');
+  gtag('config', 'AW-802333734');
+</script>
+<!-- Event snippet for Registro conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-802333734/1mi4CPSmn50BEKbIyv4C'});
+</script>
 
 <link href="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/favicon.ico" rel="shortcut icon" type="image/x-icon">
 	<meta name="viewport" content="width=device-width"/>
-	<title>THANKS!</title>
-	<link href="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/a1security.ico" rel="shortcut icon" type="image/x-icon">
-	<meta name="author" content="Diego" />
+	<title>¡Gracias!</title>
+	<link href="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/concurvas.ico" rel="shortcut icon" type="image/x-icon">
+	<meta name="author" content="Mainteam" />
 	<link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
 <style type="text/css">
 	
 	body{
-		background-image: url(<?php echo get_template_directory_uri(); ?>/imagenes/fondos/gracias.jpg);
-		background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro con 50% de opacidad */
-		background-blend-mode: overlay; /* Mezcla el fondo y el color de fondo de manera que la imagen se vea opaca */
-		height: 100%; /* Ajusta la altura según tus necesidades */
-		background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
-		background-repeat: no-repeat; /* Evita que la imagen se repita */
-		background-attachment: fixed; /* Opcional: fija la imagen de fondo */
+		background-image: url(<?php echo get_template_directory_uri(); ?>/imagenes/fondos/gracias.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		height: auto;
 	}
 	#boton{
 		border: none;
 		font-weight: 700;
 		text-align: center;
 		color: #FFFFFF;
-		background: linear-gradient(45deg, #c4990e, #ffef9a);
+		background: #ba007c;
 		outline: none !important;
 		border-radius: 37px;
 		font-family: 'Lato', sans-serif;
-		font-size: 20px;
+		font-size:20px;
 		width: 20%;
 		padding: 0 12px 0 12px;
 		margin-top: 10.2% !important;
@@ -151,27 +162,35 @@ $tipo=$_POST['tipo'];
 	    font-family: 'Montserrat', sans-serif;
 		color: #ffffff;
 		text-align: center;
-		margin-top: 5%;
+		margin-top: 300px;
                 font-size:30px;
 	}
 	@media only screen and    (max-width:1200px)  and (min-width:901px){
-		h1{margin-top: 5%;}
+		h1{margin-top: 100px;}
 	}
 	@media only screen and    (max-width:900px)  and (min-width:481px){
-		body{background-image: url(<?php echo get_template_directory_uri(); ?>/imagenes/fondos/gracias.jpg);height: auto;}
-		h1{margin-top: 5%;}
+		body{background-image: url(<?php echo get_template_directory_uri(); ?>/imagenes/fondos/gracias-tablet.png);height: auto;}
+		h1{margin-top: 500px;}
 	}
 	@media only screen and    (max-width:480px){
-		body{background-image: url(<?php echo get_template_directory_uri(); ?>/imagenes/fondos/gracias-movil.jpg);height: auto;}
+		body{background-image: url(<?php echo get_template_directory_uri(); ?>/imagenes/fondos/gracias-movil.png);height: auto;}
 		h1{margin-top: 300px;font-size: 15px;}
 		#boton{width: 40%;margin: 5px 30% 0 30%;font-size:12px;}
 	}
 </style>
 <!---------------------------------------SMART LOOK------------------->
-
+<script type="text/javascript">
+    window.smartlook||(function(d) {
+    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+    c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+    })(document);
+    smartlook('init', 'dfa4ea7e12c38b1a47a4e319b711be9fb698671d');
+</script>
+		<!---------------------------------------SMART LOOK------------------->
 </head>
 <body>
-<h1>THANK YOU FOR CONTACTING US <br> Your message has been received. We´ll be in touch shortly to assist you. If you have any urgent questions, feel free to reach out at a1securenyc@gmail.com or (917) 828-3434. We appreciate your interest in A1 Security Professionals!</h1>
-<a href="<?php echo get_site_url(); ?>/"><button id="boton">Home</button></a>
+<h1>Estamos trabajando en tu solicitud <br> pronto nos comunicaremos contigo.</h1>
+<a href="<?php echo get_site_url(); ?>/"><button id="boton">Regresar</button></a>
 </body>
 </html>
