@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+.banner-full-screen{background-position: top;background-repeat: no-repeat;background-size: 100%;}
+@media only screen and (max-width:2600px) and (min-width:2500px){.banner-full-screen{height:980px;}}
+@media only screen and (max-width:2499px) and (min-width:2400px){.banner-full-screen{height:950px;}}
+@media only screen and (max-width:2399px) and (min-width:2300px){.banner-full-screen{height:900px;}}
+@media only screen and (max-width:2299px) and (min-width:2200px){.banner-full-screen{height:820px;}}
+@media only screen and (max-width:2199px) and (min-width:2100px){.banner-full-screen{height:776px;}}
+@media only screen and (max-width:2099px) and (min-width:2000px){.banner-full-screen{height:790px;}}
+@media only screen and (max-width:1999px) and (min-width:1900px){.banner-full-screen{height:717px;}}
+@media only screen and (max-width:1899px) and (min-width:1800px){.banner-full-screen{height:694px;}}
+@media only screen and (max-width:1799px) and (min-width:1700px){.banner-full-screen{height:673px;}}
+@media only screen and (max-width:1699px) and (min-width:1600px){.banner-full-screen{height:640px;}}
+@media only screen and (max-width:1599px) and (min-width:1500px){.banner-full-screen{height:590px;}}
+@media only screen and (max-width:1499px) and (min-width:1400px){.banner-full-screen{height:582px;}}
+@media only screen and (max-width:1399px) and (min-width:1300px){.banner-full-screen{height:534px;}}
+@media only screen and (max-width:1299px) and (min-width:1200px){.banner-full-screen{height:506px;}}
+@media only screen and (max-width:1199px) and (min-width:1100px){.banner-full-screen{height:453px;}}
+@media only screen and (max-width:1099px) and (min-width:992px){.banner-full-screen{height:390px;}}
+@media only screen and (max-width:991px) and (min-width:900px){.banner-full-screen{height:530px;}}
+@media only screen and (max-width:899px) and (min-width:800px){.banner-full-screen{height:497px;}}
+@media only screen and (max-width:799px) and (min-width:768px){.banner-full-screen{height:454px;}}
+@media only screen and (max-width:767px) and (min-width:700px){.banner-full-screen{height:522px;}}
+@media only screen and (max-width:699px) and (min-width:600px){.banner-full-screen{height:544px;}}
+@media only screen and (max-width:599px) and (min-width:500px){.banner-full-screen{height:478px;}}
+@media only screen and (max-width:499px) and (min-width:400px){.banner-full-screen{height:432px;}}
+@media only screen and (max-width:399px) and (min-width:350px) {.banner-full-screen{height:402px;}}
+@media only screen and (max-width:349px) {.banner-full-screen{height:327px;}}

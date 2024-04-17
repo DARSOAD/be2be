@@ -1,0 +1,83 @@
+@charset "utf-8";
+#titulobloque3{
+	padding-top: 11% !important;
+    padding-right: 30%;
+}
+#subtitulobloque3{padding-right: 30%;padding-top: 1% !important;}
+@media only screen and (max-width:767px) {#subtitulobloque3, #titulobloque3{padding-right: 2% !important;padding-left: 2% !important;}#titulobloque3{padding-top: 20% !important;}}
+#bloque3 .simform{position: absolute;}	
+#bloque3 .simform .simform-inner .questions li input{
+	border: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #767676;
+	background-color: transparent;
+}
+#bloque3 .simform .simform-inner .questions li span label{
+	font-size: 80%;
+    font-family: 'Lato', sans-serif;
+    color: #777171 !important;
+	opacity: 1;
+	padding-bottom: 5px !important;
+	text-align: center !important;
+}
+
+@media only screen and (max-width:767px) {#bloque3 .simform .simform-inner .questions li input,#bloque3 .simform .simform-inner .questions li span label{color: #fff !important;}#bloque3 .simform .simform-inner .questions li span label{font-size: 100% !important;}}
+#bloque3 .simform .simform-inner .controls button{
+	border: none;
+    background: none;
+    bottom: 34%;
+	width: 12%;
+    padding: 0;
+    height: 30%;
+}
+#bloque3 .simform .simform-inner .controls .number{
+	font-size: 17px;
+	font-family: 'Lato', sans-serif;
+    color: #767676 !important;
+	opacity: 0.72;
+}
+@media only screen and (max-width:767px){#bloque3 .simform .simform-inner .controls .number{color: #FFFFFF !important;}}
+#bloque3 .simform .simform-inner .controls .error-message{
+	font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+@media only screen and (max-width:2600px) and (min-width:1500px){#bloque3 .simform{width: 30%;
+margin-left: 20% !important;}}
+@media only screen and (max-width:1499px) and (min-width:1300px){#bloque3 .simform{width: 34% !important;margin-left: 18% !important;}}
+@media only screen and (max-width:1299px) and (min-width:1100px){#bloque3 .simform{width: 34% !important;margin-left: 16% !important;}}
+@media only screen and (max-width:1099px) and (min-width:992px){#bloque3 .simform{width: 37% !important;margin-left: 16% !important;}}
+#bloque3 .simform{padding: 0 !important;margin-top: 4% !important;}
+@media only screen and (max-width:991px) and (min-width:768px){#bloque3 .simform .simform-inner .controls button{font-size: 76% !important;}#bloque3 h1{margin-top: 63.2% !important;margin-left: 18.5% !important;width: 70.5% !important;}#Llamado{    width: 62.2%; margin-top: 68.4% !important;margin-left: 21.2% !important;}}
+@media only screen and (max-width:767px){#bloque3 .simform .simform-inner .controls button{font-size: 170% !important;}#bloque3 h1 {margin-top: 114.2% !important;margin-left: 8.5% !important;width: 84.5% !important;}#Llamado{    width: 75.2%;margin-top: 121% !important;margin-left: 12.2% !important;}}
+
+
+@media only screen and (max-width:399px){#bloque3 h1 {margin-top: 100.2% !important}#Llamado{    width: 75.2%;margin-top: 107.4% !important;margin-left: 12.2% !important;}}
+
+@media only screen and (max-width:991px) and (min-width:768px){#bloque3 .simform{margin-top: 9%!important;width: 53%;margin-left: 8% !important;}}
+@media only screen and (max-width:767px) {#bloque3 .simform{margin-top: 7% !important;width: 73%;margin-left: 13% !important;}}
+@media only screen and (max-width:2600px) and (min-width:2500px){#bloque3 span{font-size:37px !important;}}
+@media only screen and (max-width:2499px) and (min-width:2400px){#bloque3 span{font-size:36px !important;}}
+@media only screen and (max-width:2399px) and (min-width:2300px){#bloque3 span{font-size:36px !important;}}
+@media only screen and (max-width:2299px) and (min-width:2200px){#bloque3 span{font-size:33px !important;}}
+@media only screen and (max-width:2199px) and (min-width:2100px){#bloque3 span{font-size:32px !important;}}
+@media only screen and (max-width:2099px) and (min-width:2000px){#bloque3 span{font-size:31px !important;}}
+@media only screen and (max-width:1999px) and (min-width:1900px){#bloque3 span{font-size:30px !important;}}
+@media only screen and (max-width:1899px) and (min-width:1800px){#bloque3 span{font-size:31px !important;}}
+@media only screen and (max-width:1799px) and (min-width:1700px){#bloque3 span{font-size:27px !important;}}
+@media only screen and (max-width:1699px) and (min-width:1600px){#bloque3 span{font-size:26px !important;}}
+@media only screen and (max-width:1599px) and (min-width:1500px){#bloque3 span{font-size:26px !important;}}
+@media only screen and (max-width:1499px) and (min-width:1400px){#bloque3 span{font-size:23px !important;}}
+@media only screen and (max-width:1399px) and (min-width:1300px){#bloque3 span{font-size:21px !important;}}
+@media only screen and (max-width:1299px) and (min-width:1200px){#bloque3 span{font-size:20px !important;}}
+@media only screen and (max-width:1199px) and (min-width:1100px){#bloque3 span{font-size:19px !important;}}
+@media only screen and (max-width:1099px) and (min-width:992px){#bloque3 span{font-size:19px !important;}}
+@media only screen and (max-width:991px) and (min-width:900px){#bloque3 span{font-size:28px !important;}}
+@media only screen and (max-width:899px) and (min-width:800px){#bloque3 span{font-size:24px !important;}}
+@media only screen and (max-width:799px) and (min-width:768px){#bloque3 span{font-size:24px !important;}}
+@media only screen and (max-width:767px) and (min-width:700px){#bloque3 span{font-size:27px !important;}}
+@media only screen and (max-width:699px) and (min-width:600px){#bloque3 span{font-size:24px !important;}}
+@media only screen and (max-width:599px) and (min-width:500px){#bloque3 span{font-size:21px !important;}}
+@media only screen and (max-width:499px) and (min-width:400px){#bloque3 span{font-size:20px !important;}}
+@media only screen and (max-width:399px) {#bloque3 span{font-size:14px !important;}}

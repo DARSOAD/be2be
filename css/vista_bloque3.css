@@ -1,0 +1,171 @@
+table{width:40% !important;}
+#bloque1 .row .tarjetagrande figure{width: 80% !important;margin: 10% !important;margin-top: 0% !important;}
+@media only screen and (min-width:768px){#bloque1 .row .tarjetagrande figure{margin-top: 16% !important;}}
+.botonGeneral{margin: 10% 35%;width: 30% !important;padding: 3% 0 !important;}
+#bloque1{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Lato', sans-serif;
+	height: auto;
+}
+#bloque1 .row .tarjetagrande{
+	padding:0%!important;
+}
+#bloque1 .row .datostarjetagrande{
+	padding:0%!important;
+}
+#bloque1 .row .datostarjetagrande h1{
+   	font-weight: 400;
+    color: #ba007c;
+}
+#bloque1 .row .datostarjetagrande p{
+    font-weight: 300;
+    color: #A8A8A8;
+    text-align: left;
+}
+#bloque1 .row .datostarjetagrande h5{
+    font-weight: 300;
+    color: black;
+}
+#bloque1 input[type="number"] {	
+    font-weight: 900;
+    outline: none !important;
+    text-align: center;
+    float: left;
+}
+#bloque1 input[type="number"] {
+    position: relative;
+}
+
+/* Spin Buttons modified */
+#bloque1  input[type="number"].qty::-webkit-outer-spin-button, 
+#bloque1  input[type="number"].qty::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    background:url(https://concurvas.com.co/douglas/wp-content/themes/mainteam_douglas/imagenes/iconos/number.png) no-repeat center center;
+    width: 1em;
+    /*opacity: .5;  shows Spin Buttons per default (Chrome >= 39) */
+    position:fixed;
+    top: 0;
+    right: 1%;
+    bottom: 0;
+}
+
+.single_add_to_cart_button{
+	background: #ba007c;
+    border: none !important;
+    font-weight: 900 !important;
+    letter-spacing: 0.2px!important;
+	word-spacing: 1.8px!important;
+	text-align: center!important;
+    color: #FFFFFF!important;
+    outline: none !important;
+    border-radius: 37px!important;
+}
+.single_add_to_cart_button:hover {
+    background: black !important;
+    transition: .4s!important;
+    cursor: hand!important;
+}
+#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{
+	font-weight: 400;
+	text-align: center;
+	color: #c6e2fd;
+}
+#bloque1 .row .acomodaciontarjetas .tarjetasmini p{
+    font-weight: 300;
+	font-style: italic;
+	text-align: center;
+	color: #A8A8A8;
+}
+#bloque1 .row h3{
+	position: absolute;
+    font-weight: 300;
+	 -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+	transform: rotate(270deg);
+	opacity:0.41;
+	color: black;
+}
+#bloque1 .quantity {
+	
+	display: inline;
+}
+@media only screen and  (min-width:768px){#bloque1 .row{width:98.1%!important;padding-top:15%!important;margin-left:1.9%!important;margin-right:0%!important;}#bloque1 .row .tarjetagrande{width:44.6%!important;}#bloque1 .row .tarjetagrande figure img{margin-top:10%!important;width: 100%!important;display:block;margin-left: 0!important; margin-right: 0!important;height: auto;}#bloque1 .row .datostarjetagrande{width:55.4%!important;-webkit-box-shadow: 0px 0px 37px -14px rgba(61,61,61,0.53);-moz-box-shadow: 0px 0px 37px -14px rgba(61,61,61,0.53);box-shadow: 0px 0px 37px -14px rgba(61,61,61,0.53);}#bloque1 .row .datostarjetagrande h1{width:90.3%;text-align:left;margin-top:20%!important;margin-left:6.9%!important;margin-right:2.8%!important;}#bloque1 .row .datostarjetagrande h2{width:90.3%;text-align:left;margin-top:0.9%!important;margin-left:6.4%!important;margin-right:3.3%!important;}#bloque1 .row .datostarjetagrande p{margin-bottom: 10% !important;width: 90.3%;text-align:left;margin-top:2%!important;margin-left:6.7%!important;margin-right:3%!important;}#bloque1 .row .datostarjetagrande h5{width:90.3%;text-align:left;margin-top:10%!important;margin-left:8.5%!important;margin-right:3%!important;}#bloque1 input[type="number"] {width:14%;margin-top:1.3%!important;margin-left:6.4%!important;}.single_add_to_cart_button{width:25%!important;margin-left:3%!important;margin-top: 7% !important;}#bloque1 .acomodaciontarjetas{width:55.4%!important;padding-left:4.1%!important;margin-right:0%!important;margin-bottom: 3% !important;-webkit-box-shadow: -14px 0px 37px -25px rgba(61,61,61,0.32);-moz-box-shadow: -14px 0px 37px -25px rgba(61,61,61,0.32);box-shadow: -14px 0px 37px -25px rgba(61,61,61,0.32);}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure img{margin-top:37.8%!important;max-width: 100%!important;width: auto!important;display:block;margin-left: auto!important; margin-right: auto!important;height: auto;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{width:100%;margin-top:6.6%!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{width:100%;margin-top:7%!important;margin-bottom: 21%!important;}#bloque1 .row h3{margin-top:55%!important;margin-left:40.5%!important;}}
+
+
+@media only screen and (max-width:2600px) and (min-width:2500px){#bloque1 .row .datostarjetagrande h1{font-size:60px;}#bloque1 .row .datostarjetagrande h2{font-size:91px;}#bloque1 .row .datostarjetagrande h5{font-size:27px;}#bloque1 input[type="number"]{height:64px!important;}.single_add_to_cart_button{font-size:30px!important;height:68px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:35px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:31px;}#bloque1 .row h3{font-size:44px;}}
+@media only screen and (max-width:2499px) and (min-width:2400px){#bloque1 .row .datostarjetagrande h1{font-size:57px;}#bloque1 .row .datostarjetagrande h2{font-size:85px;}#bloque1 .row .datostarjetagrande h5{font-size:26px;}#bloque1 input[type="number"]{height:58px!important;font-size:39px;}.single_add_to_cart_button{font-size:29px!important;height:66px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:33px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:30px;}#bloque1 .row h3{font-size:42px;}}
+@media only screen and (max-width:2399px) and (min-width:2300px){#bloque1 .row .tarjetagrande figure img{height:auto;}#bloque1 .row .datostarjetagrande h1{font-size:55px;}#bloque1 .row .datostarjetagrande h2{font-size:83px;}#bloque1 .row .datostarjetagrande h5{font-size:24px;}#bloque1 input[type="number"]{height:55px!important;font-size:37px;}.single_add_to_cart_button{font-size:28px!important;height:64px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini{height:699px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure img{height:auto;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:32px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:28px;}#bloque1 .row h3{font-size:41px;}}
+@media only screen and (max-width:2299px) and (min-width:2200px){#bloque1 .row .datostarjetagrande h1{font-size:53px;}#bloque1 .row .datostarjetagrande h2{font-size:78px;}#bloque1 .row .datostarjetagrande h5{font-size:23px;}#bloque1 input[type="number"]{height:53px!important;font-size:35px;}.single_add_to_cart_button{font-size:27px!important;height:62px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:30px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:27px;}#bloque1 .row h3{font-size:40px;}}
+@media only screen and (max-width:2199px) and (min-width:2100px){#bloque1 .row .datostarjetagrande h1{font-size:51px;}#bloque1 .row .datostarjetagrande h2{font-size:75px;}#bloque1 .row .datostarjetagrande h5{font-size:22px;}#bloque1 input[type="number"]{height:48px!important;font-size:32px;}.single_add_to_cart_button{font-size:25px!important;height:56px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:29px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:26px;}#bloque1 .row h3{font-size:38px;}}
+@media only screen and (max-width:2099px) and (min-width:2000px){#bloque1 .row .datostarjetagrande h1{font-size:48px;}#bloque1 .row .datostarjetagrande h2{font-size:71px;}#bloque1 .row .datostarjetagrande h5{font-size:21px;}#bloque1 input[type="number"]{height:46px!important;font-size:30px;}.single_add_to_cart_button{font-size:23px!important;height:54px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:28px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:24px;}#bloque1 .row h3{font-size:37px;}}
+@media only screen and (max-width:1999px) and (min-width:1900px){#bloque1 .row .datostarjetagrande h1{font-size:46px;}#bloque1 .row .datostarjetagrande h2{font-size:67px;}#bloque1 .row .datostarjetagrande h5{font-size:20px;}#bloque1 input[type="number"]{height:45px!important;font-size:28px;}.single_add_to_cart_button{font-size:22px!important;height:51px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:26px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:23px;}#bloque1 .row h3{font-size:35px;}}
+@media only screen and (max-width:1899px) and (min-width:1800px){#bloque1 .row .datostarjetagrande h1{font-size:44px;}#bloque1 .row .datostarjetagrande h2{font-size:66px;}#bloque1 .row .datostarjetagrande h5{font-size:19px;}#bloque1 input[type="number"]{height:44px!important;font-size:26px;}.single_add_to_cart_button{font-size:20px;height:49px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:25px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:22px;}#bloque1 .row h3{font-size:33px;}}
+@media only screen and (max-width:1799px) and (min-width:1700px){#bloque1 .row .datostarjetagrande h1{font-size:41px;}#bloque1 .row .datostarjetagrande h2{font-size:62px;}#bloque1 .row .datostarjetagrande h5{font-size:18px;}#bloque1 input[type="number"]{height:43px!important;font-size:25px;}.single_add_to_cart_button{font-size:18px!important;height:45px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:24px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:20px;}#bloque1 .row h3{font-size:31px;}}
+@media only screen and (max-width:1699px) and (min-width:1600px){#bloque1 .row .datostarjetagrande h1{font-size:38px;}#bloque1 .row .datostarjetagrande h2{font-size:59px;}#bloque1 .row .datostarjetagrande h5{font-size:17px;}#bloque1 input[type="number"]{height:42px!important;font-size:23px;}.single_add_to_cart_button{font-size:17px!important;height:42px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:23px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:19px;}#bloque1 .row h3{font-size:30px;}}
+@media only screen and (max-width:1599px) and (min-width:1500px){#bloque1 .row .datostarjetagrande h1{font-size:36px;}#bloque1 .row .datostarjetagrande h2{font-size:54px;}#bloque1 .row .datostarjetagrande h5{font-size:16px;}#bloque1 input[type="number"]{height:37px!important;font-size:21px;}.single_add_to_cart_button{font-size:16px!important;height:41px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:21px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:18px;}#bloque1 .row h3{font-size:28px;}}
+@media only screen and (max-width:1499px) and (min-width:1400px){#bloque1 .row .datostarjetagrande h1{font-size:34px;}#bloque1 .row .datostarjetagrande h2{font-size:50px;}#bloque1 .row .datostarjetagrande h5{font-size:15px;}#bloque1 input[type="number"]{height:34px!important;font-size:20px;}.single_add_to_cart_button{font-size:15px!important;height:39px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:20px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:17px;}#bloque1 .row h3{font-size:25px;}}
+@media only screen and (max-width:1399px) and (min-width:1300px){#bloque1 .row .datostarjetagrande h1{font-size:32px;}#bloque1 .row .datostarjetagrande h2{font-size:48px;}#bloque1 .row .datostarjetagrande h5{font-size:14px;}#bloque1 input[type="number"]{height:33px!important;font-size:19px;}.single_add_to_cart_button{font-size:14px!important;height:36px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:18px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:16px;}#bloque1 .row h3{font-size:24px;}}
+@media only screen and (max-width:1299px) and (min-width:1200px){#bloque1 .row .datostarjetagrande h1{font-size:29px;}#bloque1 .row .datostarjetagrande h2{font-size:44px;}#bloque1 .row .datostarjetagrande h5{font-size:14px;}#bloque1 input[type="number"]{height:32px!important;font-size:18px;}.single_add_to_cart_button{font-size:13px!important;height:33px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:16px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:14px;}#bloque1 .row h3{font-size:23px;}}
+@media only screen and (max-width:1199px) and (min-width:1100px){#bloque1 .row .datostarjetagrande h1{font-size:27px;}#bloque1 .row .datostarjetagrande h2{font-size:40px;}#bloque1 .row .datostarjetagrande h5{font-size:12px;}#bloque1 input[type="number"]{height:30px!important;font-size:16px;}.single_add_to_cart_button{font-size:12px!important;height:29px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:15px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:13px;}#bloque1 .row h3{font-size:22px;}}
+@media only screen and (max-width:1099px) and (min-width:992px){#bloque1 .row .datostarjetagrande h1{font-size:25px;}#bloque1 .row .datostarjetagrande h2{font-size:37px;}#bloque1 .row .datostarjetagrande h5{font-size:12px;}#bloque1 input[type="number"]{height:27px!important;font-size:13px;}.single_add_to_cart_button{font-size:12px;height:26px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:13px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:13px;}#bloque1 .row h3{font-size:19px;}}
+
+@media only screen and (max-width:991px) and (min-width:900px){#bloque1 .row .datostarjetagrande h1{font-size:22px;}#bloque1 .row .datostarjetagrande h2{font-size:33px;}#bloque1 .row .datostarjetagrande h5{font-size:10px;}#bloque1 input[type="number"]{height:27px!important;font-size:13px;}.single_add_to_cart_button{font-size:12px!important;height:26px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:13px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:13px;}#bloque1 .row h3{font-size:17px;}}
+@media only screen and (max-width:899px) and (min-width:800px){#bloque1 .row .datostarjetagrande h1{font-size:20px;}#bloque1 .row .datostarjetagrande h2{font-size:30px;}#bloque1 .row .datostarjetagrande h5{font-size:10px;}#bloque1 input[type="number"]{height:27px!important;font-size:13px;}.single_add_to_cart_button{font-size:12px!important;height:26px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:13px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:13px;}#bloque1 .row h3{font-size:16px;}}
+@media only screen and (max-width:799px) and (min-width:768px){#bloque1 .row .datostarjetagrande h1{font-size:18px;}#bloque1 .row .datostarjetagrande h2{font-size:27px;}#bloque1 .row .datostarjetagrande h5{font-size:10px;}#bloque1 input[type="number"]{height:27px!important;font-size:13px;}.single_add_to_cart_button{font-size:12px!important;height:26px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:12px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:12px;}#bloque1 .row h3{font-size:16px;}}
+
+
+@media only screen and  (max-width:767px){#bloque1 .row{width:100%!important;padding-top:39.8%!important;}#bloque1 .row .tarjetagrande figure img{margin-top:14.8%!important;max-width: 100%!important;width: auto!important;display:block;margin-left: auto!important; margin-right: auto!important;height: auto;}#bloque1 .row .datostarjetagrande h1{width: 90.3%!important;text-align: center;margin-top: 3.6%!important;margin-left: 4.85%!important;margin-right: 4.85%!important;}#bloque1 .row .datostarjetagrande h2{width: 90.3%;text-align: center;margin-top: 0.9%!important;margin-left: 4.85%!important;margin-right: 4.85%!important;}#bloque1 .row .datostarjetagrande p{width: 90.3%;text-align: center;margin-top: 6.1%!important;margin-left: 4.85%!important;margin-right: 4.85%!important;}#bloque1 .row .datostarjetagrande h5{width: 90.3%;text-align: center;margin-top: 5.7%!important;margin-left: 4.85%!important;margin-right: 4.85%!important;margin-bottom: 5%!important;}#bloque1 input[type="number"]{width: 26%;margin-top: 0%!important;margin-left: 37%!important;}.single_add_to_cart_button{width: 35%!important;margin-top: 7%!important;margin-left: 32.5%!important; margin-bottom: 10% !important;}#bloque1 .row .acomodaciontarjetas {-webkit-box-shadow: -14px 0px 37px -15px rgba(61,61,61,0.4);-moz-box-shadow: -14px 0px 37px -15px rgba(61,61,61,0.4);box-shadow: -14px 0px 37px -15px rgba(61,61,61,0.4);}#bloque1 .row .acomodaciontarjetas .tarjetasmini{margin-top: 7%!important;margin-bottom: 7%!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure img{margin-top:15.8%!important;max-width: 100%!important;width: auto!important;display:block;margin-left: auto!important; margin-right: auto!important;height: auto;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{width:100%;margin-top:6.6%!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{width:100%;margin-top:7%!important;margin-bottom:14%!important;}#bloque1 .row h3{display:none;}}
+@media only screen and (max-width:767px) and (min-width:600px){select{background-size: 35px !important;width:26%;margin: 10% 37% 0 37%;}table{width: 100% !important;}.label{display: none !important;}#bloque1 input[type="number"]{margin-top: 10% !important;}}
+@media only screen and (max-width:599px){select{background-size: 35px !important;width:40%;margin: 10% 30% 0 30%;}table{width: 100% !important;}.label{display: none !important;}#bloque1 input[type="number"]{margin-top: 10% !important;}.botonGeneral {margin: 10% 26%;width: 48% !important;padding: 3% 0 !important;}}
+@media only screen and (max-width:767px) and (min-width:700px){#bloque1 .row .datostarjetagrande h1{font-size:35px;}#bloque1 .row .datostarjetagrande h2{font-size:52px;}#bloque1 .row .datostarjetagrande h5{font-size:23px;}#bloque1 input[type="number"],select{height:36px!important;font-size:32px;}.single_add_to_cart_button{font-size:25px!important;height:68px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:20px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:19px;}}
+@media only screen and (max-width:699px) and (min-width:600px){#bloque1 .row .datostarjetagrande h1{font-size:31px;}#bloque1 .row .datostarjetagrande h2{font-size:46px;}#bloque1 .row .datostarjetagrande h5{font-size:20.5px;}#bloque1 input[type="number"],select{height:33px!important;font-size:29px;}.single_add_to_cart_button{font-size:24px!important;height:60px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:17px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:16px;}}
+@media only screen and (max-width:599px) and (min-width:500px){#bloque1 .row .datostarjetagrande h1{font-size:26px;}#bloque1 .row .datostarjetagrande h2{font-size:38px;}#bloque1 .row .datostarjetagrande h5{font-size:17px;}#bloque1 input[type="number"],select{height:30px!important;font-size:29px;}.single_add_to_cart_button{font-size:19px!important;height:45px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:14px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:16px;}}
+@media only screen and (max-width:499px) and (min-width:400px){#bloque1 .row .datostarjetagrande h1{font-size:22px;}#bloque1 .row .datostarjetagrande h2{font-size:32px;}#bloque1 .row .datostarjetagrande h5{font-size:14px;}#bloque1 input[type="number"],select{height:27px!important;font-size:24px;}.single_add_to_cart_button{font-size:16px!important;height:37px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:15px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:14px;}}
+@media only screen and (max-width:399px){#bloque1 .row .datostarjetagrande h1{font-size:17px;}#bloque1 .row .datostarjetagrande h2{font-size:24px;}#bloque1 .row .datostarjetagrande h5{font-size:11px;}#bloque1 input[type="number"],select{height:25px!important;font-size:20px;}.single_add_to_cart_button{font-size:14px!important;height:35px!important;}#bloque1 .row .acomodaciontarjetas .tarjetasmini figure figcaption{font-size:13px;}#bloque1 .row .acomodaciontarjetas .tarjetasmini p{font-size:11px;}}
+select{
+	background-color: white !important;
+	outline: none !important;
+	border: none !important;
+	border-bottom: 0.05px ridge #767676 !important;
+    background-image: url( http://www.animalhome.co/wp-content/themes/mainteam_04/imagenes/iconos/flechaazul.png);
+    background-repeat: no-repeat;
+    background-size: 20px!important;
+    background-position: right center;
+    -webkit-appearance: none !important;
+}
+#bloque1 input[type="number"]:focus{
+	border: #61ABE6 solid 2px;
+}
+select:focus{
+	border: #61ABE6 solid 2px;
+}
+#bloque1 .quantity label{display:none;}
+
+@media only screen and  (min-width:768px){tbody tr td{display: block !important;}#bloque1 input[type="number"]{width:14%;}select{width:100%;}#bloque1 input[type="number"], select {margin-top:7%!important;margin-left:6.4%!important;}#bloque1 input[type="number"]{margin-bottom: 5% !important;margin-left: 9% !important;}}
+@media only screen and (max-width:767px){tbody tr td label{display: none !important;}}
+@media only screen and (max-width:2600px) and (min-width:2500px){#bloque1 input[type="number"], select{height:64px!important;font-size:41px;}tbody tr td label{font-size:41px;}}
+@media only screen and (max-width:2499px) and (min-width:2400px){#bloque1 input[type="number"], select{height:58px!important;font-size:39px;}tbody tr td label{font-size:39px;}}
+@media only screen and (max-width:2399px) and (min-width:2300px){#bloque1 input[type="number"], select{height:55px!important;font-size:37px;}tbody tr td label{font-size:37px;}}
+@media only screen and (max-width:2299px) and (min-width:2200px){#bloque1 input[type="number"], select{height:53px!important;font-size:35px;}tbody tr td label{font-size:35px;}}
+@media only screen and (max-width:2199px) and (min-width:2100px){#bloque1 input[type="number"], select{height:48px!important;font-size:32px;}tbody tr td label{font-size:32px;}}
+@media only screen and (max-width:2099px) and (min-width:2000px){#bloque1 input[type="number"], select{height:46px!important;font-size:30px;}tbody tr td label{font-size:30px;}}
+@media only screen and (max-width:1999px) and (min-width:1900px){#bloque1 input[type="number"], select{height:45px!important;font-size:28px;}tbody tr td label{font-size:28px;}}
+@media only screen and (max-width:1899px) and (min-width:1800px){#bloque1 input[type="number"], select{height:44px!important;font-size:26px;}tbody tr td label{font-size:26px;}}
+@media only screen and (max-width:1799px) and (min-width:1700px){#bloque1 input[type="number"], select{height:43px!important;font-size:25px;}tbody tr td label{font-size:25px;}}
+@media only screen and (max-width:1699px) and (min-width:1600px){#bloque1 input[type="number"], select{height:42px!important;font-size:23px;}tbody tr td label{font-size:23px;}}
+@media only screen and (max-width:1599px) and (min-width:1500px){#bloque1 input[type="number"], select{height:37px!important;font-size:21px;}tbody tr td label{font-size:21px;}}
+@media only screen and (max-width:1499px) and (min-width:1400px){#bloque1 input[type="number"], select{height:34px!important;font-size:20px;}tbody tr td label{font-size:20px;}}
+@media only screen and (max-width:1399px) and (min-width:1300px){#bloque1 input[type="number"], select{height:33px!important;font-size:19px;}tbody tr td label{font-size:19px;}}
+@media only screen and (max-width:1299px) and (min-width:1200px){#bloque1 input[type="number"], select{height:32px!important;font-size:18px;}tbody tr td label{font-size:18px;}}
+@media only screen and (max-width:1199px) and (min-width:1100px){#bloque1 input[type="number"], select{height:30px!important;font-size:16px;}tbody tr td label{font-size:16px;}}
+@media only screen and (max-width:1099px) and (min-width:992px){#bloque1 input[type="number"], select{height:27px!important;font-size:13px;}tbody tr td label{font-size:13px;}}
+
+@media only screen and (max-width:991px) and (min-width:900px){#bloque1 input[type="number"], select{height:27px!important;font-size:13px;}tbody tr td label{font-size:13px;}}
+@media only screen and (max-width:899px) and (min-width:800px){#bloque1 input[type="number"], select{height:27px!important;font-size:13px;}tbody tr td label{font-size:13px;}}
+@media only screen and (max-width:799px) and (min-width:768px){#bloque1 input[type="number"], select{height:27px!important;font-size:13px;}tbody tr td label{font-size:13px;}}
+tbody tr td{
+	text-align: left !important;
+	margin-left: 17% !important;
+}
+.reset_variations{display:none !important;}

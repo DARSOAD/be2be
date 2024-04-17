@@ -1,0 +1,180 @@
+#bloque2{	
+	font-family: 'Lato', sans-serif;
+	height: auto;
+	padding-bottom: 5% !important;
+}
+#bloque2 .row{
+    width: 70% !important;
+    margin-left: 15% !important;
+	margin-right: 15% !important;
+}
+#bloque2 h3{padding-bottom: 10% !important;}
+#bloque2 .row .selectores{
+	padding: 0% !important;
+}
+#bloque2 .row .selectores select{
+	outline: none !important;
+	border: none;
+	background: transparent;
+	border-bottom: 0.1px ridge #000000;
+    font-weight: 900;
+}
+#bloque2 .row .tarjetas{
+	height: auto;
+	
+}
+#bloque2 .tarjetas figure figcaption{
+    font-weight: 300;
+	text-align: center;
+	color: white;
+	width: 100%;
+    margin-top: -24% !important;
+}
+#bloque2 .tarjetas p{
+    font-weight: 400;
+	font-style: italic;
+	text-align: center;
+	color: grey;
+	width: 100%;
+    margin-top: 7% !important;
+}
+#bloque2 .row .tarjetas:hover{
+	box-shadow: 1px 1px 10px 3px #F4F4F4;	
+}
+#bloque2 a button.boton{
+    border: none;
+    font-weight: 700;
+	text-align: center;
+    color: #FFFFFF;
+    background: #ba007c;
+	outline: none !important;
+    border-radius: 37px;
+}
+#bloque2 a button.boton:hover {
+    background: black; 
+	transition: .4s;
+    cursor: hand;
+}
+#bloque2 .tarjetas a button.boton{
+    width: 52%;
+  	margin-top: 10.2% !important;
+    margin-left: 24% !important;
+	margin-right: 24% !important;
+}
+#bloque2 .carousel .owl-carousel .item .producto img {
+	border-radius: 9px;
+}
+#bloque2 .carousel .owl-carousel .item h1{
+	position: absolute;
+	width: 60%;
+    font-weight: 900;
+	color: white;
+	margin-top: -54.7% !important;
+}
+#bloque2 .carousel .owl-carousel .item p{
+	position: absolute;
+	width: 60%;
+    font-weight: 300;
+	font-style: italic;
+	color: white;
+	margin-top: -42% !important;
+}
+#bloque2 .carousel .owl-carousel .item a button.boton{
+	position: absolute;
+  	margin-top: -35% !important;
+}
+#bloque2 .owl-theme .owl-dots {
+	position: absolute;
+	text-align: left;
+	width: 80% !important;
+    margin-top: -10.6% !important;
+	margin-left: 7.3% !important;
+	margin-right: 12.7% !important;
+}
+#bloque2 .owl-theme .owl-dots .owl-dot.active span,#bloque2 .owl-theme .owl-dots .owl-dot:hover span {
+  	background: black !important;
+	border: 1px solid white;
+}
+#bloque2 .owl-theme .owl-dots .owl-dot {
+  	margin-right: 4.7% !important;
+}
+#bloque2 .owl-theme .owl-dots .owl-dot span {
+    background: #989898 !important;
+	height: 12px !important;
+	width: 12px !important;
+}
+#bloque2 .tarjetas figure img{border-radius: 20px; width: 100%!important;display:block;margin-left: auto!important; margin-right: auto!important;}
+#bloque2 .row .tarjetas{padding: 0 !important;border-radius: 20px;}
+@media only screen and  (min-width:992px){#bloque2{background-image: url("../imagenes/fondos/bloque2.png");}#bloque2 .row .selectores select{width:33%;margin-top:8.2%!important;margin-left:28.1%!important;margin-right:38.9%!important;}#bloque2 .row .tarjetas{padding-left:0%!important;padding-right:0%!important;margin:3%!important;}#bloque2 .carousel .owl-carousel .item h1{margin-left:6.9%!important;	margin-right:33.1%!important;}#bloque2 .carousel .owl-carousel .item p{margin-left:6.9%!important;margin-right:33.1%!important;}#bloque2 .carousel .owl-carousel .item a button.boton{width:22%;margin-left:7.3%!important;margin-right:70.7%!important;}}	
+
+@media only screen and (max-width:2600px) and (min-width:2500px){#bloque2 .row .selectores{height:149px;margin-top:41.1%!important;}#bloque2 .row .selectores select{font-size:24px;height:41px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:833px;}#bloque2 .tarjetas figure figcaption{font-size:32px;}#bloque2 .tarjetas p{font-size:25px;}#bloque2 a button.boton{height:71px;font-size:25px;}#bloque2 .carousel .owl-carousel .item h1{font-size:58px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:24px!important;width:24px!important;}}
+@media only screen and (max-width:2499px) and (min-width:2400px){#bloque2 .row .selectores{height:143px;margin-top:41.6%!important;}#bloque2 .row .selectores select{font-size:23px;height:37px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:793px;}#bloque2 .tarjetas figure figcaption{font-size:31px;}#bloque2 .tarjetas p{font-size:24px;}#bloque2 a button.boton{height:65px;font-size:24px;}#bloque2 .carousel .owl-carousel .item h1{font-size:55px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:23px!important;width:23px!important;}}
+@media only screen and (max-width:2399px) and (min-width:2300px){#bloque2 .row .selectores{height:137px;margin-top:41.3%!important;}#bloque2 .row .selectores select{font-size:22px;height:34px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:763px;}#bloque2 .tarjetas figure figcaption{font-size:30px;}#bloque2 .tarjetas p{font-size:23px;}#bloque2 a button.boton{height:60px;font-size:22px;}#bloque2 .carousel .owl-carousel .item h1{font-size:53px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:22px!important;width:22px!important;}}
+@media only screen and (max-width:2299px) and (min-width:2200px){#bloque2 .row .selectores{height:131px;margin-top:41.4%!important;}#bloque2 .row .selectores select{font-size:21px;height:33px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:735px;}#bloque2 .tarjetas figure figcaption{font-size:29px;}#bloque2 .tarjetas p{font-size:22px;}#bloque2 a button.boton{height:58px;font-size:21px;}#bloque2 .carousel .owl-carousel .item h1{font-size:51px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:21px!important;width:21px!important;}}
+@media only screen and (max-width:2199px) and (min-width:2100px){#bloque2 .row .selectores{height:125px;margin-top:41.3%!important;}#bloque2 .row .selectores select{font-size:20px;height:33px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:699px;}#bloque2 .tarjetas figure figcaption{font-size:27px;}#bloque2 .tarjetas p{font-size:21px;}#bloque2 a button.boton{height:56px;font-size:20px;}#bloque2 .carousel .owl-carousel .item h1{font-size:48px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:20px!important;width:20px!important;}}
+@media only screen and (max-width:2099px) and (min-width:2000px){#bloque2 .row .selectores{height:120px;margin-top:41.4%!important;}#bloque2 .row .selectores select{font-size:19px;height:30px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:668px;}#bloque2 .tarjetas figure figcaption{font-size:26px;}#bloque2 .tarjetas p{font-size:20px;}#bloque2 a button.boton{height:50px;font-size:19px;}#bloque2 .carousel .owl-carousel .item h1{font-size:46;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:19px!important;width:19px!important;}}
+@media only screen and (max-width:1999px) and (min-width:1900px){#bloque2 .row .selectores{height:114px;margin-top:41.3%!important;}#bloque2 .row .selectores select{font-size:18px;height:29px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:637px;}#bloque2 .tarjetas figure figcaption{font-size:25px;}#bloque2 .tarjetas p{font-size:19px;}#bloque2 a button.boton{height:50px;font-size:18px;}#bloque2 .carousel .owl-carousel .item h1{font-size:44px;}#bloque2 .carousel .owl-carousel .item p{font-size:23px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:18px!important;width:18px!important;}}
+@media only screen and (max-width:1899px) and (min-width:1800px){#bloque2 .row .selectores{height:108px;margin-top:41.2%!important;}#bloque2 .row .selectores select{font-size:17px;height:29px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:606px;}#bloque2 .tarjetas figure figcaption{font-size:23px;}#bloque2 .tarjetas p{font-size:18px;}#bloque2 a button.boton{height:49px;font-size:17px;}#bloque2 .carousel .owl-carousel .item h1{font-size:41px;}#bloque2 .carousel .owl-carousel .item p{font-size:22px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:12px!important;width:12px!important;}}
+@media only screen and (max-width:1799px) and (min-width:1700px){#bloque2 .row .selectores{height:102px;margin-top:41.2%!important;}#bloque2 .row .selectores select{font-size:16px;height:27px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:576px;}#bloque2 .tarjetas figure figcaption{font-size:22px;}#bloque2 .tarjetas p{font-size:17px;}#bloque2 a button.boton{height:47px;font-size:16px;}#bloque2 .carousel .owl-carousel .item h1{font-size:39px;}#bloque2 .carousel .owl-carousel .item p{font-size:21px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:17px!important;width:17px!important;}}
+@media only screen and (max-width:1699px) and (min-width:1600px){#bloque2 .row .selectores{height:96px;margin-top:41.3%!important;}#bloque2 .row .selectores select{font-size:15px;height:25px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:546px;}#bloque2 .tarjetas figure figcaption{font-size:21px;}#bloque2 .tarjetas p{font-size:16px;}#bloque2 a button.boton{height:45px;font-size:16px;}#bloque2 .carousel .owl-carousel .item h1{font-size:36px;}#bloque2 .carousel .owl-carousel .item p{font-size:19px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:16px!important;width:16px!important;}}
+@media only screen and (max-width:1599px) and (min-width:1500px){#bloque2 .row .selectores{height:90px;margin-top:41.3%!important;}#bloque2 .row .selectores select{font-size:14px;height:23px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:515px;}#bloque2 .tarjetas figure figcaption{font-size:20px;}#bloque2 .tarjetas p{font-size:15px;}#bloque2 a button.boton{height:42px;font-size:15px;}#bloque2 .carousel .owl-carousel .item h1{font-size:34px;}#bloque2 .carousel .owl-carousel .item p{font-size:18px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:15px!important;width:15px!important;}}
+@media only screen and (max-width:1499px) and (min-width:1400px){#bloque2 .row .selectores{height:84px;margin-top:41.3%!important;}#bloque2 .row .selectores select{font-size:13px;height:23px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:483px;}#bloque2 .tarjetas figure figcaption{font-size:18px;}#bloque2 .tarjetas p{font-size:14px;}#bloque2 a button.boton{height:40px;font-size:14px;}#bloque2 .carousel .owl-carousel .item h1{font-size:32px;}#bloque2 .carousel .owl-carousel .item p{font-size:17px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:14px!important;width:14px!important;}}
+@media only screen and (max-width:1399px) and (min-width:1300px){#bloque2 .row .selectores{height:80px;margin-top:41.2%!important;}#bloque2 .row .selectores select{font-size:12px;height:20px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:452px;}#bloque2 .tarjetas figure figcaption{font-size:17px;}#bloque2 .tarjetas p{font-size:13px;}#bloque2 a button.boton{height:37px;font-size:13px;}#bloque2 .carousel .owl-carousel .item h1{font-size:30px;}#bloque2 .carousel .owl-carousel .item p{font-size:16px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:13px!important;width:13px!important;}}
+@media only screen and (max-width:1299px) and (min-width:1200px){#bloque2 .row .selectores{height:73px;margin-top:41.3%!important;}#bloque2 .row .selectores select{font-size:11px;height:18px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:421px;}#bloque2 .tarjetas figure figcaption{font-size:16px;}#bloque2 .tarjetas p{font-size:12px;}#bloque2 a button.boton{height:35px;font-size:12px;}#bloque2 .carousel .owl-carousel .item h1{font-size:27px;}#bloque2 .carousel .owl-carousel .item p{font-size:15px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:12px!important;width:12px!important;}}
+@media only screen and (max-width:1199px) and (min-width:1100px){#bloque2 .row .selectores{height:67px;margin-top:41.3%!important;}#bloque2 .row .selectores select{font-size:10px;height:17px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:390px;}#bloque2 .tarjetas figure figcaption{font-size:15px;}#bloque2 .tarjetas p{font-size:11px;}#bloque2 a button.boton{height:32px;font-size:11px;}#bloque2 .carousel .owl-carousel .item h1{font-size:25px;}#bloque2 .carousel .owl-carousel .item p{font-size:14px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:11px!important;width:11px!important;}}
+@media only screen and (max-width:1099px) and (min-width:992px){#bloque2 .row .selectores{height:61px;margin-top:41.3%!important;}#bloque2 .row .selectores select{font-size:9px;height:16px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:360px;}#bloque2 .tarjetas figure figcaption{font-size:14px;}#bloque2 .tarjetas p{font-size:10px;}#bloque2 a button.boton{height:29px;font-size:10px;}#bloque2 .carousel .owl-carousel .item h1{font-size:23px;}#bloque2 .carousel .owl-carousel .item p{font-size:13px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:10px!important;width:10px!important;}}
+
+@media only screen and (max-width:991px)  and (min-width:768px) {#bloque2 .row .selectores select{width:69%;margin-top:8.2%!important;margin-left:15.5%!important;margin-right:15.5%!important;}#bloque2 .row .tarjetas{padding-left:0%!important;padding-right:0%!important;margin:6% 3%!important;}#bloque2 .tarjetas figure img{max-width: 100%!important;width: auto!important;display:block;margin-left: auto!important; margin-right: auto!important;}#bloque2 .carousel .owl-carousel{width:150%!important;margin-left:-25%!important;}#bloque2 .carousel .owl-carousel .item .producto img{width:100%}#bloque2 .carousel .owl-carousel .item h1{margin-left:2.5%!important;margin-right:37.5%!important;}#bloque2 .carousel .owl-carousel .item p{margin-left:2.5%!important;margin-right:37.5%!important;}#bloque2 .carousel .owl-carousel .item a button.boton{width:38%;margin-left:2.1%!important;margin-right:59.9%!important;}}
+
+@media only screen and (max-width:991px) and (min-width:900px){#bloque2 .row .selectores{height:61px;margin-top:41.3%!important;}#bloque2 .row .selectores select{font-size:9px;height:16px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:348px;}#bloque2 .tarjetas figure figcaption{font-size:14px;}#bloque2 .tarjetas p{font-size:13px;}#bloque2 a button.boton{height:29px;font-size:13px;}#bloque2 .carousel .owl-carousel .item h1{font-size:23px;}#bloque2 .carousel .owl-carousel .item p{font-size:13px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:10px!important;width:10px!important;}}
+
+@media only screen and (max-width:899px) and (min-width:800px){#bloque2 .row .selectores{height:61px;margin-top:41.3%!important;}#bloque2 .row .selectores select{font-size:9px;height:16px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:325px;}#bloque2 .tarjetas figure figcaption{font-size:14px;}#bloque2 .tarjetas p{font-size:12px;}#bloque2 a button.boton{height:29px;font-size:13px;}#bloque2 .carousel .owl-carousel .item h1{font-size:23px;}#bloque2 .carousel .owl-carousel .item p{font-size:13px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:10px!important;width:10px!important;}}
+
+@media only screen and (max-width:799px) and (min-width:768px){#bloque2 .row .selectores{height:61px;margin-top:41.3%!important;}#bloque2 .row .selectores select{font-size:9px;height:16px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:325px;}#bloque2 .tarjetas figure figcaption{font-size:14px;}#bloque2 .tarjetas p{font-size:11.7px;}#bloque2 a button.boton{height:29px;font-size:13px;}#bloque2 .carousel .owl-carousel .item h1{font-size:23px;}#bloque2 .carousel .owl-carousel .item p{font-size:13px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:10px!important;width:10px!important;}}
+
+@media only screen and (max-width:767px){#bloque2 .row .selectores select{width:69%;margin-top:8.2%!important;margin-left:15.5%!important;margin-right:15.5%!important;}#bloque2 .row .tarjetas{padding-left:0%!important;padding-right:0%!important;margin:6% 3%!important;}#bloque2 .tarjetas figure{align-content: center;}#bloque2 .tarjetas figure img{max-width: 100%!important;width: auto!important;display:block!important;margin-left: auto!important; margin-right: auto!important;}#bloque2 .carousel .owl-carousel{width:150%!important;margin-left:-25%!important;}#bloque2 .carousel .owl-carousel .item .producto img{width:100%}#bloque2 .carousel .owl-carousel .item h1{margin-left:2.5%!important;margin-right:37.5%!important;}#bloque2 .carousel .owl-carousel .item p{margin-left:2.5%!important;margin-right:37.5%!important;}#bloque2 .carousel .owl-carousel .item a button.boton{width:38%;margin-left:2.1%!important;margin-right:59.9%!important;}}
+
+@media only screen and (max-width:767px) and (min-width:700px){#bloque2 .row .selectores{height:76px;margin-top:76%!important;}#bloque2 .row .selectores select{font-size:14px;height:31px;}#bloque2 .tarjetas figure figcaption{font-size:32px;}#bloque2 .tarjetas p{font-size:26px;}#bloque2 a button.boton{height:75px;font-size:27px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:auto;}#bloque2 .carousel .owl-carousel .item h1{font-size:34.9px;}#bloque2 .carousel .owl-carousel .item p{font-size:28px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:26px!important;width:26px!important;}}
+@media only screen and (max-width:699px) and (min-width:600px){#bloque2 .row .selectores{height:65px;margin-top:77%!important;}#bloque2 .row .selectores select{font-size:13px;height:26px;}#bloque2 .tarjetas figure figcaption{font-size:28px;}#bloque2 .tarjetas p{font-size:23px;}#bloque2 a button.boton{height:65px;font-size:24px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:422px;}#bloque2 .carousel .owl-carousel .item h1{font-size:30.9px;}#bloque2 .carousel .owl-carousel .item p{font-size:24px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:21px!important;width:21px!important;}}
+@media only screen and (max-width:599px) and (min-width:500px){#bloque2 .row .selectores{height:54px;margin-top:77%!important;}#bloque2 .row .selectores select{font-size:11px;height:21px;}#bloque2 .tarjetas figure figcaption{font-size:23px;}#bloque2 .tarjetas p{font-size:19px;}#bloque2 a button.boton{height:53px;font-size:20px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:358px;}#bloque2 .carousel .owl-carousel .item h1{font-size:25.9px;}#bloque2 .carousel .owl-carousel .item p{font-size:20px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:18px!important;width:18px!important;}}
+@media only screen and (max-width:499px) and (min-width:400px){#bloque2 .row .selectores{height:42px;margin-top:76%!important;}#bloque2 .row .selectores select{font-size:9px;height:18px;}#bloque2 .tarjetas figure figcaption{font-size:18px;}#bloque2 .tarjetas p{font-size:14px;}#bloque2 a button.boton{height:44px;font-size:16px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:292px;}#bloque2 .carousel .owl-carousel .item h1{font-size:20.9px;}#bloque2 .carousel .owl-carousel .item p{font-size:16px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:15px!important;width:15px!important;}}
+@media only screen and (max-width:399px){#bloque2 .row .selectores{height:34px;margin-top:77%!important;}#bloque2 .row .selectores select{font-size:7px;height:13px;}#bloque2 .tarjetas figure figcaption{font-size:15px;}#bloque2 .tarjetas p{font-size:12px;}#bloque2 a button.boton{height:36px;font-size:13px;}#bloque2 .carousel,#bloque2 .carousel .owl-carousel .item .producto img{height:228px;}#bloque2 .carousel .owl-carousel .item h1{font-size:15.9px;}#bloque2 .carousel .owl-carousel .item p{font-size:12.4px;}#bloque2 .owl-theme .owl-dots .owl-dot span{height:11px!important;width:11px!important;}}
+
+@media only screen and (max-width:2600px) and (min-width:2500px){#bloque2 a button.tag{height:45px;font-size:25px;}}
+@media only screen and (max-width:2499px) and (min-width:2400px){#bloque2 a button.tag{height:42px;font-size:24px;}}
+@media only screen and (max-width:2399px) and (min-width:2300px){#bloque2 a button.tag{height:40px;font-size:22px;}}
+@media only screen and (max-width:2299px) and (min-width:2200px){#bloque2 a button.tag{height:38px;font-size:21px;}}
+@media only screen and (max-width:2199px) and (min-width:2000px){#bloque2 a button.tag{height:36px;font-size:20px;}}
+@media only screen and (max-width:1999px) and (min-width:1900px){#bloque2 a button.tag{height:33px;font-size:19px;}}
+@media only screen and (max-width:1899px) and (min-width:1800px){#bloque2 a button.tag{height:32px;font-size:18px;}}
+@media only screen and (max-width:1799px) and (min-width:1700px){#bloque2 a button.tag{height:30px;font-size:17px;}}
+@media only screen and (max-width:1699px) and (min-width:1600px){#bloque2 a button.tag{height:28px;font-size:16px;}}
+@media only screen and (max-width:1599px) and (min-width:1500px){#bloque2 a button.tag{height:27px;font-size:16px;}}
+@media only screen and (max-width:1499px) and (min-width:1400px){#bloque2 a button.tag{height:25px;font-size:14px;}}
+@media only screen and (max-width:1399px) and (min-width:1300px){#bloque2 a button.tag{height:23px;font-size:13px;}}
+@media only screen and (max-width:1299px) and (min-width:1200px){#bloque2 a button.tag{height:20px;font-size:12.2px;}}
+@media only screen and (max-width:1199px) and (min-width:1100px){#bloque2 a button.tag{height:19px;font-size:11.2px;}}
+@media only screen and (max-width:1099px) and (min-width:992px){#bloque2 a button.tag{height:18px;font-size:9.9px;}}
+@media only screen and (max-width:991px) and (min-width:900px) {#bloque2 a button.tag{height:22px;font-size:10.7px;}}
+@media only screen and (max-width:899px) and (min-width:800px) {#bloque2 a button.tag{height:20px;font-size:9.3px;}}
+@media only screen and (max-width:799px) and (min-width:768px) {#bloque2 a button.tag{height:18px;font-size:8.8px;}}
+
+#bloque2 a button.tag{
+	border: none;    
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    background: #00B0E5;
+    outline: none !important;
+    border-radius: 37px;
+    width: 38.4% !important;    
+    margin-top: 5.9% !important;
+    margin-left: 5.2% !important;
+}
+#bloque2 a button.tag:hover {
+    background: #018FE9; 
+	transition: .4s;
+    cursor: hand;
+}
+

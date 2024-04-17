@@ -1,0 +1,94 @@
+@charset "utf-8";
+#bloque1{
+    position: relative;
+	background-size: 100%;
+	background-repeat: no-repeat;	
+	 font-family: 'Lato', sans-serif;
+}
+@media only screen and (min-width:992px){#bloque1 h1{text-align: left !important;}}
+#bloque1 h1{
+    position: absolute;
+	font-size: 36px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: -1.9px;
+    word-spacing: 5.7px;
+    color: #767676;
+    width: 43.5%;
+    margin-top: 13% !important;
+    margin-left: 56.5% !important;
+	    text-align: center;
+}
+#Llamado{
+    position: absolute;
+	font-size: 12.4px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-align: center;
+	letter-spacing: 0px;
+    color: #767676;
+    width: 37.2%;
+    margin-top: 17.9% !important;
+    margin-left: 58.2% !important;
+	margin-right: 4.6% !important; 
+}
+#bloque1 a{
+	text-decoration: none;   
+}
+
+@media only screen and (max-width:2600px) and (min-width:2500px){#bloque1 h1{font-size: 67px;}#bloque1 p{font-size: 32px;}#bloque1{height: 1110px;}}
+@media only screen and (max-width:2499px) and (min-width:2400px){#bloque1 h1{font-size: 60px;}#bloque1 p{font-size: 31px;} #bloque1{height: 1070px;}}
+@media only screen and (max-width:2399px) and (min-width:2300px){#bloque1 h1{font-size: 60px;}#bloque1 p{font-size: 30px;} 
+	#bloque1{height: 1024px;}}
+@media only screen and (max-width:2299px) and (min-width:2200px){#bloque1 h1{font-size: 58px;}#bloque1 p{font-size: 29px;} #bloque1{height: 982px;}}
+@media only screen and (max-width:2199px) and (min-width:2100px){#bloque1 h1{font-size: 56px;}#bloque1 p{font-size: 27px;} #bloque1{height: 941px;}}
+@media only screen and (max-width:2099px) and (min-width:2000px){#bloque1 h1{font-size: 54px;}#bloque1 p{font-size: 26px;} #bloque1{height: 899px;}}
+@media only screen and (max-width:1999px) and (min-width:1900px){#bloque1 h1{font-size: 52px;}#bloque1 p{font-size: 25px;}
+#bloque1{height: 858px;}}
+@media only screen and (max-width:1899px) and (min-width:1800px){#bloque1 h1{font-size: 47px;}#bloque1 p{font-size: 23px;}
+#bloque1{height: 800px;}}
+@media only screen and (max-width:1799px) and (min-width:1700px){#bloque1 h1{font-size: 46px;}#bloque1 p{font-size: 22px;}
+#bloque1{height: 748px;}}
+@media only screen and (max-width:1699px) and (min-width:1600px){#bloque1 h1{font-size: 43px;}#bloque1 p{font-size: 21px;}
+#bloque1{height: 696px;}}
+@media only screen and (max-width:1599px) and (min-width:1500px){#bloque1 h1{font-size: 41px;}#bloque1 p{font-size: 20px;}
+#bloque1{height: 644px;}}
+@media only screen and (max-width:1499px) and (min-width:1400px){#bloque1 h1{font-size: 38px;}#bloque1 p{font-size: 18px;}
+#bloque1{height: 629px;}}
+@media only screen and (max-width:1399px) and (min-width:1300px){#bloque1 h1{font-size: 36px;}#bloque1 p{font-size: 17px;}
+#bloque1{height: 587px;}}
+@media only screen and (max-width:1299px) and (min-width:1200px){#bloque1 h1{font-size: 32px;}#bloque1 p{font-size: 16px;}
+#bloque1{height: 546px;}}
+@media only screen and (max-width:1199px) and (min-width:1100px){#bloque1 h1{font-size: 30px;}#bloque1 p{font-size: 15px;}
+#bloque1{height: 504px;}}
+@media only screen and (max-width:1099px) and (min-width:992px){#bloque1 h1{font-size: 27px;}#bloque1 p{font-size: 14px;}
+#bloque1{height: 431px;}}
+@media only screen and (max-width:991px) and (min-width:900px){#bloque1 h1{font-size: 40px;}#bloque1 p{font-size: 14px;}#bloque1{height: 700px;}}
+@media only screen and (max-width:899px) and (min-width:800px){#bloque1 h1{font-size: 36px;}#bloque1 p{font-size: 14px;}#bloque1{height: 650px;}}
+@media only screen and (max-width:799px) and (min-width:768px){#bloque1 h1{font-size: 35px;}#bloque1 p{font-size: 14px;}#bloque1{height: 610px;}}
+@media only screen and (max-width:767px) and (min-width:700px){#bloque1 h1{font-size: 38px;}#bloque1 p{font-size: 14px;}#bloque1{height: 885px;}}
+@media only screen and (max-width:699px) and (min-width:600px){#bloque1 h1{font-size: 33px;}#bloque1 p{font-size: 13px;}#bloque1{height: 780px;}}
+@media only screen and (max-width:599px) and (min-width:500px){#bloque1 h1{font-size: 28px;}#bloque1 p{font-size: 12px;}#bloque1{height: 640px;}}
+@media only screen and (max-width:499px) and (min-width:400px){#bloque1 h1{font-size: 21px;}#bloque1 p{font-size: 11px;}#bloque1{height: 510px;}}
+@media only screen and (max-width:399px) {#bloque1 h1{font-size: 17px;}#bloque1 p{font-size: 9px;}#bloque1{height: 400px;}#bloque1 .simform .simform-inner .questions li span label {font-size: 100% !important;}}
+@media only screen and (min-width:992px){
+	#NeonLike{width: 25%;
+    position: absolute;
+    top: 60%;
+	}
+}
+@media only screen and (max-width:991px) and (min-width:768px){
+	#NeonLike{width: 40%;
+    position: absolute;
+    top: 58%;
+    left: -4%;
+	}
+}
+@media only screen and (max-width:767px){
+	#NeonLike{width: 48%;
+    position: absolute;
+    top: 66%;
+    left: -4%;
+	}
+}

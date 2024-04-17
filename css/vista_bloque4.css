@@ -1,0 +1,110 @@
+@charset "utf-8";
+#bloque4{
+	position: relative;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Lato', sans-serif;
+}
+#bloque4 a button{
+	border: none;
+    font-weight: 900;
+	text-align: center;
+	color: #A8AAB2;
+	background: transparent;
+    outline: none !important;
+    border-radius: 37px;
+}
+#bloque4 a button#botoncomida{
+	position: absolute;
+	letter-spacing: 0.6px;
+    width: 5.9% !important;
+    margin-top: 10.5% !important;
+    margin-left: 74.9% !important;
+	margin-right: 19.2% !important;
+}
+#bloque4 a button#botonmedicamentos{
+	position: absolute;
+    width: 8.2% !important;
+    margin-top: 10.5% !important;
+    margin-left: 81.9% !important;
+	margin-right: 9.9% !important;
+}
+#bloque4 a button#botonaccesorios{
+	position: absolute;
+	letter-spacing: 0.7px;
+    width: 7.2% !important;
+    margin-top: 10.5% !important;
+    margin-left: 90.7% !important;
+	margin-right: 2.1% !important;
+}
+#bloque4 a button.botonescarrusel:hover{
+	color: #FFFEFE;
+    background: #01AEE9;
+    transition: .4s;
+    cursor: hand;
+}
+#bloque4 p{
+	position: absolute;
+    font-weight: 400;
+	letter-spacing: 0.3px;
+	word-spacing: -0.1px;
+	line-height: 1.39 !important;
+	color: #9FA3A7;
+	width: 14%;
+    margin-top: 24.2% !important;
+    margin-left: 21.2% !important;
+}
+#bloque4 #flecha img{
+	position: absolute;
+    font-weight: 400;
+	color: #9FA3A7;
+    margin-top: 28% !important;
+    margin-left: 33.6% !important;
+}
+#bloque4 .owl-carousel{
+	position: absolute;
+	margin-top: 15% !important;
+	margin-left: 40.1% !important;
+	width: 59.9%;
+}
+#bloque4 .owl-carousel .item{
+	margin: 0% 5.6% !important;
+}
+#bloque4 .owl-carousel .item .producto img{
+	border-radius: 9px;
+}
+#bloque4 .owl-carousel .item .producto figcaption{
+    font-weight: 400;
+	margin-top: 7.4% !important;
+	margin-left: 2.2% !important;
+}
+#bloque4 .owl-carousel .item .producto h2{
+	float:left;
+	width: 93.5%;
+    font-weight: 400;
+	letter-spacing: 2px;
+	color: #9FA3A7;
+	margin-top: 6.5% !important;
+	margin-left: 2% !important;
+}
+#bloque4 .owl-carousel .item .iconolike img{
+	width: 4.5%;
+	margin-left: 95% !important;
+} 
+@media only screen and  (min-width:992px){#bloque4{background-image: url("../imagenes/fondos/bloque4azul.png");}}
+@media only screen and (max-width:2600px) and (min-width:2500px){#bloque4{height:1353px;}#bloque4 a button{font-size:20px;	height:44px;}#bloque4 p{font-size:34px;}#bloque4 #flecha img{height:34px;}#bloque4 .owl-carousel .item .producto figcaption{font-size:33px;}#bloque4 .owl-carousel .item .producto h2{font-size:22px;}#bloque4 .owl-carousel .item .iconolike img{height:26px;margin-top:5.3%!important;}}
+@media only screen and (max-width:2499px) and (min-width:2400px){#bloque4{height:1300px;}#bloque4 a button{font-size:20px;	height:43px;}#bloque4 p{font-size:33px;}#bloque4 #flecha img{height:33px;}#bloque4 .owl-carousel .item .producto figcaption{font-size:32px;}#bloque4 .owl-carousel .item .producto h2{font-size:21px;}#bloque4 .owl-carousel .item .iconolike img{height:24px;margin-top:6.1%!important;}}
+@media only screen and (max-width:2399px) and (min-width:2300px){#bloque4{height:1248px;}#bloque4 a button{font-size:19px;	height:42px;}#bloque4 p{font-size:31px;}#bloque4 #flecha img{height:31px;}#bloque4 .owl-carousel .item .producto figcaption{font-size:30px;}#bloque4 .owl-carousel .item .producto h2{font-size:20px;}#bloque4 .owl-carousel .item .iconolike img{height:21px;margin-top:6.1%!important;}}
+@media only screen and (max-width:2299px) and (min-width:2200px){#bloque4{height:1194px;}#bloque4 a button{font-size:18px;	height:41px;}#bloque4 p{font-size:30px;}#bloque4 #flecha img{height:30px;}#bloque4 .owl-carousel .item .producto figcaption{font-size:29px;}#bloque4 .owl-carousel .item .producto h2{font-size:19px;}#bloque4 .owl-carousel .item .iconolike img{height:19px;margin-top:5.9%!important;}}
+@media only screen and (max-width:2199px) and (min-width:2100px){#bloque4{height:1142px;}#bloque4 a button{font-size:18px;	height:38px;}#bloque4 p{font-size:29px;}#bloque4 #flecha img{height:27px;}#bloque4 .owl-carousel .item .producto figcaption{font-size:28px;}#bloque4 .owl-carousel .item .producto h2{font-size:18px;}#bloque4 .owl-carousel .item .iconolike img{height:18px;margin-top:6.3%!important;}}
+@media only screen and (max-width:2099px) and (min-width:2000px){#bloque4{height:1088px;}#bloque4 a button{font-size:17px;	height:36px;}#bloque4 p{font-size:28px;}#bloque4 #flecha img{height:26px;}#bloque4 .owl-carousel .item .producto figcaption{font-size:26px;}#bloque4 .owl-carousel .item .producto h2{font-size:17px;}#bloque4 .owl-carousel .item .iconolike img{height:17px;margin-top:6.3%!important;}}
+@media only screen and (max-width:1999px) and (min-width:1900px){#bloque4{height:1034px;}#bloque4 a button{font-size:16px;	height:34px;}#bloque4 p{font-size:26px;}#bloque4 #flecha img{height:25px;}#bloque4 .owl-carousel .item .producto figcaption{font-size:25px;}#bloque4 .owl-carousel .item .producto h2{font-size:16px;}#bloque4 .owl-carousel .item .iconolike img{height:17px;margin-top:5.8%!important;}}
+@media only screen and (max-width:1899px) and (min-width:1800px){#bloque4{height:981px;}#bloque4 a button{font-size:16px;	height:33px;}#bloque4 p{font-size:25px;}#bloque4 #flecha img{height:24px;}#bloque4 .owl-carousel .item .producto figcaption{font-size:23px;}#bloque4 .owl-carousel .item .producto h2{font-size:15px;}#bloque4 .owl-carousel .item .iconolike img{height:18px;margin-top:5.8%!important;}}
+@media only screen and (max-width:1799px) and (min-width:1700px){#bloque4{height:928px;}#bloque4 a button{font-size:15px;	height:30px;}#bloque4 p{font-size:23px;}#bloque4 #flecha img{height:23px;}#bloque4 .owl-carousel .item .producto figcaption{font-size:22px;}#bloque4 .owl-carousel .item .producto h2{font-size:14px;}#bloque4 .owl-carousel .item .iconolike img{height:18px;margin-top:5.1%!important;}}
+@media only screen and (max-width:1699px) and (min-width:1600px){#bloque4{height:875px;}#bloque4 a button{font-size:14px;	height:29px;}#bloque4 p{font-size:22px;}#bloque4 #flecha img{height:21px;}#bloque4 .owl-carousel .item .producto figcaption{font-size:21px;}#bloque4 .owl-carousel .item .producto h2{font-size:13px;}#bloque4 .owl-carousel .item .iconolike img{height:16px;margin-top:5.4%!important;}}
+@media only screen and (max-width:1599px) and (min-width:1500px){#bloque4{height:823px;}#bloque4 a button{font-size:14px;	height:28px;}#bloque4 p{font-size:21px;}#bloque4 #flecha img{height:20px;}#bloque4 .owl-carousel .item .producto figcaption{font-size:20px;}#bloque4 .owl-carousel .item .producto h2{font-size:12px;}#bloque4 .owl-carousel .item .iconolike img{height:16px;margin-top:5.2%!important;}}
+@media only screen and (max-width:1499px) and (min-width:1400px){#bloque4{height:769px;}#bloque4 a button{font-size:12px;	height:26px;}#bloque4 p{font-size:19px;}#bloque4 #flecha img{height:20px;}#bloque4 .owl-carousel .item .producto figcaption{font-size:18px;}#bloque4 .owl-carousel .item .producto h2{font-size:11px;}#bloque4 .owl-carousel .item .iconolike img{height:14px;margin-top:5.4%!important;}}
+@media only screen and (max-width:1399px) and (min-width:1300px){#bloque4{height:715px;}#bloque4 a button{font-size:12px;	height:24px;}#bloque4 p{font-size:18px;}#bloque4 #flecha img{height:19px;}#bloque4 .owl-carousel .item .producto figcaption{font-size:17px;}#bloque4 .owl-carousel .item .producto h2{font-size:10px;}#bloque4 .owl-carousel .item .iconolike img{height:13px;margin-top:5.5%!important;}}
+@media only screen and (max-width:1299px) and (min-width:1200px){#bloque4{height:664px;}#bloque4 a button{font-size:11px;	height:22px;}#bloque4 p{font-size:17px;}#bloque4 #flecha img{height:17px;}#bloque4 .owl-carousel .item .producto figcaption{font-size:16px;}#bloque4 .owl-carousel .item .producto h2{font-size:9px;}#bloque4 .owl-carousel .item .iconolike img{height:12px;margin-top:5.3%!important;}}
+@media only screen and (max-width:1199px) and (min-width:1100px){#bloque4{height:609px;}#bloque4 a button{font-size:10px;	height:20px;}#bloque4 p{font-size:15px;}#bloque4 #flecha img{height:15px;}#bloque4 .owl-carousel .item .producto figcaption{font-size:15px;}#bloque4 .owl-carousel .item .producto h2{font-size:8px;}#bloque4 .owl-carousel .item .iconolike img{height:10px;margin-top:5.5%!important;}}
+@media only screen and (max-width:1099px) and (min-width:992px){#bloque4{height:557px;}#bloque4 a button{font-size:9px;	height:19px;}#bloque4 p{font-size:14px;}#bloque4 #flecha img{height:13px;}#bloque4 .owl-carousel .item .producto figcaption{font-size:13px;}#bloque4 .owl-carousel .item .producto h2{font-size:7px;}#bloque4 .owl-carousel .item .iconolike img{height:8px;margin-top:6.1%!important;}}

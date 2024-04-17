@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+#bloque1{background-size: 100%;background-repeat: no-repeat;font-family: 'Lato', sans-serif;}
+@media only screen and (max-width:2600px) and (min-width:2500px){#contenido{padding-top:385px !important;}}
+@media only screen and (max-width:2499px) and (min-width:2400px){#contenido{padding-top:350px !important;}}
+@media only screen and (max-width:2399px) and (min-width:2300px){#contenido{padding-top:340px !important;}}
+@media only screen and (max-width:2299px) and (min-width:2200px){#contenido{padding-top:320px !important;}}
+@media only screen and (max-width:2199px) and (min-width:2100px){#contenido{padding-top:305px !important;}}
+@media only screen and (max-width:2099px) and (min-width:2000px){#contenido{padding-top:290px !important;}}
+@media only screen and (max-width:1999px) and (min-width:1900px){#contenido{padding-top:275px !important;}}
+@media only screen and (max-width:1899px) and (min-width:1800px){#contenido{padding-top:260px !important;}}
+@media only screen and (max-width:1799px) and (min-width:1700px){#contenido{padding-top:250px !important;}}
+@media only screen and (max-width:1699px) and (min-width:1600px){#contenido{padding-top:230px !important;}}
+@media only screen and (max-width:1599px) and (min-width:1500px){#contenido{padding-top:215px !important;}}
+@media only screen and (max-width:1499px) and (min-width:1400px){#contenido{padding-top:200px !important;}}
+@media only screen and (max-width:1399px) and (min-width:1300px){#contenido{padding-top:190px !important;}}
+@media only screen and (max-width:1299px) and (min-width:1200px){#contenido{padding-top:175px !important;}}
+@media only screen and (max-width:1199px) and (min-width:1100px){#contenido{padding-top:160px !important;}}
+@media only screen and (max-width:1099px) and (min-width:992px){#contenido{padding-top:145px !important;}}
+@media only screen and (max-width:991px) and (min-width:900px){#contenido{padding-top:280px !important;}}
+@media only screen and (max-width:899px) and (min-width:768px){#contenido{padding-top:30%!important;}}
+@media only screen and (max-width:767px) {#contenido{padding-top:40%!important;}}

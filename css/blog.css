@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+#bloque1{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Lato', sans-serif;
+	height: auto;
+}
+#contenido h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    word-spacing: 5.7px;
+    color: #767676;
+	text-align: center;
+}
+#contenido p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    word-spacing: 5.7px;
+    color: black;
+}
+#bloque1 .row{
+    width: 60% !important;
+    margin-left: 20% !important;
+	margin-right: 20% !important;
+}
+@media only screen and  (max-width:992px){
+	#bloque1 .row{
+    width: 100% !important;
+    margin: 0 !important;
+}
+	.tarjetas figure img{
+		width: 70% !important;
+		margin-left: 2% !important;
+		margin-right: 2% !important;
+	}	
+}
+@media only screen and (max-width:2600px) and (min-width:2500px){#contenido h1{height:149px;margin-top:5%!important;}}
+@media only screen and (max-width:2499px) and (min-width:2400px){#contenido h1{height:143px;margin-top:5%!important;}}
+@media only screen and (max-width:2399px) and (min-width:2300px){#contenido h1{height:137px;margin-top:5%!important;}}
+@media only screen and (max-width:2299px) and (min-width:2200px){#contenido h1{height:131px;margin-top:5%!important;}}
+@media only screen and (max-width:2199px) and (min-width:2100px){#contenido h1{height:125px;margin-top:5%!important;}}
+@media only screen and (max-width:2099px) and (min-width:2000px){#contenido h1{height:120px;margin-top:5%!important;}}
+@media only screen and (max-width:1999px) and (min-width:1900px){#contenido h1{height:114px;margin-top:5%!important;}}
+@media only screen and (max-width:1899px) and (min-width:1800px){#contenido h1{height:108px;margin-top:5%!important;}}
+@media only screen and (max-width:1799px) and (min-width:1700px){#contenido h1{height:102px;margin-top:5%!important;}}
+@media only screen and (max-width:1699px) and (min-width:1600px){#contenido h1{height:96px;margin-top:5%!important;}}
+@media only screen and (max-width:1599px) and (min-width:1500px){#contenido h1{height:90px;margin-top:5%!important;}}
+@media only screen and (max-width:1499px) and (min-width:1400px){#contenido h1{height:84px;margin-top:5%!important;}}
+@media only screen and (max-width:1399px) and (min-width:1300px){#contenido h1{height:80px;margin-top:5%!important;}}
+@media only screen and (max-width:1299px) and (min-width:1200px){#contenido h1{height:73px;margin-top:5%!important;}}
+@media only screen and (max-width:1199px) and (min-width:1100px){#contenido h1{height:67px;margin-top:5%!important;}}
+@media only screen and (max-width:1099px) and (min-width:992px){#contenido h1{height:61px;margin-top:5%!important;}}
+@media only screen and (max-width:991px) and (min-width:900px){#contenido h1{height:61px;margin-top:20%!important;}}
+@media only screen and (max-width:899px) and (min-width:800px){#contenido h1{height:61px;margin-top:20%!important;}}
+@media only screen and (max-width:799px) and (min-width:768px){#contenido h1{height:61px;margin-top:20%!important;}}
+@media only screen and (max-width:767px) and (min-width:700px){#contenido h1{height:76px;margin-top:50%!important;}}
+@media only screen and (max-width:699px) and (min-width:600px){#contenido h1{height:65px;margin-top:50%!important;}}
+@media only screen and (max-width:599px) and (min-width:500px){#contenido h1{height:54px;margin-top:50%!important;}}
+@media only screen and (max-width:499px) and (min-width:400px){#contenido h1{height:42px;margin-top:50%!important;}}
+@media only screen and (max-width:399px){#contenido h1{height:34px;margin-top:50%!important;}}
+
+@media only screen and (max-width:2600px) and (min-width:2500px){#contenido h1{font-size: 67px;}}
+@media only screen and (max-width:2499px) and (min-width:2400px){#contenido h1{font-size: 60px;}}
+@media only screen and (max-width:2399px) and (min-width:2300px){#contenido h1{font-size: 60px;}}
+@media only screen and (max-width:2299px) and (min-width:2200px){#contenido h1{font-size: 58px;}}
+@media only screen and (max-width:2199px) and (min-width:2100px){#contenido h1{font-size: 56px;}}
+@media only screen and (max-width:2099px) and (min-width:2000px){#contenido h1{font-size: 54px;}}
+@media only screen and (max-width:1999px) and (min-width:1900px){#contenido h1{font-size: 52px;}}
+@media only screen and (max-width:1899px) and (min-width:1800px){#contenido h1{font-size: 47px;}}
+@media only screen and (max-width:1799px) and (min-width:1700px){#contenido h1{font-size: 46px;}}
+@media only screen and (max-width:1699px) and (min-width:1600px){#contenido h1{font-size: 43px;}}
+@media only screen and (max-width:1599px) and (min-width:1500px){#contenido h1{font-size: 41px;}}
+@media only screen and (max-width:1499px) and (min-width:1400px){#contenido h1{font-size: 38px;}}
+@media only screen and (max-width:1399px) and (min-width:1300px){#contenido h1{font-size: 36px;}}
+@media only screen and (max-width:1299px) and (min-width:1200px){#contenido h1{font-size: 32px;}}
+@media only screen and (max-width:1199px) and (min-width:1100px){#contenido h1{font-size: 30px;}}
+@media only screen and (max-width:1099px) and (min-width:992px){#contenido h1{font-size: 27px;}}
+@media only screen and (max-width:991px) and (min-width:900px){#contenido h1{font-size: 40px;}}
+@media only screen and (max-width:899px) and (min-width:800px){#contenido h1{font-size: 36px;}}
+@media only screen and (max-width:799px) and (min-width:768px){#contenido h1{font-size: 35px;}}
+@media only screen and (max-width:767px) and (min-width:700px){#contenido h1{font-size: 38px;}}
+@media only screen and (max-width:699px) and (min-width:600px){#contenido h1{font-size: 33px;}}
+@media only screen and (max-width:599px) and (min-width:500px){#contenido h1{font-size: 28px;}}
+@media only screen and (max-width:499px) and (min-width:400px){#contenido h1{font-size: 21px;}}
+@media only screen and (max-width:399px) {#contenido h1{font-size: 17px;}}
+
+@media only screen and (max-width:2600px) and (min-width:2500px){#contenido p {font-size:30px;}}
+@media only screen and (max-width:2499px) and (min-width:2400px){#contenido p {font-size:30px;}}
+@media only screen and (max-width:2399px) and (min-width:2300px){#contenido p {font-size:30px;}}
+@media only screen and (max-width:2299px) and (min-width:2200px){#contenido p {font-size:29px;}}
+@media only screen and (max-width:2199px) and (min-width:2100px){#contenido p {font-size:25px;}}
+@media only screen and (max-width:2099px) and (min-width:2000px){#contenido p {font-size:24px;}}
+@media only screen and (max-width:1999px) and (min-width:1900px){#contenido p {font-size:24px;}}
+@media only screen and (max-width:1899px) and (min-width:1800px){#contenido p {font-size:24px;}}
+@media only screen and (max-width:1799px) and (min-width:1700px){#contenido p {font-size:20px;}}
+@media only screen and (max-width:1699px) and (min-width:1600px){#contenido p {font-size:18px;}}
+@media only screen and (max-width:1599px) and (min-width:1500px){#contenido p {font-size:16px;}}
+@media only screen and (max-width:1499px) and (min-width:1400px){#contenido p {font-size:14px;}}
+@media only screen and (max-width:1399px) and (min-width:1300px){#contenido p {font-size:13px;}}
+@media only screen and (max-width:1299px) and (min-width:1200px){#contenido p {font-size:12px;}}
+@media only screen and (max-width:1199px) and (min-width:1100px){#contenido p {font-size:11px;}}
+@media only screen and (max-width:1099px) and (min-width:992px){#contenido p {font-size:11px;}}

@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+/*******************#menupc****************************/
+@media only screen and (max-width:2600px) and (min-width:2500px){#menupc{margin-top:50px !important;}}
+@media only screen and (max-width:2499px) and (min-width:2400px){#menupc{margin-top: 50px !important;;}}
+@media only screen and (max-width:2399px) and (min-width:2300px){#menupc{margin-top: 45px !important;}}
+@media only screen and (max-width:2299px) and (min-width:2200px){#menupc{margin-top: 42px !important;}}
+@media only screen and (max-width:2199px) and (min-width:2100px){#menupc{margin-top: 38px !important;}}
+@media only screen and (max-width:2099px) and (min-width:2000px){#menupc{margin-top: 20.4px;}}
+@media only screen and (max-width:1999px) and (min-width:1900px){#menupc{margin-top: 19.6px;}}
+@media only screen and (max-width:1899px) and (min-width:1800px){#menupc{margin-top: 18.8px;}}
+@media only screen and (max-width:1799px) and (min-width:1700px){#menupc{margin-top: 18px;}}
+@media only screen and (max-width:1699px) and (min-width:1600px){#menupc{margin-top: 17.2px;}}
+@media only screen and (max-width:1599px) and (min-width:1500px){#menupc{margin-top: 16.4px;}}
+@media only screen and (max-width:1499px) and (min-width:1400px){#menupc{margin-top: 15.6px;}}
+@media only screen and (max-width:1399px) and (min-width:1300px){#menupc{margin-top: 14.8px;}}
+@media only screen and (max-width:1299px) and (min-width:1200px){#menupc{margin-top: 14px;}}
+@media only screen and (max-width:1199px) and (min-width:1100px){#menupc{margin-top: 13.2px;}}
+@media only screen and (max-width:1099px) and (min-width:992px){#menupc{margin-top: 11.8px;}}
+/*******************#menupc*****************************/

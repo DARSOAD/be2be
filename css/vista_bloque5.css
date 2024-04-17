@@ -1,0 +1,72 @@
+@charset "utf-8";
+#bloque5{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Lato', sans-serif;
+}
+#bloque5 footer .footerh3{
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #3E3E40;
+	width: 38%;
+}
+#bloque5 footer .footerh3tienda{
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #3E3E40;
+	width: 15%;
+}
+#bloque5 footer .footerul li{
+	font-weight: 400;
+}
+#bloque5 footer .footerul li a{
+	color: #A9ABB0;
+}
+#bloque5 footer .footerul li a:link{
+	text-decoration: none;  
+}
+#bloque5 footer .footerul li a:hover{
+	color: #888B83; 
+}
+#bloque5 footer #googlemaps{
+    position: absolute;
+}
+#bloque5 footer #googlemaps #map{
+	background: grey;
+    width: 100%;
+}
+#bloque5 footer #googlemaps h3{
+    width: 100%;
+    margin-top: 11.2% !important;
+}
+#bloque5 footer #terminosycondiciones{
+	font-weight: 400;
+    letter-spacing: 0.4px;
+	color: #A8AAB2;
+}
+@media only screen and  (min-width:992px){#bloque5{background-image: url("../imagenes/fondos/bloque5.png");}#bloque5 footer #footerproductos h3,#bloque5 footer #footerproductos ul,#bloque5 footer #footerproductosalpormayor h3,#bloque5 footer #footerproductosalpormayor h3,#bloque5 footer #footerproductosalpormayor ul,#bloque5 footer #footercontacto h3,#bloque5 footer #footercontacto ul,#bloque5 footer #footerdatoscontacto ul,#bloque5 footer #redessociales,#bloque5 footer #terminosycondiciones{position:absolute;}#bloque5 footer .footerh3,#bloque5 .footerh3tienda{word-spacing:2px;}#bloque5 footer .footerul{width:18%!important;}#bloque5 footer .footerul li{word-spacing: 0.5px;margin-bottom:7.4%!important;}#bloque5 footer #footerproductos h3{margin-top:5.2%!important;margin-left:9.8%!important;margin-right:52.2%!important;}#bloque5 footer #footerproductos ul{margin-top:7.8%!important;margin-left:9.8%!important;margin-right:73.7%!important;}#bloque5 footer #footerproductosalpormayor h3{margin-top:5.2%!important;margin-left:26.4%!important;margin-right:35.6%!important;}#bloque5 footer #footerproductosalpormayor ul{margin-top:7.8%!important;margin-left:26.4%!important;margin-right:73.7%!important;}#bloque5 footer #footercontacto h3{margin-top:33.9%!important;margin-left:9.8%!important;margin-right:52.2%!important;}#bloque5 footer #footercontacto ul{margin-top:36.7%!important;margin-left:9.8%!important;margin-right:73.7%!important;}#bloque5 footer #footerdatoscontacto ul{margin-top:36.7%!important;margin-left:29.6%!important;margin-right:73.7%!important;}#bloque5 footer #googlemaps{width:24.3%;margin-top:5.3%!important;margin-left:62.6%!important;margin-right:13.1%!important;}#bloque5 footer #googlemaps figure{margin-left:47%!important;}#bloque5 footer #redessociales{margin-top:36.5%!important;margin-left:46.7%!important;}#bloque5 footer #redessociales figure{float:left;margin-right:13px!important;}#bloque5 footer #terminosycondiciones{width:80%;margin-top:46.6%!important;margin-left:10.4%!important;margin-right:9.6%!important;}#bloque5 footer #terminosycondiciones h4{float:left;}#bloque5 footer #terminosycondiciones h5{margin-left:84%!important;}}
+
+@media only screen and (max-width:2600px) and (min-width:2500px){#bloque5{height:1402px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size: 22px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:23.5px;}#bloque5 footer #googlemaps #map{height:496px;}#bloque5 footer #googlemaps figure{margin-top:-5.2%!important;}#bloque5 footer #googlemaps figure img,#bloque5 footer #redessociales img{height:41px;}}
+@media only screen and (max-width:2499px) and (min-width:2400px){#bloque5{height:1347px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size: 21px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:22.3px;}#bloque5 footer #googlemaps #map{height:477px;}#bloque5 footer #googlemaps figure{margin-top:-5.2%!important;}#bloque5 footer #googlemaps figure img,#bloque5 footer #redessociales img{height:39px;}}
+@media only screen and (max-width:2399px) and (min-width:2300px){#bloque5{height:1292px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size: 21px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:21.4px;}#bloque5 footer #googlemaps #map{height:459px;}#bloque5 footer #googlemaps figure{margin-top:-5.2%!important;}#bloque5 footer #googlemaps figure img,#bloque5 footer #redessociales img{height:37px;}}
+@media only screen and (max-width:2299px) and (min-width:2200px){#bloque5{height:1237px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size: 19px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:20.4px;}#bloque5 footer #googlemaps #map{height:440px;}#bloque5 footer #googlemaps figure{margin-top:-5.2%!important;}#bloque5 footer #googlemaps figure img,#bloque5 footer #redessociales img{height:35px;}}
+@media only screen and (max-width:2199px) and (min-width:2100px){#bloque5{height:1182px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size: 18px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:19.4px;}#bloque5 footer #googlemaps #map{height:420px;}#bloque5 footer #googlemaps figure{margin-top:-5.2%!important;}#bloque5 footer #googlemaps figure img,#bloque5 footer #redessociales img{height:33px;}}
+@media only screen and (max-width:2099px) and (min-width:2000px){#bloque5{height:1128px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size: 18px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:18.4px;}#bloque5 footer #googlemaps #map{height:400px;}#bloque5 footer #googlemaps figure{margin-top:-5.2%!important;}#bloque5 footer #googlemaps figure img,#bloque5 footer #redessociales img{height:31px;}}
+@media only screen and (max-width:1999px) and (min-width:1900px){#bloque5{height:1049px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size: 17px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:18px;}#bloque5 footer #googlemaps #map{height:381px;}#bloque5 footer #googlemaps figure{margin-top:-5.2%!important;}#bloque5 footer #googlemaps figure img,#bloque5 footer #redessociales img{height:29px;}}
+@media only screen and (max-width:1899px) and (min-width:1800px){#bloque5{height:1017px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size: 16px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:17px;}#bloque5 footer #googlemaps #map{height:361px;}#bloque5 footer #googlemaps figure{margin-top:-4.8%!important;}#bloque5 footer #googlemaps figure img,#bloque5 footer #redessociales img{height:27px;}}
+@media only screen and (max-width:1799px) and (min-width:1700px){#bloque5{height:963px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size: 15px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:16px;}#bloque5 footer #googlemaps #map{height:342px;}#bloque5 footer #googlemaps figure{margin-top:-5%!important;}#bloque5 footer #googlemaps figure img,#bloque5 footer #redessociales img{height:25px;}}
+@media only screen and (max-width:1699px) and (min-width:1600px){#bloque5{height:907px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size: 14px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:15px;}#bloque5 footer #googlemaps #map{height:324px;}#bloque5 footer #googlemaps figure{margin-top:-5%!important;}#bloque5 footer #googlemaps figure img,#bloque5 footer #redessociales img{height:23px;}}
+@media only screen and (max-width:1599px) and (min-width:1500px){#bloque5{height:853px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size: 13px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:14px;}#bloque5 footer #googlemaps #map{height:304px;}#bloque5 footer #googlemaps figure{margin-top:-4.8%!important;}#bloque5 footer #googlemaps figure img,#bloque5 footer #redessociales img{height:21px;}}
+@media only screen and (max-width:1499px) and (min-width:1400px){#bloque5{height:797px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size: 12px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:13px;}#bloque5 footer #googlemaps #map{height:283px;}#bloque5 footer #googlemaps figure{margin-top:-4.8%!important;}#bloque5 footer #googlemaps figure img,#bloque5 footer #redessociales img{height:19px;}}
+@media only screen and (max-width:1399px) and (min-width:1300px){#bloque5{height:741px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size: 11px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:12px;}#bloque5 footer #googlemaps #map{height:263px;}#bloque5 footer #googlemaps figure{margin-top:-4.3%!important;}#bloque5 footer #googlemaps figure img,#bloque5 footer #redessociales img{height:17px;}}
+@media only screen and (max-width:1299px) and (min-width:1200px){#bloque5{height:686px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size: 10px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:11px;}#bloque5 footer #googlemaps #map{height:248px;}#bloque5 footer #googlemaps figure{margin-top:-4.3%!important;}#bloque5 footer #googlemaps figure img,#bloque5 footer #redessociales img{height:15px;}}
+@media only screen and (max-width:1199px) and (min-width:1100px){#bloque5{height:631px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size: 9px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:10.3px;}#bloque5 footer #googlemaps #map{height:224px;}#bloque5 footer #googlemaps figure{margin-top:-4.6%!important;}#bloque5 footer #googlemaps figure img,#bloque5 footer #redessociales img{height:13px;}}
+@media only screen and (max-width:1099px) and (min-width:992px){#bloque5{height:576px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size: 8px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:10px;}#bloque5 footer #googlemaps #map{height:205px;}#bloque5 footer #googlemaps figure{margin-top:-5.2%!important;}#bloque5 footer #googlemaps figure img,#bloque5 footer #redessociales img{height:11px;}}
+
+@media only screen and (max-width:767px) {#bloque5{background-image: url("../imagenes/fondos/bloque5blancocel.png");}#bloque5 footer #footerproductos h3,#bloque5 footer #footerproductos ul,#bloque5 footer #footerproductosalpormayor h3,#bloque5 footer #footerproductosalpormayor h3,#bloque5 footer #footerproductosalpormayor ul,#bloque5 footer #footercontacto h3,#bloque5 footer #footercontacto ul,#bloque5 footer #footerdatoscontacto ul,#bloque5 footer #redessociales,#bloque5 footer #terminosycondiciones h4,#bloque5 footer #terminosycondiciones h5{position:absolute;}#bloque5 footer .footerh3,#bloque5 .footerh3tienda{word-spacing:0.5px;}#bloque5 footer .footerul{width:38%!important;}#bloque5 footer .footerul li{word-spacing: 0.2px;margin-bottom:9.7%!important;}#bloque5 footer #footerproductos h3{margin-top:6.7%!important;margin-left:59%!important;margin-right:3%!important;}#bloque5 footer #footerproductos ul{margin-top:12.4%!important;margin-left:59%!important;margin-right:3%!important;}#bloque5 footer #footerproductosalpormayor h3{margin-top:74.6%!important;margin-left:59%!important;margin-right:3%!important;}#bloque5 footer #footerproductosalpormayor ul{margin-top:80.8%!important;margin-left:59%!important;margin-right:3%!important;}#bloque5 footer #footercontacto h3{margin-top:63.9%!important;margin-left:7.8%!important;margin-right:54.2%!important;}#bloque5 footer #footercontacto ul{margin-top:68.7%!important;margin-left:7.8%!important;margin-right:54.2%!important;}#bloque5 footer #footerdatoscontacto ul{margin-top:73.1%!important;margin-left:7.8%!important;margin-right:54.2%!important;}#bloque5 footer #googlemaps{width:50.2%;margin-top:5.6%!important;margin-left:6.5%!important;margin-right:43.3%!important;}#bloque5 footer #googlemaps figure{margin-left:84.2%!important;}#bloque5 footer #redessociales{margin-top:86.5%!important;margin-left:5.6%!important;}#bloque5 footer #redessociales figure{float:left;margin-right:15px!important;}#bloque5 footer #terminosycondiciones h4{width:80%;margin-top:129.6%!important;margin-left:6.8%!important;margin-right:9.6%!important;}#bloque5 footer #terminosycondiciones h5{width:80%;margin-top:124.3%!important;margin-left:6.8%!important;margin-right:9.6%!important;}}
+
+@media only screen and (max-width:767px) and (min-width:700px){#bloque5{height:1108px;}#bloque5 .footerh3{font-size:17.4px;}#bloque5 .footerh3tienda{font-size:25px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:18.2px;}#bloque5 footer #googlemaps #map{height:294px;}#bloque5 footer #googlemaps figure{margin-top:-8.4%!important;}#bloque5 footer #googlemaps figure img{height:35px;}#bloque5 footer #redessociales img{height:62px;}}
+@media only screen and (max-width:699px) and (min-width:600px){#bloque5{height:983px;}#bloque5 .footerh3{font-size:15.4px;}#bloque5 .footerh3tienda{font-size:22px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:16px;}#bloque5 footer #googlemaps #map{height:260px;}#bloque5 footer #googlemaps figure{margin-top:-8.1%!important;}#bloque5 footer #googlemaps figure img{height:30px;}#bloque5 footer #redessociales img{height:54px;}}
+@media only screen and (max-width:599px) and (min-width:500px){#bloque5{height:832px;}#bloque5 .footerh3{font-size:12.8px;}#bloque5 .footerh3tienda{font-size:18px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:14px;}#bloque5 footer #googlemaps #map{height:222px;}#bloque5 footer #googlemaps figure{margin-top:-7.6%!important;}#bloque5 footer #googlemaps figure img{height:26px;}#bloque5 footer #redessociales img{height:43px;}}
+@media only screen and (max-width:499px) and (min-width:400px){#bloque5{height:679px;}#bloque5 .footerh3{font-size:10.3px;}#bloque5 .footerh3tienda{font-size:14.5px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:11.2px;}#bloque5 footer #googlemaps #map{height:182px;}#bloque5 footer #googlemaps figure{margin-top:-7.8%!important;}#bloque5 footer #googlemaps figure img{height:18px;}#bloque5 footer #redessociales img{height:33px;}}
+@media only screen and (max-width:399px){#bloque5{height:529px;}#bloque5 .footerh3{font-size:6.9px;}#bloque5 .footerh3tienda{font-size:10px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:9px;}#bloque5 footer #googlemaps #map{height:140px;}#bloque5 footer #googlemaps figure{margin-top:-7.3%!important;}#bloque5 footer #googlemaps figure img{height:15px;}#bloque5 footer #redessociales img{height:23px;}}
