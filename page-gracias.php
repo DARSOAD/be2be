@@ -7,15 +7,15 @@ $tipo=$_POST['tipo'];
 		$nombre=$_POST['nombre'];
 		$comentarios=$_POST['comentarios'];
 		$ciudad=$_POST['ciudad'];
-        $sender = 'concurvas.almacen@gmail.com.tld';
+        $sender = 'concurvas.almacen@gmail.com';
         echo $correo;
         //$recipient = '$correo';
         $recipient = 'mainteamagency@gmail.com';
-        $subject = "Solicitud de información";
+        $subject = "Quiero comprar";
         //$message = "Este es el correo nuevo";
         $message= '
 		<html>
-		<head><meta http-equiv="Content-Type" content="text/html; charset=gb18030">
+		<head><meta charset="gb18030">
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,900" rel="stylesheet">
 		<style type="text/css">
 

@@ -12,7 +12,19 @@
 						<li class="js-option js-radio" data-price="<?php echo $product->get_price(); ?>" data-model="<?php echo $id;?>">
 							<img src="<?php echo get_the_post_thumbnail_url($id,'full');  ?>" alt="<?php echo $product->name;?>">
 							<span class="name"><?php echo $product->name;?></span>
-							<span class="price"><?php echo $product->get_price(); ?></span>
+							<?php 
+							$available_variations = $product->get_available_variations();
+							$display = $available_variations[0]['display_price'];
+							$regular = $available_variations[0]['display_regular_price'];
+							$diferencia = $display - $regular;
+							if($diferencia!=0){ ?>
+							<div class="descuento">
+								<span class="price descuento_p regular_price"><?php echo '$'.$regular; ?></span>
+								<span class="price descuento_p display_price"><?php echo '$'.$display; ?></span>
+							</div>								
+							<?php }else{ ?>							
+								<span class="price"><?php echo '$'.$display; ?></span>
+							<?php } ?>
 							<div class="radio"></div>
 						</li>
 					</ul>
@@ -111,11 +123,18 @@
 </script>
 <script src="<?php echo get_template_directory_uri(); ?>/jscool/main.js"></script> <!-- Resource jQuery -->
 <!---------WHATSAPP------>
+<script src="<?php echo get_template_directory_uri(); ?>/js/moment.min.js"></script>
 <script  src="<?php echo get_template_directory_uri(); ?>/js/index.js" async></script>
 <!---------WHATSAPP------>
 <script>
 	setTimeout(function whatsapp(){
-		$('#whatsapp').addClass("displayblock")	;
+	    var dia = moment().format('dddd');
+	    if(dia==="Tuesday" || dia==="Wednesday"){
+	        $('#whatsappPromo').addClass("displayblock")	;    
+	    }else{
+	        $('#whatsapp').addClass("displayblock")	;
+	    }
+		
 	},5000);
 </script>
 

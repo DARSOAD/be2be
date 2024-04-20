@@ -29,106 +29,83 @@
 <?php } ?>
 <div id="bloque5">
 				<footer>
-					<div id="footerproductos">
-						<h3 class="footerh3"> PRODUCTOS </h3>
-						<ul class="footerul">
-<?php
-
-	$cats = get_categories( array(
-	'hide_empty' => 0,
-    'orderby' => 'name',
-    'taxonomy'   => 'product_cat'
-)  );
-  
-if ( ! empty( $cats ) ) {
-    // print_r($cats);
-     foreach ( $cats as $term ) {
-     // If parent cat ID = 116 echo subcat name...
-     	if( (!$term->parent && $term->slug != 'sin-categorizar') || $term->parent == 16) { 
-     		?> <li><a href="<?php echo get_site_url(); ?>/catalogo/?vara=<?php echo $term->category_nicename;?>/"> <?php echo $term->name; ?> </a></li> <?php
-    	}		
-	 }
-}
-?>
-
-							
-						</ul>	
-					</div>
-					<div id="footerproductosalpormayor">
-						<h3 class="footerh3"> PRODUCTOS AL POR MAYOR </h3>
-						<ul class="footerul" id="ul1">
-							<?php
-
-	$cats = get_categories( array(
-	'hide_empty' => 0,
-    'orderby' => 'name',
-    'taxonomy'   => 'product_cat'
-)  );
-  
-if ( ! empty( $cats ) ) {
-     //print_r($cats);
-     foreach ( $cats as $term ) {
-     // If parent cat ID = 116 echo subcat name...
-     	if( (!$term->parent && $term->slug != 'sin-categorizar') || $term->parent == 16) { 
-     		?> <li><a href="<?php echo get_site_url(); ?>/catalogo/?vara=<?php echo $term->category_nicename;?>/"> <?php echo $term->name; ?> al por mayor </a></li> <?php
-    	}		
-	 }
-}
-?>
-						</ul>
-						<h4 class="footerh3" id="pstion1"> HORARIOS DE ATENCIÓN</h4>
-						<ul class="footerul" id="pstion2">
-							<li> <p>Lunes a Sábado  9:00 a.m - 7:00 p.m</p> </li>							
-							<li> <p>Domingo         10:00 a.m - 4:00 p.m</p> </li>
-						</ul>
-					</div>
-					<div id="googlemaps">
-						<div id="map"> </div>
-						<h3 class="footerh3tienda"> ENCUENTRA EL ALMACEN <span> &#10140; </span> </h3>
-					</div>
-					<div id="footercontacto">
-						<h3 class="footerh3"> CONTÁCTENOS </h3>
-						<ul class="footerul footerul2">
-							<li><a href=""> concurvas.almacen@gmail.com </a></li>
-							<li class="celular"> Cll 10 No 20-35, San Andresito San José </li>
-							<li class="celular"> Local 110 Bogotá Colombia </li>
-							<li class="pc tablet"><a href="https://api.whatsapp.com/send?phone=573053449733" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/whatsapp-logo.png" alt="WhatsApp" style="width: 2.2% !important; height: auto !important;"> 3053449733 </a></li>							
-						</ul>
-					</div>
-					<div id="footerdatoscontacto">
-						<ul class="footerul footerul2">							
-							<li class="pc"> Cll 10 No 20-35, San Andresito San José </li>		
-							<li class="pc"> Local 110 Bogotá Colombia </li>
-							<li class="tablet"> Cll 10 No 20-35, San Andresito San José  </li>
-							<li class="tablet"> Local 110 Bogotá Colombia </li>
-							<li class="celular"><a href="https://api.whatsapp.com/send?phone=573053449733" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/whatsapp-logo.png" alt="WhatsApp" style="width: 4% !important; height: auto !important;"> 3053449733 </a></li>		
-						</ul>
-					</div>	
-					<div id="movilredes">
-						<figure class="celular redesmovil">
-							<a href="https://www.facebook.com/concurvas.co/"><img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/facebook.png" alt="facebook"></a>							
-						</figure>
-						<figure class="celular redesmovil">
-							<a href="https://www.instagram.com/concurvas.co/"><img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/instagram.png" alt="instagram"></a>				
-						</figure>
-					</div>						
-					<div id="redessociales">
-						<figure class="pc">
-							<a href="https://www.facebook.com/concurvas.co/"><img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/facebook.png" alt="facebook"></a>							
-						</figure>
-						<figure class="pc">
-							<a href="https://www.instagram.com/concurvas.co/"><img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/instagram.png" alt="instagram"></a>				
-						</figure>					
-					</div>
-					<div id="sombra" ></div>
-					<div id="terminosycondiciones">
-						<h4> Copyright &#169; Concurvas &reg; Desarrollado por Mainteam Agencia. </h4>
-						<a href="http://www.concurvas.com/terminos-y-condiciones/"><h5> Términos y condiciones </h5></a> 
-					</div>
-					
-					
+				    <div id="fs1" >
+				        <div class="row">
+				            <div id="footerproductos" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    						<h4 class="footerh3"> PRODUCTOS </h4>
+                                						<ul class="footerul">
+                                <?php
+                                
+                                	$cats = get_categories( array(
+                                	'hide_empty' => 0,
+                                    'orderby' => 'name',
+                                    'taxonomy'   => 'product_cat'
+                                )  );
+                                  
+                                if ( ! empty( $cats ) ) {
+                                    // print_r($cats);
+                                     foreach ( $cats as $term ) {
+                                     // If parent cat ID = 116 echo subcat name...
+                                     	if( (!$term->parent && $term->slug != 'sin-categorizar') || $term->parent == 16) { 
+                                     		?> <li class="textos_footer"><a href="<?php echo get_site_url(); ?>/catalogo/?vara=<?php echo $term->category_nicename;?>/"> <?php echo $term->name; ?> </a></li> <?php
+                                    	}		
+                                	 }
+                                }
+                                ?>
+    						</ul>	
+    					</div>
+    					<div id="footerproductosalpormayor" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    						<h4 class="footerh3" id="pstion1"> HORARIOS</h4>
+    						<ul class="footerul" id="pstion2">
+    							<li class="textos_footer"> <p>Domingo a Domingo de  10:00 a.m - 08:00 p.m</p> </li>	
+    						</ul>
+    					</div>
+    						<div id="googlemaps">
+    						<div id="map"> </div>
+    						<h3 class="footerh3tienda"> ENCUÉNTRANOS <span> &#10140; </span> </h3>
+    					</div>
+    					<div id="footercontacto" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    						<h4 class="footerh3"> CONTÁCTANOS </h4>
+    						<ul class="footerul footerul2">
+    							<li class="textos_footer"><a href=""> concurvas.almacen@gmail.com </a></li>
+    							<li class="pc tablet textos_footer"><a href="https://api.whatsapp.com/send?phone=573053449733" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/whatsapp-logo.png" alt="WhatsApp" style="width: 6% !important; height: auto !important;">  </a></li>							
+    						</ul>
+    						<div id="footerdatoscontacto" >
+    						<ul class="footerul footerul2">		
+    							<li class="celular"><a href="https://api.whatsapp.com/send?phone=573053449733" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/whatsapp-logo.png" alt="WhatsApp" style="width: 4% !important; height: auto !important;"> 3053449733 </a></li>		
+    						</ul>
+    						<div id="movilredes" class="celular">
+    						    <figure class="celular redesmovil">
+    							    <a href="https://www.facebook.com/concurvas.co/"><img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/facebook.png" alt="facebook"></a>						
+    						    </figure>
+    						    <figure class="celular redesmovil">
+    							<a href="https://www.instagram.com/concurvas.co/"><img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/instagram.png" alt="instagram"></a>
+    						    </figure>
+    					    </div>						
+    					    <div id="redessociales" class="row">
+    						<figure class="pc col-lg-6 col-md-6 col-sm-6 col-xs-6">
+    							<a href="https://www.facebook.com/concurvas.co/"><img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/facebook.png" alt="facebook"></a>							
+    						</figure>
+    						<figure class="pc col-lg-6 col-md-6 col-sm-6 col-xs-6">
+    							<a href="https://www.instagram.com/concurvas.co/"><img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/instagram.png" alt="instagram"></a>				
+    						</figure>					
+    					</div>
+    					</div>
+    					</div>
+    						
+    					
+				        </div>
+				    </div>
+				    <div id="fs2" class="row">
+				        <div id="copy" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+				            <h4 class="ultimos_footer"> Copyright &#169; Concurvas &reg; </h4>
+				        </div>
+				        <div id="terminosycondiciones" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+    						<a href="http://www.concurvas.com/terminos-y-condiciones/"><h5 class="ultimos_footer"> Términos y condiciones </h5></a> 
+    					</div>
+				    </div>
 				</footer>
-			</div>		
+			</div>
 	<!-------------------FORMULARIO PASOS JS---------------->
 		
 		
@@ -198,7 +175,30 @@ if ( ! empty( $cats ) ) {
 <!-------------------MENU movil js---------------->
 <!---------------------------------------MENU DESLEGABLE DERECHA------------------->
 	<script src="<?php echo get_template_directory_uri(); ?>/js/menu_derecha.js"></script>  
-<!---------------------------------------MENU DESLEGABLE DERECHA------------------->		
+<!---------------------------------------MENU DESLEGABLE DERECHA------------------->	
+<?php if(is_home()){ ?>
+<script type="text/javascript">
+	var video = document.getElementById("video");
+	var botonVideo = document.getElementById("botonVideo");
+	
+    function playPause() { 
+        if (video.paused){ 
+            video.play(); 
+            botonVideo.style.visibility = 'hidden';
+            video.style.visibility = 'visible';
+        }
+        else{
+            video.pause(); 
+            botonVideo.style.visibility = 'visible';
+            video.style.visibility = 'hidden';
+        }
+    }
+</script>
+ <?php }?>   
+ 
+ 
+ 
+
 <?php if(is_home()){ ?>
 <!-------------------CARRUSEL---------------->	
 		<script>
@@ -314,7 +314,7 @@ if ( ! empty( $cats ) ) {
 		<script async>
 			setTimeout(
 				function initMap(){
-					var uluru = {lat: 4.6048508, lng: -74.0888109};
+					var uluru = {lat: 4.6182688, lng:     -74.1370278};
 					var map = new google.maps.Map(document.getElementById('map'),{
 					  zoom: 16,
 					  center: uluru,
@@ -330,7 +330,7 @@ if ( ! empty( $cats ) ) {
 					  animation: google.maps.Animation.BOUNCE
 					});  	
 					var infowindow = new google.maps.InfoWindow({
-					  content: "Concurvas Local 110"
+					  content: "Concurvas, Local 1109"
 					});
 					infowindow.open(map,marker);
 					 google.maps.event.addListener(marker,'click',function(){
@@ -356,6 +356,7 @@ if ( ! empty( $cats ) ) {
 		alert (url);
 	window.open(url);
 	};
+	
 </script>
 <?php if(is_product()){ ?>
 <!---------CANTIDADES------>

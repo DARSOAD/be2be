@@ -4,8 +4,8 @@ var cantidad = function(color,talla,id){
 	//alert(enviar);
 	var stock;
 	$.ajax({
-		url: "https://concurvas.com.co/concurvas/controlador",
-		headers: {'Access-Control-Allow-Origin': 'https://concurvas.com.co/controlador'},
+		url: "https://concurvas.com/concurvas/controlador",
+		headers: {'Access-Control-Allow-Origin': 'https://concurvas.com/controlador'},
 		type: "POST",
 		async: false,
         data: enviar,
@@ -21,8 +21,8 @@ var actualizar = function(cantidad,id){
 	var precio;
 	alert(enviar);
 	$.ajax({
-		url: "https://concurvas.com.co/concurvas/controlador",
-		headers: {'Access-Control-Allow-Origin': 'https://concurvas.com.co/controlador'},
+		url: "https://concurvas.com/concurvas/controlador",
+		headers: {'Access-Control-Allow-Origin': 'https://concurvas.com/controlador'},
 		type: "POST",
 		async: false,
         data: enviar,

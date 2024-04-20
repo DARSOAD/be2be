@@ -48,7 +48,8 @@ function actualizar($cantidad,$id){
 function cool($id){
 	$product = new WC_Product_Variable( $id );	
 	$variations = $product->get_available_variations();
-	//print_r($variations);
+// 	print_r($variations);
+	//echo("otra cosa");
 	$colores = [];
 	$tallas = [];
 	$disponibilidad = [];
@@ -64,7 +65,11 @@ function cool($id){
 		}
 	}
 	$coloresunicos = array_unique($colores);
+    // print_r($colores);
+    // print_r($coloresunicos);
 	$urlunicos = array_unique($urls);
+// 	print_r($urls);
+// 	print_r($urlunicos);
 	$contador = 0;
 	foreach ($urlunicos as $url){
 		if($contador == 0){

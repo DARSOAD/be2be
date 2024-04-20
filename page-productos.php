@@ -25,7 +25,19 @@ get_header('catalogo');
 						<li class="js-option js-radio" data-price="<?php echo $product->get_price(); ?>" data-model="<?php echo $id;?>">
 							<img src="<?php echo get_the_post_thumbnail_url($id,'full');  ?>" alt="<?php echo $product->name;?>">
 							<span class="name"><?php echo $product->name;?></span>
-							<span class="price"><?php echo $product->get_price(); ?></span>
+							<?php 
+							$available_variations = $product->get_available_variations();
+							$display = $available_variations[0]['display_price'];
+							$regular = $available_variations[0]['display_regular_price'];
+							$diferencia = $display - $regular;
+							if($diferencia!=0){ ?>
+							<div class="descuento">
+								<span class="price descuento_p regular_price"><?php echo '$'.$regular; ?></span>
+								<span class="price descuento_p display_price"><?php echo '$'.$display; ?></span>
+							</div>								
+							<?php }else{ ?>							
+								<span class="price"><?php echo '$'.$display; ?></span>
+							<?php } ?>
 							<div class="radio"></div>
 						</li>
 						
@@ -35,8 +47,8 @@ get_header('catalogo');
 					</ul>
 					<div id="datos" class="celular">
 						<p class="centrado"> concurvas.almacen@gmail.com </p>
-						<p class="centrado"> Cll 10 No 20-35, San Andresito San José </p>
-						<p class="centrado"> Local 110 Bogotá Colombia </p>
+						<p class="centrado"> Centro comercial Plaza de las Américas </p>
+						<p class="centrado"> Local 1109, Bogotá Colombia </p>
 						<p class="centrado" style="color: gray !important;"><a href="https://api.whatsapp.com/send?phone=573053449733" target="_blank">+57 3053449733 </a></p>
 					</div>				
 				</section>
@@ -63,7 +75,7 @@ get_header('catalogo');
 						<li class="visible"><a href="#0">Colores</a></li>
 						<li><a href="#0">Tallas</a></li>
 						<li><a href="#0" id="elResumen">Resumen</a></li>
-						<li class="buy"><a href="#0" onclick="recheck()">Comprar</a></li>
+						<li class="buy"><a href="#0" onclick="recheck()" id='comprarProducto' >Comprar</a></li>
 					</ul>
 				</li>
 				<li class="prev nav-item">
@@ -77,7 +89,7 @@ get_header('catalogo');
 			</ul>
 		</nav>
 
-		<span class="alert">Please, select a model first!</span>
+		<span class="alert">Por favor, selecciona un modelo primero!</span>
 	</footer>
 </div>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
@@ -103,13 +115,14 @@ get_header('catalogo');
 	if( !window.jQuery ) document.write('<script src="<?php echo get_template_directory_uri(); ?>/jscool/jquery-3.0.0.min.js"><\/script>');
 	function recheck() {
 		var nombre = $("#nombre").val;
-		var correo = $("#correo").val;
+		var correo = $("#email").val;
 		var telefono = $("#telefono").val();
 		var ciudad = $("#ciudad").val();
 		var direc = $("#direc").val();
 		if(!telefono || !nombre || !correo || !ciudad || !direc){alert("Por favor completa todos los campos");}
         else{
-			var descripcion = '0';
+            //alert(correo);
+			 var descripcion = '0';
 				$.ajax({
 					url: "<?php echo get_site_url(); ?>/descripcion",
 					headers: {'Access-Control-Allow-Origin': '<?php echo get_site_url(); ?>/descripcion'},
@@ -121,17 +134,23 @@ get_header('catalogo');
 				});
 				$("#description").val(descripcion);
 				$("#elformulario").submit();	
-			
+			}
 		}
-    }
 </script>
 <script src="<?php echo get_template_directory_uri(); ?>/jscool/main.js"></script> <!-- Resource jQuery -->
 <!---------WHATSAPP------>
+<script src="<?php echo get_template_directory_uri(); ?>/js/moment.min.js"></script>
 <script  src="<?php echo get_template_directory_uri(); ?>/js/index.js" async></script>
 <!---------WHATSAPP------>
 <script>
 	setTimeout(function whatsapp(){
-		$('#whatsapp').addClass("displayblock")	;
+	    var dia = moment().format('dddd');
+	    if(dia==="Tuesday" || dia==="Wednesday"){
+	        $('#whatsappPromo').addClass("displayblock")	;    
+	    }else{
+	        $('#whatsapp').addClass("displayblock")	;
+	    }
+		
 	},5000);
 </script>
 </body>

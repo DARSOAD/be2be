@@ -43,8 +43,8 @@ get_header('catalogo');
 					</ul>
 					<div id="datos" class="celular">
 						<p class="centrado"> concurvas.almacen@gmail.com </p>
-						<p class="centrado"> Cll 10 No 20-35, San Andresito San José </p>
-						<p class="centrado"> Local 110 Bogotá Colombia </p>
+						<p class="centrado"> Centro comercial Plaza de las Américas</p>
+						<p class="centrado"> Local 1109, Bogotá Colombia</p>
 						<p class="centrado" style="color: gray !important;"><a href="https://api.whatsapp.com/send?phone=573053449733" target="_blank">+57 3053449733 </a></p>
 					</div>	
 				</section>
@@ -142,11 +142,18 @@ get_header('catalogo');
 </script>
 <script src="<?php echo get_template_directory_uri(); ?>/jscool/main.js"></script> <!-- Resource jQuery -->
 <!---------WHATSAPP------>
+<script src="<?php echo get_template_directory_uri(); ?>/js/moment.min.js"></script>
 <script  src="<?php echo get_template_directory_uri(); ?>/js/index.js" async></script>
 <!---------WHATSAPP------>
 <script>
 	setTimeout(function whatsapp(){
-		$('#whatsapp').addClass("displayblock")	;
+	    var dia = moment().format('dddd');
+	    if(dia==="Tuesday" || dia==="Wednesday"){
+	        $('#whatsappPromo').addClass("displayblock")	;    
+	    }else{
+	        $('#whatsapp').addClass("displayblock")	;
+	    }
+		
 	},5000);
 </script>
 

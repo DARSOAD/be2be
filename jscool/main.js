@@ -228,8 +228,8 @@ jQuery(document).ready(function($){
 		var enviar = "id="+id+"&funcion=cool";
 		var datosHtml = 'hola';
 		$.ajax({
-			url: "http://concurvas.com.co/controlador",
-			headers: {'Access-Control-Allow-Origin': 'http://concurvas.com.co/controlador'},
+			url: "https://concurvas.com/controlador",
+			headers: {'Access-Control-Allow-Origin': 'https://concurvas.com/controlador'},
 			type: "POST",
 			async: false,
 			data: enviar,
@@ -246,8 +246,8 @@ jQuery(document).ready(function($){
 		var enviar = "id="+id+"&color="+color+"&funcion=coolTallas";
 		var habilitados = 'hola';
 		$.ajax({
-			url: "http://concurvas.com.co/controlador",
-			headers: {'Access-Control-Allow-Origin': 'http://concurvas.com.co/controlador'},
+			url: "https://concurvas.com/controlador",
+			headers: {'Access-Control-Allow-Origin': 'https://concurvas.com/controlador'},
 			type: "POST",
 			async: false,
 			data: enviar,
@@ -309,8 +309,8 @@ jQuery(document).ready(function($){
 var descripcion = function(){
 	var descripcion = '0';
 	$.ajax({
-		url: "http://concurvas.com.co/descripcion",
-		headers: {'Access-Control-Allow-Origin': 'http://concurvas.com.co/descripcion'},
+		url: "https://concurvas.com/descripcion",
+		headers: {'Access-Control-Allow-Origin': 'https://concurvas.com/descripcion'},
 		type: "GET",
 		async: false,
 		success: function(data){
@@ -327,8 +327,8 @@ var setCantidad = function ( cantidad, id ) {
 	var enviar = "id="+id_real+"&cantidad="+cantidad;
 	var habilitados = 'hola';
 	$.ajax({
-		url: "http://concurvas.com.co/set-cantidad",
-		headers: {'Access-Control-Allow-Origin': 'http://concurvas.com.co/set-cantidad'},
+		url: "https://concurvas.com/set-cantidad",
+		headers: {'Access-Control-Allow-Origin': 'https://concurvas.com/set-cantidad'},
 		type: "GET",
 		async: false,
 		data: enviar,
@@ -369,8 +369,8 @@ var agregarProducto = function(id,color,talla,cantidad){
 	var enviar = "id="+id+"&color="+color+"&talla="+talla+"&cantidad="+cantidad;
 	var habilitados = 'hola';
 	$.ajax({
-		url: "http://concurvas.com.co/agregar",
-		headers: {'Access-Control-Allow-Origin': 'http://concurvas.com.co/agregar'},
+		url: "https://concurvas.com/agregar",
+		headers: {'Access-Control-Allow-Origin': 'https://concurvas.com/agregar'},
 		type: "GET",
 		async: false,
 		data: enviar,
@@ -383,8 +383,8 @@ var agregarResumen = function(id,color,talla,cantidad){
 	var enviar = "id="+id+"&color="+color+"&talla="+talla+"&cantidad="+cantidad+"&funcion=agregarResumen";
 	var datosHtml = 'hola';
 	$.ajax({
-		url: "http://concurvas.com.co/agregarresumen",
-		headers: {'Access-Control-Allow-Origin': 'http://concurvas.com.co/agregarresumen'},
+		url: "https://concurvas.com/agregarresumen",
+		headers: {'Access-Control-Allow-Origin': 'https://concurvas.com/agregarresumen'},
 		type: "GET",
 		async: false,
 		data: enviar,
@@ -399,8 +399,8 @@ var nuevoResumen = function() {
 		var enviar = "funcion=coolResumen";
 		var datosHtml = 'hola';
 		$.ajax({
-			url: "http://concurvas.com.co/controlador",
-			headers: {'Access-Control-Allow-Origin': 'http://concurvas.com.co/controlador'},
+			url: "https://concurvas.com/controlador",
+			headers: {'Access-Control-Allow-Origin': 'https://concurvas.com/controlador'},
 			type: "POST",
 			async: false,
 			data: enviar,
@@ -426,8 +426,8 @@ var removerCarrito = function(id){
 var precioCarro = function(){
 	var precio = '0';
 	$.ajax({
-		url: "http://concurvas.com.co/precio-total",
-		headers: {'Access-Control-Allow-Origin': 'http://concurvas.com.co/precio-total'},
+		url: "https://concurvas.com/precio-total",
+		headers: {'Access-Control-Allow-Origin': 'https://concurvas.com/precio-total'},
 		type: "GET",
 		async: false,
 		success: function(data){

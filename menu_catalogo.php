@@ -8,7 +8,7 @@
 							<a href="<?php echo get_site_url(); ?>" class="menu__link letra17pt-pc">INICIO&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</a>
 						</li>					
 						<li class="links  sub-menu-parent active " data-content="chaquetas">
-							<a href="<?php echo get_site_url(); ?>/productos" class="menu__link letra17pt-pc">CHAQUETAS AL POR MAYOR&nbsp;&nbsp;&nbsp;</a>
+							<a href="<?php echo get_site_url(); ?>/productos" class="menu__link letra17pt-pc">CHAQUETAS &nbsp;&nbsp;&nbsp;</a>
 						</li>
 						<!--<li class="links  sub-menu-parent active " data-content="chaquetas">
 							<a href="<?php echo get_site_url(); ?>/catalogo/?vara=chaquetas" class="menu__link letra17pt-pc">CHAQUETAS &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</a>
@@ -35,7 +35,7 @@
 						</div>	
 						<div class="panel panel-default"> 
 							<div class="panel-heading" role="tab" id="headingOne">
-								<h4 class="panel-title"><a href="<?php echo get_site_url(); ?>/productos"> Chaquetas al por mayor</a></h4>
+								<h4 class="panel-title"><a href="<?php echo get_site_url(); ?>/productos"> Chaquetas</a></h4>
 							</div>
 						</div>		
 						<!--<div class="panel panel-default"> 

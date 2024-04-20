@@ -687,11 +687,11 @@ Colors Step - style
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
-[data-talla="s"]{background-image: url(https://concurvas.com.co/tallas/s.png);}
-[data-talla="m"]{background-image: url(https://concurvas.com.co/tallas/m.png);}
-[data-talla="l"]{background-image: url(https://concurvas.com.co/tallas/l.png);}
-[data-talla="xl"]{background-image: url(https://concurvas.com.co/tallas/xl.png);}
-[data-talla="unica"]{background-image: url(https://concurvas.com.co/tallas/unica.png);}
+[data-talla="s"]{background-image: url(https://chaquetasalpormayor.com/tallas/s.png);}
+[data-talla="m"]{background-image: url(https://chaquetasalpormayor.com/tallas/m.png);}
+[data-talla="l"]{background-image: url(https://chaquetasalpormayor.com/tallas/l.png);}
+[data-talla="xl"]{background-image: url(https://chaquetasalpormayor.com/tallas/xl.png);}
+[data-talla="unica"]{background-image: url(https://chaquetasalpormayor.com/tallas/unica.png);}
 h5{color: transparent !important;}
 /* -------------------------------- 
 

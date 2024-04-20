@@ -185,14 +185,14 @@ if ( ! empty( $cats ) ) {
 		<h3 class="footerh3"> CONTÁCTENOS </h3>
 		<ul class="footerul footerul2">
 			<li><a href=""> concurvas.almacen@gmail.com </a></li>
-			<li class="celular"> Cll 10 No 20-30, CC Puerto Principe, Local 110 Bogotá Colombia </li>
+			<li class="celular"> Centro comercial Plaza de las Américas, Local 1109, Bogotá Colombia </li>
 			<li class="pc tablet"><a href="https://api.whatsapp.com/send?phone=573053449733" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/whatsapp-logo.png" alt="WhatsApp" style="width: 2.2% !important; height: auto !important;"> 3053449733 </a></li>							
 		</ul>
 	</div>
 	<div id="footerdatoscontacto">
 		<ul class="footerul footerul2">							
-			<li class="pc"> Cll 10 No 20-30, CC Puerto Principe, Local 110 Bogotá Colombia </li>
-			<li class="tablet"> Cll 10 No 20-30, CC Puerto Principe, Local 110 </li>
+			<li class="pc"> Centro comercial Plaza de las Américas, Local 1109, Bogotá Colombia </li>
+			<li class="tablet"> Centro comercial Plaza de las Américas, Local 1109, Bogotá Colombia </li>
 							<li class="celular"><a href="https://api.whatsapp.com/send?phone=573053449733" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/whatsapp-logo.png" alt="WhatsApp" style="width: 2.2% !important; height: auto !important;"> 3053449733 </a></li>		
 						</ul>
 					</div>

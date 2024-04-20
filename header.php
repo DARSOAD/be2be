@@ -1,47 +1,38 @@
 <!doctype html>
-<html lang="es" class="js csstransitions">
-	<head >
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117856180-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-117856180-2');
-  gtag('config', 'AW-802333734');
-</script>
-
-
-
+<html lang="es" class="no-js">
+<head>
 		<meta charset="utf-8">
-		<meta name="author" content="Mainteam">
+		<meta name="author" content="Diego">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-		<meta name="description" content="Somos fabricantes de chaquetas al por mayor  y al detal en Bogotá. Nuestro objetivo y razón de ser es el servicio y mejor cálidad en nuestras chaquetas, nos esforzamos siempre para que nuestros clientes y empleados reciban a traves de nuestra fabricación y trabajo solo mejor.">
-		<meta name="keywords" content="chaquetas, buzos, chompas, sacos, mayoristas, chaquetas al por mayor, fabrica de chaquetas, venta de chaquetas al por mayor bogota, chaquetas al por mayor colombia">
+		<meta name="description" content="¡Descubre la moda más vibrante para festivales y fiestas de techno en Bogotá! Encuentra vestidos, tops y faldas que te harán brillar en la pista de baile. ¡Únete a la tendencia techno con nuestra selección única de prendas!">
+		<meta name="keywords" content="faldas, tops, bodys, vestidos, techno, bogota, festivales">
 		<meta name="viewport" content="width=device-width">
 		<meta property="og:type" content="business.business">
-		<meta property="og:title" content="Concurvas - Chaquetas al por mayor - Somos fabricantes">
-		<meta property="og:url" content="http://www.chaquetasalpormayor.com">
-		<meta property="og:image" content="http://chaquetasalpormayor.com/wp-content/themes/mainteam_Concurvas/imagenes/iconos/LOGO.png"> 
-		<meta property="business:contact_data:street_address" content="Cll 10 N 20 - 45">
+		<meta property="og:title" content="B2B - Ser para ser">
+		<meta property="og:url" content="http://www.betobe.com.co">
+		<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/LOGO.png"> 
+		<!-- <meta property="business:contact_data:street_address" content="Cll 10 N 20 - 45"> -->
 		<meta property="business:contact_data:locality" content="Bogotá">
 		<meta property="business:contact_data:region" content="Cundinamarca">
 		<meta property="business:contact_data:postal_code" content="111511">
 		<meta property="business:contact_data:country_name" content="Colombia">
 		<title><?php 
-			if(is_home()){echo 'Concurvas - Chaquetas al por mayor - Somos fabricantes';}
+			if(is_home()){echo 'B2B  - Ser para ser';}
 			else{wp_title('');}
 			?></title>
 		<!-------------------ICONS---------------->
 		<link href="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/concurvas.ico" rel="shortcut icon" type="image/x-icon">
 		<!-------------------ICONS---------------->
-		<!-------------------FONTS---------------->
-		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet" async>
-		<!-------------------FONTS---------------->
+		<!-------------------FUENTES---------------->
+    	<?php get_template_part('fuentes'); ?>
+    	<link href="<?php echo get_template_directory_uri(); ?>/fuentes/fuentes.css" rel="stylesheet">
+    	<!-------------------FUENTES---------------->
 		<!-------------------BOOTSTRAP---------------->
 		<link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.css" rel="stylesheet" async>
 		<!-------------------BOOTSTRAP---------------->	
+		<!-------------------FOOTER---------------->
+		<link href="<?php echo get_template_directory_uri(); ?>/css/footer.css" rel="stylesheet" async>
+		<!-------------------FOOTER---------------->	
 		<?php if( !is_page('Catalogo') && !is_home() ){ ?>		
 		<!-------------------RESET---------------->
 		<style type="text/css">
@@ -53,6 +44,7 @@
 			blockquote, q{quotes:none;}
 			blockquote:before, blockquote:after, q:before, q:after{content:'';content:none;}
 			table{border-collapse:collapse;border-spacing:0;}
+			
 			/*******************#menupc****************************/
 			@media only screen and (max-width:2600px) and (min-width:2500px){#menupc{margin-top:50px !important;}}
 			@media only screen and (max-width:2499px) and (min-width:2400px){#menupc{margin-top: 50px !important;;}}
@@ -258,28 +250,8 @@
 			
 			<?php } ?>
 			
-			<?php if(is_page('Carrito')){ ?>
-				@media only screen and  (min-width:768px){
-			.pc-centrado-mediano2{margin-left: 20% !important;width: 60% !important;}}
-			
-			@media only screen and  (max-width:991px) and  (min-width:768px){
-		.tb-centrado-grande{margin-left: 20% !important;width: 60% !important;}}
-			
-			@media only screen and  (max-width:767px){
-		.mv-centrado-grande2{margin-left: 10% !important;width: 80% !important;}}
-			<? } ?>
 		</style>	
-		<!---------------------------------------SMART LOOK------------------->
-<script type="text/javascript">
-    window.smartlook||(function(d) {
-    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
-    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
-    c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
-    })(document);
-    smartlook('init', '6815d79d06c05e327b380d1badef32ed98eed784');
-</script>
-		<!---------------------------------------SMART LOOK------------------->	
-		
+	
 	</head>
 	<?php if(is_singular('product') || is_page('Carrito')){ ?>
 					<div>
@@ -304,6 +276,8 @@
 					</div>
 					<?php } ?>
 	<body <?php body_class(); ?>>
+    </div>
+
 <!--		<?php 
 global $wpdb;
 global $wpdb;

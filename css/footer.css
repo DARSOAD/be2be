@@ -1,74 +1,39 @@
-@charset "utf-8";#sombra{width:100%;position:absolute;height:15px;-webkit-box-shadow:0px 0px 37px -14px rgba(61,61,61,0.53);-moz-box-shadow:0px 0px 37px -14px rgba(61,61,61,0.53);box-shadow:0px 0px 37px -14px rgba(61,61,61,0.53);z-index:-1!important;}
+/*FOOTER*/
 footer{position:relative;z-index:0!important;}
+#bloque5{
+    padding:0% 0 2% 0;
+    margin-top:-5%;
+}
+
+#fs1{padding-top:5%;padding-bottom:5%;}
 a:link{text-decoration:none;}
-#bloque5{background-color:#fbfbfb !important;font-family:'Lato', sans-serif;-webkit-box-shadow:0px 0px 37px -14px rgba(61,61,61,0.53);-moz-box-shadow:0px 0px 37px -14px rgba(61,61,61,0.53);box-shadow:0px 0px 37px -14px rgba(61,61,61,0.53);}
-#bloque5 footer .footerh3{font-weight:900;letter-spacing:1px;color:#3E3E40;width:38%;}
+#fs1{background-color:#fbfbfb !important;font-family:'Lato', sans-serif;-webkit-box-shadow:0px 0px 37px -14px rgba(61,61,61,0.53);-moz-box-shadow:0px 0px 37px -14px rgba(61,61,61,0.53);box-shadow:0px 0px 37px -14px rgba(61,61,61,0.53);}
+#fs2{margin-top:4%;}
+#terminosycondiciones{text-align: right !important;}
+#bloque5 .row{
+        width: 70% ;
+        margin-left: 15% !important;
+        margin-right: 15% !important;
+}
 #bloque5 footer .footerh3tienda{font-weight:900;letter-spacing:1px;color:#3E3E40;width:15%;}
-#bloque5 footer .footerul li{color:#A9ABB0;font-weight:400;}
-#bloque5 footer .footerul li a{color:#A9ABB0;}
-#bloque5 footer .footerul li a:link{text-decoration:none;}
-#bloque5 footer .footerul li a:hover{color:#888B83;}
-#bloque5 footer #googlemaps #map{background:grey;width:100%;}
-#bloque5 footer #googlemaps h3{width:100%;margin-top:6.2% !important;}
-#bloque5 footer #terminosycondiciones>a, #bloque5 footer #terminosycondiciones>h4{font-weight:400;color:#A8AAB2 !important;}
+.footerul li{margin:5% 0;}
+.footerul li a{color:inherit;}
+.footerul li a:link{text-decoration:none;}
+.footerul li a:hover{color:#888B83;}
+.ultimos_footer a{color:inherit;}
 #bloque5 #terminosycondiciones h5:hover{color:black;transition:.4s;-webkit-transition:.4s;cursor:hand;}
-@media only screen and (min-width:768px){#bloque5 footer #footerproductos h3,#bloque5 footer #footerproductos ul,#bloque5 footer #footerproductosalpormayor h3,#bloque5 footer #footerproductosalpormayor h3,#bloque5 footer #footerproductosalpormayor ul,#bloque5 footer #footercontacto h3,#bloque5 footer #footercontacto ul,#bloque5 footer #footerdatoscontacto ul,#bloque5 footer #redessociales{position:absolute;}#bloque5 footer .footerh3,#bloque5 .footerh3tienda{word-spacing:2px;}#bloque5 footer .footerul{width:48%!important;}#bloque5 footer .footerul li{word-spacing:0.5px;margin-bottom:2.6%!important;}#bloque5 footer #footerproductos h3{margin-top:5.2%!important;margin-left:9.8%!important;margin-right:52.2%!important;}#bloque5 footer #footerproductos ul{margin-top:7.8%!important;margin-left:9.8%!important;margin-right:73.7%!important;}#bloque5 footer #footerproductosalpormayor h3{margin-top:5.2%!important;margin-left:35%!important;margin-right:35.6%!important;}#bloque5 footer #footerproductosalpormayor #ul1{margin-top:7.8%!important;margin-left:35%!important;margin-right:73.7%!important;}#bloque5 footer #footercontacto h3{margin-top:33.9%!important;margin-left:9.8%!important;margin-right:52.2%!important;}#bloque5 footer #footercontacto ul{margin-top:36.7%!important;margin-left:9.8%!important;margin-right:73.7%!important;}#bloque5 footer #footerdatoscontacto ul{margin-top:36.7%!important;margin-left:29.6%!important;margin-right:73.7%!important;}#bloque5 footer #googlemaps{width:34%;margin-top:5.3%!important;margin-left:60.6%!important;margin-right:13.1%!important;}#bloque5 footer #redessociales{margin-top:36.5%!important;margin-left:43.7%!important;}#bloque5 footer #redessociales figure{float:left;margin-right:13px!important;}#bloque5 footer #terminosycondiciones{width:85%;margin-top:46.6%!important;margin-left:10.4%!important;margin-right:9.6%!important;}#bloque5 footer #terminosycondiciones h4{float:left;}#bloque5 footer #googlemaps{position:absolute;}#bloque5 footer #terminosycondiciones{position:absolute;}#pstion1{margin-top: 23.2% !important;margin-left:35%!important;margin-right:35.6%!important;position: absolute !important;}#pstion2{margin-top: 25.2% !important;margin-left:35%!important;margin-right:73.7%!important;}}
-@media only screen and (max-width:2600px) and (min-width:1500px){#bloque5 footer #terminosycondiciones h5{margin-left:84%!important;}}
-@media only screen and (max-width:1499px) and (min-width:768px){#bloque5 footer #terminosycondiciones h5{margin-left:74%!important;}}
-@media only screen and (max-width:2600px) and (min-width:2500px){#bloque5{height:1402px;}#sombra{height:1102px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:28px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:28.5px;}#bloque5 footer #googlemaps #map{height:496px;}#bloque5 footer #redessociales img{height:46px;}}
-@media only screen and (max-width:2499px) and (min-width:2400px){#bloque5{height:1347px;}#sombra{height:1047px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:27px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:27.3px;}#bloque5 footer #googlemaps #map{height:477px;}#bloque5 footer #redessociales img{height:44px;}}
-@media only screen and (max-width:2399px) and (min-width:2300px){#bloque5{height:1292px;}#sombra{height:992px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:26px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:26.4px;}#bloque5 footer #googlemaps #map{height:459px;}#bloque5 footer #redessociales img{height:42px;}}
-@media only screen and (max-width:2299px) and (min-width:2200px){#bloque5{height:1237px;}#sombra{height:997px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:25px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:25.4px;}#bloque5 footer #googlemaps #map{height:440px;}#bloque5 footer #redessociales img{height:40px;}}
-@media only screen and (max-width:2199px) and (min-width:2100px){#bloque5{height:1182px;}#sombra{height:882px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:24px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:24.4px;}#bloque5 footer #googlemaps #map{height:420px;}#bloque5 footer #redessociales img{height:38px;}}
-@media only screen and (max-width:2099px) and (min-width:2000px){#bloque5{height:1128px;}#sombra{height:888px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:23px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:23.4px;}#bloque5 footer #googlemaps #map{height:400px;}#bloque5 footer #redessociales img{height:36px;}}
-@media only screen and (max-width:1999px) and (min-width:1900px){#bloque5{height:1049px;}#sombra{height:850px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:22px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:23px;}#bloque5 footer #googlemaps #map{height:381px;}#bloque5 footer #redessociales img{height:34px;}}
-@media only screen and (max-width:1899px) and (min-width:1800px){#bloque5{height:1017px;}#sombra{height:800px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:21px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:22px;}#bloque5 footer #googlemaps #map{height:361px;}#bloque5 footer #redessociales img{height:32px;}}
-@media only screen and (max-width:1799px) and (min-width:1700px){#bloque5{height:963px;}#sombra{height:763px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:20px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:21px;}#bloque5 footer #googlemaps #map{height:342px;}#bloque5 footer #redessociales img{height:30px;}}
-@media only screen and (max-width:1699px) and (min-width:1600px){#bloque5{height:907px;}#sombra{height:707px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:19px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:20px;}#bloque5 footer #googlemaps #map{height:324px;}#bloque5 footer #redessociales img{height:28px;}}
-@media only screen and (max-width:1599px) and (min-width:1500px){#bloque5{height:853px;}#sombra{height:653px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:18px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:19px;}#bloque5 footer #googlemaps #map{height:304px;}#bloque5 footer #redessociales img{height:26px;}}
-@media only screen and (max-width:1499px) and (min-width:1400px){#bloque5{height:797px;}#sombra{height:625px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:17px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:18px;}#bloque5 footer #googlemaps #map{height:283px;}#bloque5 footer #redessociales img{height:24px;}}
-@media only screen and (max-width:1399px) and (min-width:1300px){#bloque5{height:741px;}#sombra{height:580px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:16px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:17px;}#bloque5 footer #googlemaps #map{height:330px;}#bloque5 footer #redessociales img{height:22px;}}
-@media only screen and (max-width:1299px) and (min-width:1200px){#bloque5{height:686px;}#sombra{height:550px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:15px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:16px;}#bloque5 footer #googlemaps #map{height:248px;}#bloque5 footer #redessociales img{height:20px;}}
-@media only screen and (max-width:1199px) and (min-width:1100px){#bloque5{height:631px;}#sombra{height:502px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:14px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:14px;}#bloque5 footer #googlemaps #map{height:224px;}#bloque5 footer #redessociales img{height:18px;}}
-@media only screen and (max-width:1099px) and (min-width:992px){#bloque5{height:576px;}#sombra{height:449px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:14px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:13px;}#bloque5 footer #googlemaps #map{height:275px;}#bloque5 footer #redessociales img{height:20px;}}
-@media only screen and (max-width:991px) and (min-width:900px){#bloque5{height:546px;}#sombra{height:412px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:14px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:12.7px;}#bloque5 footer #googlemaps{width:38%!important;}#bloque5 footer #googlemaps #map{height:270px;}#bloque5 footer #redessociales img{height:16px;}}
-@media only screen and (max-width:899px) and (min-width:800px){#bloque5{height:497px;}#sombra{height:365px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:12.5px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:10.9px;}#bloque5 footer #googlemaps{width:38%!important;}#bloque5 footer #googlemaps #map{height:236px;}#bloque5 footer #redessociales img{height:19px;}}
-@media only screen and (max-width:799px) and (min-width:768px){#bloque5{height:420px;}#sombra{height:329px;}#bloque5 .footerh3,#bloque5 .footerh3tienda{font-size:12px;}#bloque5 footer .footerul li,#bloque5 footer #terminosycondiciones{font-size:10.9px;}#bloque5 footer #googlemaps{width:38%!important;}#bloque5 footer #googlemaps #map{height:235px;}#bloque5 footer #redessociales img{height:18px;}}
-@media only screen and (max-width:767px){#bloque5{height:auto;}#bloque5 footer #footerproductos{display:none;}#bloque5 footer #footerproductosalpormayor{display:none;}
-#bloque5 #googlemaps figure{display:none;}#bloque5 footer #googlemaps{display:block;margin-left:auto!important;margin-right:auto!important;padding-top:5%!important;text-align:center;width:70%;margin-bottom:10%!important;}#bloque5 footer #googlemaps #map{width:100%!important;}#bloque5 #footercontacto{display:block;text-align:center;width:100%!important;}#bloque5 .footerh3{display:block;text-align:center;width:100%!important;margin-bottom:9%!important}#bloque5 #footerdatoscontacto{display:block;text-align:center;width:100%!important;margin-top:9%!important;}
-#bloque5 footer #redessociales{margin-top:9.5%!important;width:70%}#bloque5 footer #redessociales figure{float:left;margin-right:13px!important;}#bloque5 #terminosycondiciones{clear:both;text-align:center;margin-top:26%!important;width:100%;-webkit-box-shadow:-14px 0px 37px -15px rgba(61,61,61,0.53);-moz-box-shadow:-14px 0px 37px -15px rgba(61,61,61,0.53);box-shadow:-14px 0px 37px -15px rgba(61,61,61,0.53);}#bloque5 #terminosycondiciones h4{padding-top:9%!important;}#bloque5 #terminosycondiciones h5{padding-bottom:10%!important;margin-top:5% !important;}#bloque5{-webkit-box-shadow:0px 0px 37px -14px rgba(61,61,61,0.53);-moz-box-shadow:0px 0px 37px -14px rgba(61,61,61,0.53);box-shadow:0px 0px 37px -14px rgba(61,61,61,0.53);}}
-@media only screen and (max-width:767px) and (min-width:700px){#bloque5 .footerh3{font-size:25.4px;}#bloque5 .footerh3tienda{font-size:26px;}#bloque5 footer .footerul li{font-size:24.2px;}#bloque5 footer #googlemaps #map{height:315px;}
-#bloque5 footer #redessociales img{height:48px;}#bloque5 footer #terminosycondiciones{font-size:21.7px;}}
-@media only screen and (max-width:767px) and (min-width:735px){#bloque5 footer #redessociales{margin-left:34.2%!important;}}
-@media only screen and (max-width:734px) and (min-width:700px){#bloque5 footer #redessociales{margin-left:33%!important;}}
-@media only screen and (max-width:699px) and (min-width:600px){#bloque5 .footerh3{font-size:22.4px;}#bloque5 .footerh3tienda{font-size:23px;}#bloque5 footer .footerul li{font-size:23px;}#bloque5 footer #googlemaps #map{height:302px;}#bloque5 footer #redessociales img{height:40px;}#bloque5 footer #terminosycondiciones{font-size:18px;}}
-@media only screen and (max-width:699px) and (min-width:675px){#bloque5 footer #redessociales{margin-left:34.5%!important;}}
-@media only screen and (max-width:674px) and (min-width:650px){#bloque5 footer #redessociales{margin-left:34.4%!important;}}
-@media only screen and (max-width:649px) and (min-width:625px){#bloque5 footer #redessociales{margin-left:33.7%!important;}}
-@media only screen and (max-width:624px) and (min-width:600px){#bloque5 footer #redessociales{margin-left:33%!important;}}
-@media only screen and (max-width:599px) and (min-width:500px){#bloque5 .footerh3{font-size:20.8px;}#bloque5 .footerh3tienda{font-size:21px;}#bloque5 footer .footerul li{font-size:21px;}#bloque5 footer #googlemaps #map{height:280px;}#bloque5 footer #redessociales img{height:38px;}#bloque5 footer #terminosycondiciones{font-size:16px;}}
-@media only screen and (max-width:599px) and (min-width:575px){#bloque5 footer #redessociales{margin-left:32.3%!important;}}
-@media only screen and (max-width:574px) and (min-width:550px){#bloque5 footer #redessociales{margin-left:31%!important;}}
-@media only screen and (max-width:549px) and (min-width:525px){#bloque5 footer #redessociales{margin-left:30.7%!important;}}
-@media only screen and (max-width:524px) and (min-width:500px){#bloque5 footer #redessociales{margin-left:29.9%!important;}}
-@media only screen and (max-width:499px) and (min-width:400px){#bloque5 .footerh3{font-size:16.3px;}#bloque5 .footerh3tienda{font-size:16.5px;}#bloque5 footer .footerul li{font-size:17px;}#bloque5 footer #googlemaps #map{height:280px;}#bloque5 footer #redessociales img{height:33px;}#bloque5 footer #terminosycondiciones{font-size:12px;}}
-@media only screen and (max-width:499px) and (min-width:475px){#bloque5 footer #redessociales{margin-left:31.7%!important;}}
-@media only screen and (max-width:474px) and (min-width:450px){#bloque5 footer #redessociales{margin-left:29.9%!important;}}
-@media only screen and (max-width:449px) and (min-width:425px){#bloque5 footer #redessociales{margin-left:28.3%!important;}}
-@media only screen and (max-width:424px) and (min-width:400px){#bloque5 footer #redessociales{margin-left:27.5%!important;}}
-@media only screen and (max-width:399px){#bloque5 .footerh3{font-size:15.9px;}#bloque5 .footerh3tienda{font-size:14px;}#bloque5 footer .footerul li{font-size:16px;}#bloque5 footer #googlemaps{width:85%!important;}#bloque5 footer #googlemaps #map{height:280px;}#bloque5 footer #redessociales img{height:23px;}#bloque5 footer #terminosycondiciones{font-size:9.5px;}}
-@media only screen and (max-width:399px) and (min-width:375px){#bloque5 footer #redessociales{margin-left:31.8%!important;}}
-@media only screen and (max-width:374px) and (min-width:350px){#bloque5 footer #redessociales{margin-left:30.5%!important;}}
-@media only screen and (max-width:349px) and (min-width:325px){#bloque5 footer #redessociales{margin-left:29%!important;}}
-@media only screen and (max-width:324px) and (min-width:300px){#bloque5 footer #redessociales{margin-left:28%!important;}}
-@media only screen and (max-width:991px) and (min-width:900px){#bloque5 #terminosycondiciones{font-size:14px !important;}}
-@media only screen and (max-width:899px) and (min-width:800px){#bloque5 #terminosycondiciones{font-size:14px !important;}}
-@media only screen and (max-width:799px) and (min-width:768px){#bloque5 #terminosycondiciones{font-size:14px !important;}}
-@media only screen and (max-width:767px) and (min-width:700px){#bloque5 #terminosycondiciones{font-size:32px !important;}}
-@media only screen and (max-width:699px) and (min-width:600px){#bloque5 #terminosycondiciones{font-size:28px !important;}}
-@media only screen and (max-width:599px) and (min-width:500px){#bloque5 #terminosycondiciones{font-size:23px !important;}}
-@media only screen and (max-width:499px) and (min-width:400px){#bloque5 #terminosycondiciones{font-size:18px !important;}}
-@media only screen and (max-width:399px){#bloque5 #terminosycondiciones{font-size:15px !important;}}
-#bloque5 footer #redessociales img{height:auto !important;width:20% !important;margin-left:40% !important;}
-#bloque5 footer #redessociales figure{float:left;width:100% !important;margin-left:0 !important;margin-right:0!important;}
-#bloque5 footer #redessociales{margin-left:0%!important;width:100% !important;}
+#bloque5 footer #redessociales img{height:auto !important;margin-left:-100% !important;width: 45%;}
+@media only screen and (min-width:1600px){
+    #bloque5 footer #redessociales img{margin-left:-75% !important;width: 30%;}
+ }
+.redesmovil{float: right;width: 10% !important;margin-right: 10%;}
+.redesmovil a img{width: 100%;}
+#movilredes{width: 65%;margin-top: 5% !important;}
+/*FOOTER*/
+#redessociales{
+        position: absolute;
+    top: 66%;
+    width: 45% !important;
+    right: 6%;
+    
+}

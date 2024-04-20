@@ -209,6 +209,7 @@ jQuery(document).ready(function($){
 	function updateCartTotal(price, bool) {
 		bool ? cartTotal.text( (Number(cartTotal.text()) + Number(price)).toFixed(0) )  : cartTotal.text( (Number(cartTotal.text()) - Number(price)).toFixed(0) );
 	}
+
 	var setCantidad = function ( cantidad, id ) {
 	var enviar = "id="+id+"&cantidad="+cantidad;
 	var habilitados = 'hola';

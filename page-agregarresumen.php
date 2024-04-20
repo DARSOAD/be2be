@@ -109,7 +109,7 @@ $woocommerce->cart->add_to_cart($id, $cantidad, $id_v,$variation);
 					</div>
 					<div class="form-group pmd-textfield pmd-textfield-floating-label">
 						<label for="correo" class="control-label"> E-mail </label>
-						<input class="form-control" type="text" id="correo" name="correo" required>
+						<input class="form-control" type="text" id="correo" name="email"  required>
 						<span class="pmd-textfield-focused"></span>
 					</div>
 					<div class="form-group pmd-textfield pmd-textfield-floating-label">
