@@ -16,5 +16,5 @@
 .panel-group.pmd-accordion .panel{box-shadow:none !important;}
 .panel{background-color:transparent !important;}
 .logo_movil{width:30%;position:absolute;left:35%;top:-60px;}
-.panel-group.pmd-accordion .panel > .panel-heading a{font-family:'Lato', sans-serif;font-weight:700;}
-.panel-body p{font-size:1em !important;font-family:'Lato', sans-serif;font-weight:400;color:#767676 !important;margin-bottom:3% !important;}
+.panel-group.pmd-accordion .panel > .panel-heading a{font-family:'Designer', sans-serif;font-weight:700;}
+.panel-body p{font-size:1em !important;font-family:'Designer', sans-serif;font-weight:400;color:#767676 !important;margin-bottom:3% !important;}

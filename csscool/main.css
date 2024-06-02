@@ -62,7 +62,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Lato", sans-serif;
+  font-family: "Designer", sans-serif;
   color: #24221F;
   background-color: #ffffff;
 }
@@ -80,12 +80,12 @@ Home Link
 -------------------------------- */
 .cd-step-content h1{
     font-weight: 700;
-    font-family: 'Lato',sans-serif;
+    font-family: 'Designer',sans-serif;
     color: #7f7e7e !important;
 }
 .cd-step-content p{
     font-weight: 400;
-    font-family: 'Lato',sans-serif;
+    font-family: 'Designer',sans-serif;
 	color: #272727 !important;
 }
 .cd-nugget-info {
@@ -493,7 +493,7 @@ Models Step - style
   font-size: 2rem;
   font-weight: 700;
   margin-top: .2em;
-  font-family: 'Lato',sans-serif;
+  font-family: 'Designer',sans-serif;
   color: #7f7e7e !important;
 }
 .cd-builder-steps .models-list img {
@@ -881,7 +881,7 @@ Summary Step - style
   margin-bottom: 2em;
 }
 .cd-builder-steps .summary-list h3 {
-	    font-family: 'Lato',sans-serif;
+	    font-family: 'Designer',sans-serif;
   font-size: 2rem;
   font-weight: bold;
   margin: 1.3em 0;
@@ -912,7 +912,7 @@ Summary Step - style
   font-size: 1.8rem;
   margin-top: 11px;
   margin-left: .5em;
-	font-family: 'Lato',sans-serif;
+	font-family: 'Designer',sans-serif;
 }
 .cd-builder-steps .summary-list .summary-accessories {
   color: #5D7C89;
@@ -970,7 +970,7 @@ Summary Step - style
     margin-top: 0;
   }
 }
-.summary-precio, .summary-cantidad, .summary-remove{margin-top: 1em;font-family: "Lato", sans-serif; }
+.summary-precio, .summary-cantidad, .summary-remove{margin-top: 1em;font-family: "Designer", sans-serif; }
 #elResumenPro{width: 80% !important;}
 /* -------------------------------- 
 
@@ -1358,7 +1358,7 @@ Builder fixed bottom summary
 .input-group .form-control{width: 30% !important;border: none !important;box-shadow: none !important;height: auto !important;padding: 0 !important;}
 .btn-decrement, .btn-increment{
 	    background: none;
-    font-family: "Lato", sans-serif;
+    font-family: "Designer", sans-serif;
     font-size: 1em;
     border: 1px solid #a8a8a8 !important;
     border-radius: 50px !important;
@@ -1366,10 +1366,10 @@ Builder fixed bottom summary
     height: 25px !important;
     padding: 0 !important;
 }
-.cd-step-content h1, .cd-step-content .steps-indicator{font-family: "Lato", sans-serif !important;}
+.cd-step-content h1, .cd-step-content .steps-indicator{font-family: "Designer", sans-serif !important;}
 .summary-list{color: gray !important;}
 #remover form{margin-bottom: 100px;width: 80% !important; margin-left: 10% !important;}
-@media only screen and (max-width:1023px) {#elResumenPro{width: 100% !important;}.cd-builder-steps .summary-list .product-preview{width: 100%;}.summary-precio, .summary-cantidad, .summary-remove, .cd-builder-steps .summary-list h3, .talla-label {margin-top: 2em !important;font-family: "Lato", sans-serif; }.color-swatch {margin-top: 1em !important;}.summary-list{height: 183px;}[data-summary="remove"] {width: 0 !important;}.color-swatch{margin-left: 30%;}#remover form{width: 100% !important; margin-left: 0 !important;}}
+@media only screen and (max-width:1023px) {#elResumenPro{width: 100% !important;}.cd-builder-steps .summary-list .product-preview{width: 100%;}.summary-precio, .summary-cantidad, .summary-remove, .cd-builder-steps .summary-list h3, .talla-label {margin-top: 2em !important;font-family: "Designer", sans-serif; }.color-swatch {margin-top: 1em !important;}.summary-list{height: 183px;}[data-summary="remove"] {width: 0 !important;}.color-swatch{margin-left: 30%;}#remover form{width: 100% !important; margin-left: 0 !important;}}
 @media only screen and (max-width:991px) and (min-width:900px) {.cd-builder-steps .summary-list .product-preview{width: 100%;margin-top: 5%;margin-bottom:0 !important;}.summary-list{height: 160px;}.cd-product-previews > li img{width: 90% !important;}.cd-product-previews{margin-top: 5% !important;} }
 @media only screen and (max-width:899px) and (min-width:800px) {.cd-builder-steps .summary-list .product-preview{width: 100%;margin-top: 5%;margin-bottom:0 !important;}.summary-list{height: 140px;}.cd-product-previews > li img{width: 90% !important;}.cd-product-previews{margin-top: 5% !important;}.input-group .form-control{margin-left: 1% !important;}}
 @media only screen and (max-width:799px) and (min-width:768px) {.cd-builder-steps .summary-list .product-preview{width: 100%;margin-top: 5%;margin-bottom: 0 !important;}.summary-list{height: 120px;}.cd-product-previews > li img{width: 90% !important;}.cd-product-previews{margin-top: 5% !important;}.input-group .form-control{margin-left: 1% !important;}}
@@ -1459,14 +1459,14 @@ Builder fixed bottom summary
 .pmd-textfield.pmd-textfield-floating-label-active .pmd-textfield-focused { transform: scaleX(1); -ms-transform: scaleX(1); -webkit-transform: scaleX(1);}
 
 .pmd-textfield-floating-label label{
-	font-family: 'Lato', sans-serif !important;
+	font-family: 'Designer', sans-serif !important;
 	font-weight: 300 !important;
 }
 #formulario3{
-	font-family: 'Lato', sans-serif !important;
+	font-family: 'Designer', sans-serif !important;
 }
 #formulario3 h3{
-	font-family: 'Lato', sans-serif !important;
+	font-family: 'Designer', sans-serif !important;
 	font-weight: 900 !important;
 	color: #949393 !important;
 	padding-top: 10% !important;
@@ -1771,8 +1771,8 @@ nav > ul > li:first-child{border-left:none;}
 .panel-group.pmd-accordion .panel{box-shadow:none !important;}
 .panel{background-color:transparent !important;}
 .logo_movil{width:30%;position:absolute;left:35%;top:-60px;}
-.panel-group.pmd-accordion .panel > .panel-heading a{font-family:'Lato', sans-serif;font-weight:700;}
-.panel-body p{font-size:1em !important;font-family:'Lato', sans-serif;font-weight:400;color:#767676 !important;margin-bottom:3% !important;}
+.panel-group.pmd-accordion .panel > .panel-heading a{font-family:'Designer', sans-serif;font-weight:700;}
+.panel-body p{font-size:1em !important;font-family:'Designer', sans-serif;font-weight:400;color:#767676 !important;margin-bottom:3% !important;}
 /* MENU_MV */
 /* MENU_PRINCIPAL */
 .cd-morph-dropdown::before{content:'mobile';display:none;}
@@ -1816,7 +1816,7 @@ nav > ul > li:first-child{border-left:none;}
 .cd-morph-dropdown::before{content:'desktop';}
 .cd-morph-dropdown .nav-trigger{display:none;}
 .cd-morph-dropdown .main-nav{display:inline;position:absolute;right:7%;top:9%;}
-.cd-morph-dropdown .main-nav > ul > li > a{display:block;font-family:'Lato', sans-serif;font-weight:700;padding:0;height:100%;line-height:70px;color:#29132d;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-transition:opacity .2s;transition:opacity .2s;}
+.cd-morph-dropdown .main-nav > ul > li > a{display:block;font-family:'Designer', sans-serif;font-weight:700;padding:0;height:100%;line-height:70px;color:#29132d;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-transition:opacity .2s;transition:opacity .2s;}
 .cd-morph-dropdown.is-dropdown-visible .main-nav > ul > li > a{opacity:.6;}
 .cd-morph-dropdown.is-dropdown-visible .main-nav > ul > li.active > a{opacity:1;}
 .cd-morph-dropdown .morph-dropdown-wrapper{display:block;top:58px;width:auto;padding:0;box-shadow:none;background-color:transparent;-webkit-transform:translateZ(0);transform:translateZ(0);will-change:transform;-webkit-transform:translateY(20px);-ms-transform:translateY(20px);transform:translateY(20px);-webkit-transition:-webkit-transform .3s;transition:-webkit-transform .3s;transition:transform .3s;transition:transform .3s, -webkit-transform .3s;}
@@ -1860,7 +1860,7 @@ nav > ul > li:first-child{border-left:none;}
 @media only screen and (min-width:992px){.cd-main-content{padding-top:80px;}
 }
 .content a p:hover{text-decoration:none !important;color:#ba007c !important;-webkit-transition:opacity .3s, -webkit-transform .3s;transition:opacity .3s, -webkit-transform .3s;transition:transform .3s, opacity .3s;transition:transform .3s, opacity .3s, -webkit-transform .3s;}
-.content p{position:static !important;text-align:left !important;color:#767676 !important;padding:0.5em 0.5em !important;text-decoration:none !important;margin:0 !important;font-size:90% !important;font-family:'Lato', sans-serif;font-weight:400;}
+.content p{position:static !important;text-align:left !important;color:#767676 !important;padding:0.5em 0.5em !important;text-decoration:none !important;margin:0 !important;font-size:90% !important;font-family:'Designer', sans-serif;font-weight:400;}
 .cd-morph-dropdown .main-nav{top:3% !important;width: 40%;height: 100% !important;}
 .imagen_menu{position:absolute;left:0;}
 .ultimo_padre{position:relative;}
@@ -1898,7 +1898,7 @@ nav > ul > li:first-child{border-left:none;}
 	box-shadow:         0px 5px 30px 4px rgba(31, 152, 169, 0.3);
 	border: none;
     color: #FFFFFF;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Designer', sans-serif;
     font-weight: 400;
 	outline: none !important;
 	text-align: center;
@@ -2234,16 +2234,16 @@ nav > ul > li:first-child{border-left:none;}
 /*******************.leTRa3pt-mv*****************************/
 .centrado{text-align:center !important;}
 .izquierda{text-align:left !important;}
-.tipografiaPuno{font-family: 'Lato',sans-serif;color:#655e5e !important;line-height: 1.2em;}
-.tipografiaPdos{font-family: 'Lato',sans-serif;color:#777171 !important;}
+.tipografiaPuno{font-family: 'Designer',sans-serif;color:#655e5e !important;line-height: 1.2em;}
+.tipografiaPdos{font-family: 'Designer',sans-serif;color:#777171 !important;}
 @media only screen and (max-width:767px) {.tipografiaPuno, .tipografiaPdos{color:#fff !important;}
 }
-.tipografiaPtres{font-family: 'Lato',sans-serif;color:#b2b2b2 !important;}
-.tipografiaHuno{font-family: 'Lato',sans-serif;color:#ffffff !important;}
-.tipografiaHdos{font-family: 'Lato',sans-serif;color:#7f7e7e !important;line-height: 1 !important;font-weight: 700;
+.tipografiaPtres{font-family: 'Designer',sans-serif;color:#b2b2b2 !important;}
+.tipografiaHuno{font-family: 'Designer',sans-serif;color:#ffffff !important;}
+.tipografiaHdos{font-family: 'Designer',sans-serif;color:#7f7e7e !important;line-height: 1 !important;font-weight: 700;
 }
-.tipografiaHtres{font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;margin-left: 0px!important;}
-.tregular{ font-family: 'Lato',sans-serif; font-weight:300;}
+.tipografiaHtres{font-family: 'Designer',Helvetica,Arial,Lucida,sans-serif;margin-left: 0px!important;}
+.tregular{ font-family: 'Designer',sans-serif; font-weight:300;}
 .cursiva{font-style:italic !important;}
 .negrillaUno{font-weight: 500 !important;}
 .negrillaUnoCinco{font-weight: 600 !important;}
@@ -3020,7 +3020,7 @@ nav > ul > li:first-child{border-left:none;}
 }
 
 /* material icons */
-#datos p,#datos a{color:#A9ABB0 !important;margin:0 !important;font-family: 'Lato', sans-serif;}
+#datos p,#datos a{color:#A9ABB0 !important;margin:0 !important;font-family: 'Designer', sans-serif;}
 #datos{margin-bottom:10%;}
 /***WHATSAPP***/
 .icono_modal{
@@ -3115,7 +3115,7 @@ nav > ul > li:first-child{border-left:none;}
 	width: 100%;
 	border: none;
 	color: white;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Designer', sans-serif;
 	font-weight: 900;	
 }
 .btn_modal_celular{
@@ -3124,7 +3124,7 @@ nav > ul > li:first-child{border-left:none;}
 	border: none;
 	color: white;
 	font-size: 2em;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Designer', sans-serif;
 	font-weight: 900;
 	position: fixed;
 	bottom: 0; 

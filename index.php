@@ -9,9 +9,12 @@
  */
 get_header(); ?>
 			</div>	
+			<!-- <canvas id='canvas1'>
+
+			</canvas> -->
 			<div id="bloque2">
 				<div class="row">	
-					<h3 class="letra18pt-pc letra5pt-mv primer_titulo centrado">NUEVA COLECCIÓN</h3>
+					<h3 class="letra26pt-pc letra5pt-mv primer_titulo izquierda negrillaUnoCinco">IMPERDIBLES</h3>
 					<?php 
 						$args = array( 
 							'post_type' => 'product',

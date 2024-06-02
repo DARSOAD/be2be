@@ -31,7 +31,7 @@
 }
 #bloque2 .tarjetas figure figcaption{
 	font-size: 17px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Designer', sans-serif;
     font-weight: 400;
 	text-align: center;
 	color: black;
@@ -40,7 +40,7 @@
 }
 #bloque2 .tarjetas p{
 	font-size: 13px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Designer', sans-serif;
     font-weight: 400;
 	font-style: italic;
 	text-align: center;
@@ -51,7 +51,7 @@
 #bloque2 a button.boton{
     border: none;
     font-size: 13px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Designer', sans-serif;
     font-weight: 900;
     letter-spacing: 0.2px;
 	word-spacing: 1.8px;
@@ -82,7 +82,7 @@
 /*	float:left;
 	width: 93.5%;*/
 	font-size: 25px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Designer', sans-serif;
     font-weight: 000;
 	color: white;
 	margin-top: -6.5% !important;

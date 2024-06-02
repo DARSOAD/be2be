@@ -3,13 +3,13 @@
     position: relative;
 	background-size: 100%;
 	background-repeat: no-repeat;	
-	 font-family: 'Lato', sans-serif;
+	 font-family: 'Designer', sans-serif;
 }
 @media only screen and (min-width:992px){#bloque1 h1{text-align: left !important;}}
 #bloque1 h1{
     position: absolute;
 	font-size: 36px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Designer', sans-serif;
     font-weight: 300;
     font-style: italic;
     letter-spacing: -1.9px;
@@ -23,7 +23,7 @@
 #Llamado{
     position: absolute;
 	font-size: 12.4px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Designer', sans-serif;
     font-weight: 700;
     text-align: center;
 	letter-spacing: 0px;

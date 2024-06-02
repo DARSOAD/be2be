@@ -13,7 +13,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Lato", sans-serif;
+  font-family: "Designer", sans-serif;
   color: #24221F;
   background-color: #ffffff;
 }
@@ -31,12 +31,12 @@ Home Link
 -------------------------------- */
 .cd-step-content h1{
     font-weight: 700;
-    font-family: 'Lato',sans-serif;
+    font-family: 'Designer',sans-serif;
     color: #7f7e7e !important;
 }
 .cd-step-content p{
     font-weight: 400;
-    font-family: 'Lato',sans-serif;
+    font-family: 'Designer',sans-serif;
 	color: #272727 !important;
 }
 .cd-nugget-info {
@@ -443,7 +443,7 @@ Models Step - style
   font-size: 2rem;
   font-weight: 700;
   margin-top: .2em;
-  font-family: 'Lato',sans-serif;
+  font-family: 'Designer',sans-serif;
   color: #7f7e7e !important;
 }
 .cd-builder-steps .models-list img {
@@ -733,7 +733,7 @@ Summary Step - style
   margin-bottom: 2em;
 }
 .cd-builder-steps .summary-list h3 {
-	    font-family: 'Lato',sans-serif;
+	    font-family: 'Designer',sans-serif;
   font-size: 2rem;
   font-weight: bold;
   margin: 1.3em 0;
@@ -764,7 +764,7 @@ Summary Step - style
   font-size: 1.8rem;
   margin-top: 11px;
   margin-left: .5em;
-	font-family: 'Lato',sans-serif;
+	font-family: 'Designer',sans-serif;
 }
 .cd-builder-steps .summary-list .summary-accessories {
   color: #5D7C89;
@@ -822,7 +822,7 @@ Summary Step - style
     margin-top: 0;
   }
 }
-.summary-precio, .summary-cantidad, .summary-remove{margin-top: 1em;font-family: "Lato", sans-serif; }
+.summary-precio, .summary-cantidad, .summary-remove{margin-top: 1em;font-family: "Designer", sans-serif; }
 #elResumenPro{width: 80% !important;}
 /* -------------------------------- 
 
@@ -1210,7 +1210,7 @@ Builder fixed bottom summary
 .input-group .form-control{width: 30% !important;border: none !important;box-shadow: none !important;height: auto !important;padding: 0 !important;}
 .btn-decrement, .btn-increment{
 	    background: none;
-    font-family: "Lato", sans-serif;
+    font-family: "Designer", sans-serif;
     font-size: 1em;
     border: 1px solid #a8a8a8 !important;
     border-radius: 50px !important;
@@ -1218,10 +1218,10 @@ Builder fixed bottom summary
     height: 25px !important;
     padding: 0 !important;
 }
-.cd-step-content h1, .cd-step-content .steps-indicator{font-family: "Lato", sans-serif !important;}
+.cd-step-content h1, .cd-step-content .steps-indicator{font-family: "Designer", sans-serif !important;}
 .summary-list{color: gray !important;}
 #remover form{margin-bottom: 100px;width: 80% !important; margin-left: 10% !important;}
-@media only screen and (max-width:1023px) {#elResumenPro{width: 100% !important;}.cd-builder-steps .summary-list .product-preview{width: 100%;}.summary-precio, .summary-cantidad, .summary-remove, .cd-builder-steps .summary-list h3, .talla-label {margin-top: 2em !important;font-family: "Lato", sans-serif; }.color-swatch {margin-top: 1em !important;}.summary-list{height: 183px;}[data-summary="remove"] {width: 0 !important;}.color-swatch{margin-left: 30%;}#remover form{width: 100% !important; margin-left: 0 !important;}}
+@media only screen and (max-width:1023px) {#elResumenPro{width: 100% !important;}.cd-builder-steps .summary-list .product-preview{width: 100%;}.summary-precio, .summary-cantidad, .summary-remove, .cd-builder-steps .summary-list h3, .talla-label {margin-top: 2em !important;font-family: "Designer", sans-serif; }.color-swatch {margin-top: 1em !important;}.summary-list{height: 183px;}[data-summary="remove"] {width: 0 !important;}.color-swatch{margin-left: 30%;}#remover form{width: 100% !important; margin-left: 0 !important;}}
 @media only screen and (max-width:991px) and (min-width:900px) {.cd-builder-steps .summary-list .product-preview{width: 100%;margin-top: 5%;margin-bottom:0 !important;}.summary-list{height: 160px;}.cd-product-previews > li img{width: 90% !important;}.cd-product-previews{margin-top: 5% !important;} }
 @media only screen and (max-width:899px) and (min-width:800px) {.cd-builder-steps .summary-list .product-preview{width: 100%;margin-top: 5%;margin-bottom:0 !important;}.summary-list{height: 140px;}.cd-product-previews > li img{width: 90% !important;}.cd-product-previews{margin-top: 5% !important;}.input-group .form-control{margin-left: 1% !important;}}
 @media only screen and (max-width:799px) and (min-width:768px) {.cd-builder-steps .summary-list .product-preview{width: 100%;margin-top: 5%;margin-bottom: 0 !important;}.summary-list{height: 120px;}.cd-product-previews > li img{width: 90% !important;}.cd-product-previews{margin-top: 5% !important;}.input-group .form-control{margin-left: 1% !important;}}

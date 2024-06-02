@@ -1,7 +1,7 @@
 @charset "utf-8";
 #bloque1{display: grid;}
 #bloque1 .tarjetas p, #bloque1 .tarjetas figure figcaption{height:100px !important;}
-#bloque1{background-size:100%;background-repeat:no-repeat;font-family:'Lato', sans-serif;height:auto;}
+#bloque1{background-size:100%;background-repeat:no-repeat;font-family:'Designer', sans-serif;height:auto;}
 #bloque1 .row{width:80% !important;margin-left:10% !important;margin-right:20% !important;}
 @media only screen and (min-width:992px){#bloque1 .tarjetas p, #bloque1 .tarjetas figure figcaption{height:30px !important;}
 }
@@ -16,7 +16,7 @@
 #bloque1 .row .tarjetas:hover{box-shadow:1px 1px 10px 3px #F4F4F4;}
 #bloque1 a button.boton{
 	background: #ba007c;
-	border: none;color: #FFFFFF;font-family: 'Lato', sans-serif;font-weight: 700;outline: none !important;text-align: center;height: 100%;position: inherit;line-height: 14px !important;border-radius: 40px;}
+	border: none;color: #FFFFFF;font-family: 'Designer', sans-serif;font-weight: 700;outline: none !important;text-align: center;height: 100%;position: inherit;line-height: 14px !important;border-radius: 40px;}
 #bloque1 a button.boton:hover{background: black;transition:0.4s;cursor:hand;}
 #bloque1 .tarjetas a button.boton{width:52%;margin-top:10.2% !important;margin-left:24% !important;margin-right:24% !important;margin-bottom:7% !important;}
 #bloque1 .carousel #productollamado .item .producto img{border-radius:9px;width: 80%;margin-left: 10% !important;margin-top: 12%!important;}

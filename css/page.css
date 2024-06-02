@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-#bloque1{background-size: 100%;background-repeat: no-repeat;font-family: 'Lato', sans-serif;}
+#bloque1{background-size: 100%;background-repeat: no-repeat;font-family: 'Designer', sans-serif;}
 @media only screen and (max-width:2600px) and (min-width:2500px){#contenido{padding-top:385px !important;}}
 @media only screen and (max-width:2499px) and (min-width:2400px){#contenido{padding-top:350px !important;}}
 @media only screen and (max-width:2399px) and (min-width:2300px){#contenido{padding-top:340px !important;}}

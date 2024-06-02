@@ -8,14 +8,14 @@
 #bloque3 .simform{position: absolute;}	
 #bloque3 .simform .simform-inner .questions li input{
 	border: none;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Designer', sans-serif;
 	font-weight: 300;
 	color: #767676;
 	background-color: transparent;
 }
 #bloque3 .simform .simform-inner .questions li span label{
 	font-size: 80%;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Designer', sans-serif;
     color: #777171 !important;
 	opacity: 1;
 	padding-bottom: 5px !important;
@@ -33,14 +33,14 @@
 }
 #bloque3 .simform .simform-inner .controls .number{
 	font-size: 17px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Designer', sans-serif;
     color: #767676 !important;
 	opacity: 0.72;
 }
 @media only screen and (max-width:767px){#bloque3 .simform .simform-inner .controls .number{color: #FFFFFF !important;}}
 #bloque3 .simform .simform-inner .controls .error-message{
 	font-size: 15px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Designer', sans-serif;
     font-style: italic;
 }
 @media only screen and (max-width:2600px) and (min-width:1500px){#bloque3 .simform{width: 30%;

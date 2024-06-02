@@ -28,7 +28,6 @@
 	<!-------------------ICONS---------------->
 	<link href="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/concurvas.ico" rel="shortcut icon" type="image/x-icon">
 	<!-------------------ICONS---------------->
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" async>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/csscool/main.css"> <!-- CSS reset -->
   	<!-------------------BOOTSTRAP---------------->	
 	<link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.css" rel="stylesheet">

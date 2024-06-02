@@ -9,7 +9,7 @@
 #bloque3 h1{
     position: absolute;
     font-size: 23px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Designer', sans-serif;
     font-weight: 900;
     text-align: center;
 	letter-spacing: 0.1px;
@@ -34,14 +34,14 @@
 }
 #bloque3 form .pmd-textfield-floating-label label {
 	font-size: 15px !important; 
-	font-family: 'Lato', sans-serif;
+	font-family: 'Designer', sans-serif;
     font-weight: 400 !important;
 	line-height: 20px;
 	color: #FFFFFF;
 }
 #bloque3 form .pmd-textfield .form-control{
 	font-size: 16px !important; 
-	font-family: 'Lato', sans-serif;
+	font-family: 'Designer', sans-serif;
     font-weight: 400 !important;
 	color: #000000;
 	border-bottom: 1px solid #F1F1F1;

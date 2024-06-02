@@ -102,7 +102,7 @@
     };
   }
 
-  function transitionEndEmulator(duration) {
+  function transitionEndEmuDesignerr(duration) {
     var _this = this;
 
     var called = false;
@@ -118,7 +118,7 @@
   }
 
   function setTransitionEndSupport() {
-    $.fn.emulateTransitionEnd = transitionEndEmulator;
+    $.fn.emulateTransitionEnd = transitionEndEmuDesignerr;
     $.event.special[Util.TRANSITION_END] = getSpecialTransitionEndEvent();
   }
   /**

@@ -23,6 +23,9 @@
 		<!-------------------ICONS---------------->
 		<link href="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/concurvas.ico" rel="shortcut icon" type="image/x-icon">
 		<!-------------------ICONS---------------->
+		<!-------------------FLUIDO---------------->
+    	<link href="<?php echo get_template_directory_uri(); ?>/css/fluido.css" rel="stylesheet">
+    	<!-------------------FLUIDO---------------->
 		<!-------------------FUENTES---------------->
     	<?php get_template_part('fuentes'); ?>
     	<link href="<?php echo get_template_directory_uri(); ?>/fuentes/fuentes.css" rel="stylesheet">
@@ -112,7 +115,6 @@
 		<!-------------------MENU---------------->
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/menu_principal.css" async>
 		<!-------------------MENU---------------->
-			<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" async>
 			<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/csscool/reset.css" async> <!-- CSS reset -->
 			<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/csscool/style.css"> <!-- Resource style -->
   			<!-------------------BOOTSTRAP---------------->
@@ -192,7 +194,7 @@
 		<!-------------------MENU---------------->
 		<style>
 			/*------------------------BOTON-----------------------*/		
-		.botonmodal{font-family: 'Lato', sans-serif;font-weight: 400;background:#009fe3;color:#fff;border:none;line-height:20px;padding:0px 0 0 0;text-transform:none;letter-spacing:0;width:30%;transition:.4s;-webkit-transition:.4s;margin:50px 35%;display:table;}
+		.botonmodal{font-family: 'Designer';font-weight: 400;background:#009fe3;color:#fff;border:none;line-height:20px;padding:0px 0 0 0;text-transform:none;letter-spacing:0;width:30%;transition:.4s;-webkit-transition:.4s;margin:50px 35%;display:table;}
 		.botonmodal:hover{background:#111;color:#fff;transition:.4s;-webkit-transition:.4s;cursor:pointer;cursor:hand;}
 		@media only screen and (min-width:2001px){.botonmodal{height:75px;border-radius:50px;font-size:30px;}}
 		@media only screen and (max-width:2000px) and  (min-width:1700px){.botonmodal{height:55px;border-radius:25px;font-size:20px;}}

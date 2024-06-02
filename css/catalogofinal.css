@@ -1,9 +1,9 @@
 @charset "utf-8";
-#boton_actualizar, .woocommerce-shipping-calculator, .wc-proceed-to-checkout{display: none !important;}
+#boton_actualizar, .woocommerce-shipping-calcuDesignerr, .wc-proceed-to-checkout{display: none !important;}
 #bloque1{
 	background-size: 100%;
 	background-repeat: no-repeat;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Designer', sans-serif;
 	height: auto;
 }
 #bloque1 h3, #bloque1 h2, .order-total td{
@@ -199,13 +199,13 @@
 	color: #767676 !important;
 }
 #bloque1 form .pmd-textfield-floating-label label {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Designer', sans-serif;
     font-weight: 400 !important;
 	line-height: 20px;
 	color: #767676;
 }
 #bloque1 form .pmd-textfield .form-control{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Designer', sans-serif;
     font-weight: 400 !important;
 	color: #767676;
 	border-bottom: 1px solid #AAAAAA;
@@ -216,7 +216,7 @@
 #bloque1 button.boton{
 	background: #ba007c;
     border: none;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Designer', sans-serif;
     font-weight: 500;
     letter-spacing: 0.6px;
 	text-align: center;

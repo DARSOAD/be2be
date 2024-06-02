@@ -54,7 +54,7 @@
 		<!-------------------FOOTER---------------->
 	<style type="text/css">
 		/*------------------------BOTON-----------------------*/		
-		.botonmodal{font-family: 'Lato', sans-serif;font-weight: 700;background:#ba007c;color:#fff;border:none;line-height:20px;padding:0px 0 0 0;text-transform:none;letter-spacing:0;width:30%;transition:.4s;-webkit-transition:.4s;margin:50px 35%;display:table;}
+		.botonmodal{font-family: 'Designer', sans-serif;font-weight: 700;background:#ba007c;color:#fff;border:none;line-height:20px;padding:0px 0 0 0;text-transform:none;letter-spacing:0;width:30%;transition:.4s;-webkit-transition:.4s;margin:50px 35%;display:table;}
 		.botonmodal:hover{background:#111;color:#fff;transition:.4s;-webkit-transition:.4s;cursor:pointer;cursor:hand;}
 		@media only screen and (min-width:2001px){.botonmodal{height:75px;border-radius:50px;font-size:30px;}}
 		@media only screen and (max-width:2000px) and  (min-width:1700px){.botonmodal{height:55px;border-radius:25px;font-size:20px;}}
@@ -68,7 +68,7 @@
 			@media only screen and (max-width:767px) {.pc, .tablet{display:none;}.celular{display: block;}}
 		/*----------------------ON/OFF------------------------------*/
 		/*----------------------PORTADA------------------------------*/		
-		h1{font-family:'Lato',sans-serif;color: #7f7e7e;text-align: center;}
+		h1{font-family:'Designer',sans-serif;color: #7f7e7e;text-align: center;}
 		@media only screen and  (min-width:992px){
 			#contenido{padding-top: 8% !important;}
 			.pc-centrad-supergrande{margin-left: 10% !important;width: 80% !important;}.pc-izquierda-grande{margin-left: 5% !important;width: 50% !important;}.pc-izquierda-mediano{margin-left: 5% !important;width: 40% !important;}.pc-centrado-grande{margin-left: 25% !important;width: 50% !important;}.pc-centrado-mediano{margin-left: 30% !important;width: 40% !important;}.pc-derecha-grande{margin-left: 45% !important;width: 50% !important;}.pc-derecha-mediano{margin-left: 55% !important;width: 40% !important;}

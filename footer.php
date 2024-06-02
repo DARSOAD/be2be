@@ -106,9 +106,9 @@
 				    </div>
 				</footer>
 			</div>
-	<!-------------------FORMULARIO PASOS JS---------------->
-		
-		
+		<!-------------------FLUIDO JS---------------->
+		<script src="<?php echo get_template_directory_uri(); ?>/js/fluido.js" async></script>
+		<!-------------------FORMULARIO PASOS JS---------------->
 		<script src="<?php echo get_template_directory_uri(); ?>/js/classie.js" async></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/js/stepsForm.js" async></script>
 		<!-------------------FORMULARIO PASOS JS---------------->
@@ -310,40 +310,7 @@
 <!-------------------CARRUSEL---------------->
 <?php } ?>
 		<!-------------------MENU movil js---------------->			
-<!-------------------GOOGLEMAPS---------------->
-		<script async>
-			setTimeout(
-				function initMap(){
-					var uluru = {lat: 4.6182688, lng:     -74.1370278};
-					var map = new google.maps.Map(document.getElementById('map'),{
-					  zoom: 16,
-					  center: uluru,
-					  mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
-					  //mapTypeId: google.maps.MapTypeId.HYBRID,
-					  mapTypeId: google.maps.MapTypeId.TERRAIN,
-					  //mapTypeId: google.maps.MapTypeId.ROADMAP,
-					  //mapTypeId: google.maps.MapTypeId.SATELLITE,
-					});
-					var marker = new google.maps.Marker({
-					  position: uluru,
-					  map: map,
-					  animation: google.maps.Animation.BOUNCE
-					});  	
-					var infowindow = new google.maps.InfoWindow({
-					  content: "Concurvas, Local 1109"
-					});
-					infowindow.open(map,marker);
-					 google.maps.event.addListener(marker,'click',function(){
-						map.setZoom(18);
-						map.setCenter(marker.getPosition());
-						window.setTimeout(function() {map.setZoom(16);},5000);
-					});
-				},5000);
-			
-		</script>
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDF_l4InEPdaNug-qDy1LZ_dUw1IMmPNFI&callback=initMap">
-		</script>
-<!-------------------GOOGLEMAPS---------------->
+
 <!---------WHATSAPP------>
 <script  src="<?php echo get_template_directory_uri(); ?>/js/index.js"></script>
 <!---------WHATSAPP------>

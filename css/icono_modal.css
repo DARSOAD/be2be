@@ -92,7 +92,7 @@
 	width: 100%;
 	border: none;
 	color: white;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Designer', sans-serif;
 	font-weight: 900;	
 }
 .btn_modal_celular{
@@ -101,7 +101,7 @@
 	border: none;
 	color: white;
 	font-size: 2em;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Designer', sans-serif;
 	font-weight: 900;
 	position: fixed;
 	bottom: 0; 

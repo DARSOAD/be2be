@@ -3,18 +3,18 @@
 #bloque1{
 	background-size: 100%;
 	background-repeat: no-repeat;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Designer', sans-serif;
 	height: auto;
 }
 #contenido h1{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Designer', sans-serif;
     font-weight: 400;
     word-spacing: 5.7px;
     color: #767676;
 	text-align: center;
 }
 #contenido p{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Designer', sans-serif;
     font-weight: 300;
     word-spacing: 5.7px;
     color: black;

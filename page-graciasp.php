@@ -63,7 +63,6 @@ if (strtoupper($firma) == strtoupper($firmacreada)) {}
 	<title>隆Gracias!</title>
 	<link href="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/concurvas.ico" rel="shortcut icon" type="image/x-icon">
 	<meta name="author" content="Mainteam" />
-	<link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
 <style type="text/css">
 	
 	body{
@@ -81,7 +80,7 @@ if (strtoupper($firma) == strtoupper($firmacreada)) {}
 		background: #ba007c;
 		outline: none !important;
 		border-radius: 37px;
-		font-family: 'Lato', sans-serif;
+		font-family: 'Designer';
 		font-size:20px;
 		width: 20%;
 		padding: 0 12px 0 12px;

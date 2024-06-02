@@ -16,12 +16,11 @@ $tipo=$_POST['tipo'];
         $message= '
 		<html>
 		<head><meta charset="gb18030">
-		<link href="https://fonts.googleapis.com/css?family=Lato:300,900" rel="stylesheet">
 		<style type="text/css">
 
 		#encabezado { 
 		background-color:#FFFFFF;
-		font: Lato, sans-serif;
+		font: Designer;
 		font-weight:300;
 		color:black;
 		font-size:10pt;
@@ -30,7 +29,7 @@ $tipo=$_POST['tipo'];
 		}
 		#cuerpo {
 		background-color: #ffffff;
-		font: Lato, sans-serif;
+		font: Designer;
 		font-weight:300;
 		color:#666666;
 		font-size:10pt;
@@ -62,12 +61,11 @@ $tipo=$_POST['tipo'];
         $message= '
 		<html>
 		<head>
-		<link href="https://fonts.googleapis.com/css?family=Lato:300,900" rel="stylesheet">
 		<style type="text/css">
 
 		#encabezado { 
 		background-color:#FFFFFF;
-		font: Lato, sans-serif;
+		font: Designer;
 		font-weight:300;
 		color:black;
 		font-size:10pt;
@@ -76,7 +74,7 @@ $tipo=$_POST['tipo'];
 		}
 		#cuerpo {
 		background-color: #ffffff;
-		font: Lato, sans-serif;
+		font: Designer;
 		font-weight:300;
 		color:#666666;
 		font-size:10pt;
@@ -124,7 +122,6 @@ $tipo=$_POST['tipo'];
 	<title>¡Gracias!</title>
 	<link href="<?php echo get_template_directory_uri(); ?>/imagenes/iconos/concurvas.ico" rel="shortcut icon" type="image/x-icon">
 	<meta name="author" content="Mainteam" />
-	<link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
 <style type="text/css">
 	
 	body{
@@ -142,7 +139,7 @@ $tipo=$_POST['tipo'];
 		background: #ba007c;
 		outline: none !important;
 		border-radius: 37px;
-		font-family: 'Lato', sans-serif;
+		font-family: 'Designer';
 		font-size:20px;
 		width: 20%;
 		padding: 0 12px 0 12px;
